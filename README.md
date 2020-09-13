@@ -1,8 +1,10 @@
-# ArmorModules
+# ArmorModules / PowerSuit Modules
+
+## Check out the mod page on [ficsit.app](https://ficsit.app/mod/BezrE8aswqXLRX)
 
 Satisfactory mod that adds a wide variety of modules for [Nog's PowerSuits mod](https://github.com/Nogg-aholic/PowerSuit). A lot of the heavy lifting for this mod is done by the PowerSuit mod itself; this mod simply defines modules that make use of its features.
 
-Suggestions for new modules and balance changes are greatly appreciated. Keep in mind that you can create your own modules and recipes by making a mod that makes use of Nog's Power Suits libraries if you so desire.
+Suggestions for new modules and balance changes are greatly appreciated. Contact me on Discord via the modding discord or directly via Robb#6731. Keep in mind that you can create your own modules and recipes by making a mod that makes use of Nog's Power Suits libraries if you so desire. 
 
 ## How to use
 
