@@ -1,0 +1,26 @@
+{
+  "mod_id": "BezrE8aswqXLRX",
+  "mod_reference": "ArmorModules",
+  "name": "PowerSuit Modules",
+  "version": "1.0.0",
+  "sml_version": "2.2.0",
+  "description": "A plethora of modules compatible with Nogs' PowerSuit Mod. \n Check out the mod page: https://ficsit.app/mod/BezrE8aswqXLRX \n This mod would be impossible without Nog's open source and easily extensible PowerSuit mod. Be sure to check it out, and consider writing a modules mod of your own. \n Turtle and rabbit icons from Freepik on flaticon.com",
+  "authors": [
+    "Robb",
+    "Nog"
+  ],
+  "resources": {
+	"icon": "ArmorModules.png"
+  },
+  "credits": "See description",
+  "objects": [
+    {
+      "type": "pak",
+      "path": "ArmorModules.pak"
+    }
+  ],
+  "dependencies": {
+    "SML": "^2.2.1",
+	"PowerSuit": "^0.3.0"
+  }
+}
