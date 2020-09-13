@@ -1,0 +1,25 @@
+verify slug generator works as intended
+
+balance fuel consumption of air boost
+
+verify blade runner fall damage reduction
+
+verify ladder climb
+
+check power consumption of health regen
+
+
+
+
+
+Fix milestone order
+
+Give sink points
+
+Find out why spitter damage isn't blocked by shields
+
+make movement conditional generators (hypertubing, walking, air descending)
+
+make battery modules and move some of the capacity boost off of generators (esp. integrated nuclear)
+
+make lower scale icons for all items
