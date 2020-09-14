@@ -8,6 +8,11 @@ verify ladder climb
 
 check power consumption of health regen
 
+add updown thrust module
+
+figure out mod menu mod icon situation - check TwoTwoEleven chat log for more info
+
+-- Investigate empty suit extra fall damage resist
 
 
 
