@@ -1,12 +1,12 @@
-verify slug generator works as intended
+-- verify slug generator works as intended
 
-balance fuel consumption of air boost
+-- balance fuel consumption of air boost
 
-verify blade runner fall damage reduction
+-- verify blade runner fall damage reduction
 
 verify ladder climb
 
-check power consumption of health regen
+-- check power consumption of health regen
 
 add updown thrust module
 
@@ -21,7 +21,7 @@ Fix milestone order
 
 Give sink points
 
-Find out why spitter damage isn't blocked by shields
+-- Find out why spitter damage isn't blocked by shields
 
 make movement conditional generators (hypertubing, walking, air descending)
 
