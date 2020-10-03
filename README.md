@@ -42,19 +42,19 @@ among other abilities, with additional modules.
 <summary>Click to Expand</summary>
 
 - Why do I crash on launch?
- - You need to install the [PowerSuit mod by Nog]((https://ficsit.app/mod/7J2LyFzTakqPQ5)) to use this mod. The launcher should have downloaded it for you automatically.
+    - You need to install the [PowerSuit mod by Nog]((https://ficsit.app/mod/7J2LyFzTakqPQ5)) to use this mod. The launcher should have downloaded it for you automatically.
 - None of the milestones are appearing in the H.U.B. !
- - The milestones will not appear until you have unlocked at least one of the PowerSuit mod's equipment milestones which unlock the suit item.
+    - The milestones will not appear until you have unlocked at least one of the PowerSuit mod's equipment milestones which unlock the suit item.
 - Module _____ isn't working!
- - This mod can be broken by updates to the main PowerSuit mod, and I often miss things in my testing. Please send a message in the `#help-using-mods` channel of the modding Discord mentioning me (Robb#6731) to let me know.
+    - This mod can be broken by updates to the main PowerSuit mod, and I often miss things in my testing. Please send a message in the `#help-using-mods` channel of the modding Discord mentioning me (Robb#6731) to let me know.
 - Why is the flight hover flight and not like the vanilla jetpack?
- - This is how flight is implemented in the PowerSuit mod. I don't have control over this for now. Try using some of the air mobility modules to adjust the movement speed to your liking. More info on this [here](https://forums.ficsit.app/t/concerning-powersuit-jetpack/906).
+    - This is how flight is implemented in the PowerSuit mod. I don't have control over this for now. Try using some of the air mobility modules to adjust the movement speed to your liking. More info on this [here](https://forums.ficsit.app/t/concerning-powersuit-jetpack/906).
 - Why can I craft the Dirty Reactor Module before I have access to nuclear processing and the Hazmat Suit?
- - This is an intended feature. Perhaps there's another way to protect yourself from the radiation damage you take crafting the module?
+    - This is an intended feature. Perhaps there's another way to protect yourself from the radiation damage you take crafting the module?
 - I still hear the radiation damage noise when I have full radiation resistance (ex. Integrated Hazmat Module)
- - This is a limitation of the base PowerSuit mod. I don't have a fix for this right now, sorry.
+    - This is a limitation of the base PowerSuit mod. I don't have a fix for this right now, sorry.
 - Why is everything so cheap/expensive/overpowered/weak?
- - I tried to balance the recipe costs and functionality of these modules according to my tastes, but I'm open to suggestions - contact me on Discord (Robb#6731). Feel free to create a mod of your own to overwrite my mod's recipes for these items. 
+    - I tried to balance the recipe costs and functionality of these modules according to my tastes, but I'm open to suggestions    - contact me on Discord (Robb#6731). Feel free to create a mod of your own to overwrite my mod's recipes for these items. 
  
 </details>
 
@@ -88,32 +88,32 @@ The Jetpack can actually run off of just energy alone, but the energy consumptio
 
 The suit HUD has multiple bars, listed here from top to bottom:
 - **Movement speed display**
- - Displays your current velocity. 
+    - Displays your current velocity. 
 - **Shield - Light Blue** *(Empty unless you have shield modules installed)*
- - Blocks most types of damage before your health is affected.
- - Your shield has a delay before it starts recharging again after you take damage. The remaining time is shown as a little red progress bar by this icon:
+    - Blocks most types of damage before your health is affected.
+    - Your shield has a delay before it starts recharging again after you take damage. The remaining time is shown as a little red progress bar by this icon:
  
- ![](https://i.imgur.com/pFLXSYe.png)
- - When your shield is recharging, you'll see an red battery icon above the shield bar:
+    ![](https://i.imgur.com/pFLXSYe.png)
+    - When your shield is recharging, you'll see an red battery icon above the shield bar:
  
  ![](https://i.imgur.com/xfvLa6r.png)
 - **Power - Green**
- - Your suit has an internal battery (Power Total) that acts as its energy reserves, and it comes with a bit of power generation built in.
- - See how much energy your suit is using/generating by looking at the Power Balance readout in the Suit Stats screen. Positive numbers means you have a surplus, negative means you have a shortage. External PowerDraw shows you how much energy you are currently using. It does not include energy consumption due to shields recharging (might in the future)
- - Installing modules decreases the maximum internal battery.
- - Some modules consume power to run, which will drain the internal battery's charge.
- - To raise your internal battery capacity and charge the internal battery faster, install one of many Generation modules, which do not consume any resources to operate.
- - If the suit runs out of internal battery, it will begin to Overdraw (if your tier of suit has the ability to do so), which is shown as a red progress bar advancing along the top of the Power bar. If the red bar reaches the end, your suit will short, and all modules will cease to function (including Jetpacks - watch out!)
+    - Your suit has an internal battery (Power Total) that acts as its energy reserves, and it comes with a bit of power generation built in.
+    - See how much energy your suit is using/generating by looking at the Power Balance readout in the Suit Stats screen. Positive numbers means you have a surplus, negative means you have a shortage. External PowerDraw shows you how much energy you are currently using. It does not include energy consumption due to shields recharging (might in the future)
+    - Installing modules decreases the maximum internal battery.
+    - Some modules consume power to run, which will drain the internal battery's charge.
+    - To raise your internal battery capacity and charge the internal battery faster, install one of many Generation modules, which do not consume any resources to operate.
+    - If the suit runs out of internal battery, it will begin to Overdraw (if your tier of suit has the ability to do so), which is shown as a red progress bar advancing along the top of the Power bar. If the red bar reaches the end, your suit will short, and all modules will cease to function (including Jetpacks    - watch out!)
  
- ![](https://i.imgur.com/mBjdC6D.png)
- - When the suit shorts, you will have to wait for it to reboot, indicated by the lighting bolt and yellow progress bar. If this doesn't go away, it means you're still consuming too much power for the suit to reboot. Try adding more generators or removing power-consuming modules.
+    ![](https://i.imgur.com/mBjdC6D.png)
+    - When the suit shorts, you will have to wait for it to reboot, indicated by the lighting bolt and yellow progress bar. If this doesn't go away, it means you're still consuming too much power for the suit to reboot. Try adding more generators or removing power-consuming modules.
  
  ![](https://i.imgur.com/eoxOQUv.png)
 - **Fuel - Orange**
- - Fuel is only needed for modules that consume fuel (currently just the ![](https://i.imgur.com/5KW7uYY.png) Integrated Jetpack)
- - The suit will automatically refuel itself **when the meter reaches 0%**. The fuel bar will not refill itself until this point.
- - The suit can refuel itself midair; ignore the warning symbol on the base game's fuel HUD
- - Numerous different items can be consumed to refuel the fuel bar: 
+    - Fuel is only needed for modules that consume fuel (currently just the ![](https://i.imgur.com/5KW7uYY.png) Integrated Jetpack)
+    - The suit will automatically refuel itself **when the meter reaches 0%**. The fuel bar will not refill itself until this point.
+    - The suit can refuel itself midair; ignore the warning symbol on the base game's fuel HUD
+    - Numerous different items can be consumed to refuel the fuel bar: 
 
 <details>
 <summary>Accepted Fuels (click to expand)</summary>
@@ -129,9 +129,9 @@ The suit HUD has multiple bars, listed here from top to bottom:
 </details>
 
 - **Base game body slot display**
- - Shows what tier of suit you are wearing on the far left and the name above the fuel bar.
- - Shows what type of fuel is currently being used. In the screenshot, it's Turbofuel.
- - Shows the fuel bar again. You can ignore its flashing warnings; the suit will refuel when it needs it.
+    - Shows what tier of suit you are wearing on the far left and the name above the fuel bar.
+    - Shows what type of fuel is currently being used. In the screenshot, it's Turbofuel.
+    - Shows the fuel bar again. You can ignore its flashing warnings; the suit will refuel when it needs it.
 
 ## More Details
 
@@ -152,25 +152,25 @@ If you're interested in making your own modules or recipes for these modules, bo
 <summary>Click to Expand</summary>
 
 - Make a jetpack that acts more like the vanilla jetpack
- - More info on why this doesn't exist right now in the FAQ section.
+    - More info on why this doesn't exist right now in the FAQ section.
 - Make modules unlocked via M.A.M. Research Tree instead of (currently free) HUB milestones.
- - Research Trees currently don't sync correctly in multiplayer, which is why I haven't done this yet. More info on this [here](https://discordapp.com/channels/555424930502541343/555515791592652823/756561066200137880).
+    - Research Trees currently don't sync correctly in multiplayer, which is why I haven't done this yet. More info on this [here](https://discordapp.com/channels/555424930502541343/555515791592652823/756561066200137880).
 - [A.D.A. soundbytes](https://discordapp.com/channels/555424930502541343/689188183048585244/745788495867412511) for various module categories
 - Implement a suit accessible earlier in the game (as soon as blade runners, maybe?)
 - Finish modules marked as WIP
- - Balance suggestions greatly appreciated
+    - Balance suggestions greatly appreciated
 - Give everything Resource Sink point values
 - Continue to evaluate balance of existing modules
- - Ensure that you can't get too ridiculously overpowered or make power management a complete non-issue
- - Find a good balance for the power consumption of the jetpack, since infinite flight is pretty strong.
+    - Ensure that you can't get too ridiculously overpowered or make power management a complete non-issue
+    - Find a good balance for the power consumption of the jetpack, since infinite flight is pretty strong.
 - Implement alternate recipes for the Base Module
- - I already have a few written, but I haven't decided how to best grant the player access to them.
+    - I already have a few written, but I haven't decided how to best grant the player access to them.
 - More modules!
- - Introduce capacity boosting modules and move some of the capacity bonuses off of generators and to them instead.
- - Fuel-consuming suit power generators
- - Damage resistance against enemies, but I think shields already fulfil this role pretty well.
- - Fuel backup system for when the suit runs out of power
- - Fun late game modules like out-of-bounds damage immunity
+    - Introduce capacity boosting modules and move some of the capacity bonuses off of generators and to them instead.
+    - Fuel-consuming suit power generators
+    - Damage resistance against enemies, but I think shields already fulfil this role pretty well.
+    - Fuel backup system for when the suit runs out of power
+    - Fun late game modules like out-of-bounds damage immunity
 - Make the milestones display in a consistent order across saves
 
 </details>
@@ -182,9 +182,9 @@ If you're interested in making your own modules or recipes for these modules, bo
 Remember - this mod and the base PowerSuit mod are open source, and you're totally free to create your own modules with these as inspiration.
 
 - 3D models for any modules
- - I don't plan to make custom models for the modules or crafting materials any time soon. They don't really have much of a reason to be moving around on conveyors or on the ground anyways.
- - I may need some icons made in the future, though. If you would like to contribute models/icons for them I would greatly appreciate it.
+    - I don't plan to make custom models for the modules or crafting materials any time soon. They don't really have much of a reason to be moving around on conveyors or on the ground anyways.
+    - I may need some icons made in the future, though. If you would like to contribute models/icons for them I would greatly appreciate it.
 - 'Free' Cheat Modules
- - Although they're entirely possible, I feel like they belong in another mod. Nothing's stopping you from giving yourself modules via PakUtilityMod or similar, though. The mod includes a couple cheat modules for debug purposes, but you'll need another mod's give command to obtain them. They all have 'Debug' in the name. Consider knowledge of these a little surprise for actually reading through my wordy mod page. Thanks!
+    - Although they're entirely possible, I feel like they belong in another mod. Nothing's stopping you from giving yourself modules via PakUtilityMod or similar, though. The mod includes a couple cheat modules for debug purposes, but you'll need another mod's give command to obtain them. They all have 'Debug' in the name. Consider knowledge of these a little surprise for actually reading through my wordy mod page. Thanks!
 
 </details>
