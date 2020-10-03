@@ -1,7 +1,6 @@
 ---
 name: Bug report
-about: Report a problem with the mod. Please read the [FAQ](https://github.com/budak7273/ArmorModules/blob/master/README.md#faq---please-read-if-you-have-an-issue)
-  first!
+about: Report a problem with the mod. Please read the FAQ first!
 title: ''
 labels: bug
 assignees: ''
