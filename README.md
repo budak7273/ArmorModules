@@ -1,4 +1,6 @@
-![](https://i.imgur.com/LnZ7uKE.png) ![PowerSuit Modules](https://i.imgur.com/almXu5F.png)
+# [Click here to install or see the mod page on Ficsit.app](https://ficsit.app/mod/BezrE8aswqXLRX/)
+
+[![](https://i.imgur.com/LnZ7uKE.png)](https://ficsit.app/mod/BezrE8aswqXLRX/) [![PowerSuit Modules](https://i.imgur.com/almXu5F.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
 ![Multiplayer compatible!](https://raw.githubusercontent.com/deantendo/community/master/com_mp_yes.png)
 
 This mod adds a whole bunch (20+) of armor modules for use in your **multiplayer-compatible**
@@ -6,11 +8,11 @@ This mod adds a whole bunch (20+) of armor modules for use in your **multiplayer
 
 Although you can use this mod in tandem with the [NogsDefaultModules](https://ficsit.app/mod/57oAxg12P4iGdL) mod, they are not balanced for each other in the slightest. I would not recommend it.
 
-Please report leave suggestions and report issues either in the [Discord](https://bit.ly/SatisfactoryModding) or [as a Github issue](https://github.com/budak7273/ArmorModules/issues/new).
+Please report leave suggestions and report issues either in the [Discord](https://bit.ly/SatisfactoryModding) or [as a Github issue](https://github.com/budak7273/ArmorModules/issues/new/choose).
 
 ## Feature Overview
 
-* Customize the function of your powersuit to your liking.
+* Customize the function of your PowerSuit to your liking.
 There is no 'perfect' armor setup - you get to decide.
 * Combine the effects of the
 ![](https://i.imgur.com/5KW7uYY.png)Jetpack,
@@ -32,6 +34,7 @@ among other abilities, with additional modules.
 
 ## Check out the mod in action!
 #### Thank you Random Gamer and TotalXclipse!
+The mod has updated since these videos were released, but they're still definitely worth a watch.
 [![Random Gamer Video](https://i.imgur.com/WwqChWg.png)](https://www.youtube.com/watch?v=FRMOZ18eSc4)
 [![TotalXclipse Video](https://i.imgur.com/RGnJQRU.png)](https://www.youtube.com/watch?v=4JMTp2kC-oY)
 
@@ -46,7 +49,7 @@ among other abilities, with additional modules.
 - None of the milestones are appearing in the H.U.B. !
     - The milestones will not appear until you have unlocked at least one of the PowerSuit mod's equipment milestones which unlock the suit item.
 - Module _____ isn't working!
-    - This mod can be broken by updates to the main PowerSuit mod, and I often miss things in my testing. Please send a message in the `#help-using-mods` channel of the modding Discord mentioning me (Robb#6731) to let me know.
+    - This mod can be broken by updates to the main PowerSuit mod, and I often miss things in my testing. Please check the [Github issues](https://github.com/budak7273/ArmorModules/issues/) to see if it has already been reported. If not, send a message in the `#help-using-mods` channel of the modding Discord mentioning me (Robb#6731) to let me know, or [post an issue on Github](https://github.com/budak7273/ArmorModules/issues/new/choose).
 - Why is the flight hover flight and not like the vanilla jetpack?
     - This is how flight is implemented in the PowerSuit mod. I don't have control over this for now. Try using some of the air mobility modules to adjust the movement speed to your liking. More info on this [here](https://forums.ficsit.app/t/concerning-powersuit-jetpack/906).
 - Why can I craft the Dirty Reactor Module before I have access to nuclear processing and the Hazmat Suit?
@@ -78,7 +81,7 @@ Install modules into your PowerSuit by equipping the suit and pressing **Right A
 
 Check out the *Stats* section of the suit inventory screen to see information about your suit.
 
-Once you have an ![](https://i.imgur.com/5KW7uYY.png) Integrated Jetpack Module you can start hover flying by double-tapping space. While flying, hold space to ascend, crouch to descend, and sprint to boost. When you are not pressing any movement keys, the jetpack will attempt to bring you to a full stop midair. The Jetpack requires fuel items to run, **and will refill itself midair**, described in more detail below. Consider using other modules to change the behavior and flight speed of the suit.
+Once you have a ![](https://i.imgur.com/5KW7uYY.png) Jetpack Module installed, you can start hover flying by double-tapping space. While flying, hold space to ascend, crouch to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. The Vanilla-Style Jetpack does not. All Jetpackd requires fuel items to run, **and will refill itself midair**, described in more detail below. Consider using other modules to change the behavior and flight speed of the suit.
 
 The Jetpack can actually run off of just energy alone, but the energy consumption is *drastically* higher than if you had fuel.
 
