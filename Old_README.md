@@ -23,7 +23,7 @@ This repo folder should go into the Content folder of a [SML Unreal project](htt
 
 Put a copy of the NogSource repo into your project's Source folder. (TODO probably [powersuit](https://github.com/Nogg-aholic/PowerSuit) now but confirm)
 
-You will need to configure the .uproject to point to the dependencies from Nog. Add the following to the Modules section.
+You will need to configure the .uproject to point to the dependencies from Nog. Open it in a text editor and add the following to the Modules section.
 ```
         {
             "Name": "PowerSuit",
@@ -36,5 +36,7 @@ You will need to configure the .uproject to point to the dependencies from Nog. 
             ]
         },
 ```
+
+You will need to edit some of the FactoryGame headers to make various properties accessible. Ask me to send you mine, or ask Nog about how to do this.
 
 Rebuild the FactoryGame module from Visual Studio the same way you would when setting up the project initially so that the blueprint classes exist for the editor.
