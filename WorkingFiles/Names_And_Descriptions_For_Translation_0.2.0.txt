@@ -1,0 +1,429 @@
+Bioreactor Module
+
+Harvests excess energy from a self-sustaining biochemical processes involving Massage-2(AB)b organisms and atmosphere.
+
+Does not require fuel to operate.
+Provides 20 MW Power Capacity.
+Produces 20 MW.
+Stacks with other modules of the same type.
+
+|
+
+(Radioactive!) Dirty Reactor Module
+
+DANGER - Radioactive! Be prepared when crafting this.
+A hideously unsafe nuclear reactor designed to be created before further nuclear research is completed. Hopefully FICSIT is willing to overlook some safety concerns to let this one slide.
+
+Remains radioactive (to a lesser degree) when installed in a suit. 
+Having more than 2 installed will cause radiation damage.
+Crouching or sliding may result in radiation exposure for the duration.
+Does not require fuel to operate.
+Provides 30 MW Power Capacity.
+Produces 70 MW.
+Stacks with other modules of the same type.
+
+|
+
+Integrated Nuclear Reactor Module
+
+A drastically improved version of the Dirty Reactor module. 
+
+Complies with health and safety regulations.
+Does not require fuel to operate.
+Provides 100 MW Power Capacity.
+Generates 100 MW.
+Stacks with other modules of the same type.
+
+|
+
+Slug Amplification Generator
+
+A generator that utilizes the interesting properties of Power Slugs to generate suit power. 
+
+Provides 40 MW Power Capacity.
+Generates 15 MW.
+Generates an additional 10 MW when shields are recharging.
+Stacks with other modules of the same type.
+
+|
+
+Vertical Thruster Module
+
+Additional thrusters to increase maximum air ascent speed speed.
+
+Reduces power capacity by 15MW.
+Increases ascent speed by 50%.
+Increases power consumption by:
+   25% when ascending.
+   15% when air boosting.
+Increases Fuel consumption
+   33% when ascending.
+   10% when air boosting.
+Stacks with other modules of the same type.
+
+|
+
+Horizontal Thruster Module
+
+Additional thrusters to increase maximum air boosting speed (sprinting while hovering) and general flight speed.
+
+Reduces power capacity by 20MW.
+Consumes:
+   5MW when hovering.
+   15MW when flying.
+   25MW when air boosting.
+Increases max speed in all flying states.
+Increases Fuel consumption by 20% when air boosting.
+Stacks with other modules of the same type.
+
+|
+
+Exoskeleton Mk1 Module
+
+Additional servos to increase your speed both when walking and sprinting.
+
+Reduces power capacity by 30MW.
+Consumes 10MW when walking and sprinting.
+Boosts sprinting speed by 25% of base.
+Boosts walking speed by 20% of base.
+Stacks with other modules of the same type.
+
+|
+
+Sprinting Compensator Mk1 Module
+
+Additional servos to increase your speed when sprinting.
+
+Reduces power capacity by 10MW.
+Consumes 10MW when sprinting.
+Boosts sprinting speed by 25% of base.
+Stacks with other modules of the same type.
+
+|
+
+Walking Compensator Mk1 Module
+
+Additional servos to increase your speed when walking.
+
+Reduces power capacity by 10MW.
+Consumes 10MW when walking.
+Boosts walking speed by 20% of base.
+Stacks with other modules of the same type.
+
+|
+
+Integrated Blade Runners Module
+
+A set of Blader Runners built into your suit.
+Roughly the same stats as vanilla Blade Runners.
+
+Reduces power capacity by 10MW.
+Consumes 10MW when sprinting.
+Boosts sprinting speed by 50%.
+Increases the distance you can fall before taking fall damage. (WIP)
+Increases jump height.
+Installing more than one has no effect.
+
+|
+
+Hover Jetpack Module
+
+A suit Jetpack especially helpful for building.
+Will keep your height consistent as you fly and slow you to a stop when not pressing any movement keys.
+Double tap jump to toggle flying. Press sprint to boost and crouch to descend. 
+Consumes fuel at a drastically reduced rate compared to the Vanilla-Style Jetpack.
+Runs on a wide variety of fuels.
+
+Grants the ability to fly with your powersuit.
+Constantly consumes Fuel items as you fly (see note).
+Reduces power capacity by 10 MW.
+Consumes base 30 MW while hovering.
+Fuel and power are consumed at an increased rate while moving and boosting.
+Fuel bar can refill midair.
+Note: Running out of fuel drastically increases power consumption, but does not prevent you from flying.
+Installing more than one has no effect.
+
+|
+
+Vanilla-Style Jetpack Module
+
+A suit Jetpack that works more like the Vanilla jetpack.
+Will keep your height consistent as you fly and will not dampen any speed you gain during your flight. Roughly the same ascent power and flight time (in a Mk1 suit without additional generators) as the Vanilla jetpack.
+Double tap jump to toggle flying. Press sprint to boost and crouch to descend.
+Runs on a wide variety of fuels.
+
+Grants the ability to fly with your powersuit.
+Constantly consumes Fuel items as you fly (see note).
+Reduces power capacity by 10 MW.
+Consumes base 35 MW while flying.
+Fuel and power are consumed at an increased rate while moving and boosting.
+Fuel bar can refill midair.
+Note: Running out of fuel drastically increases power consumption, but does not prevent you from flying.
+Installing more than one has no effect.
+
+|
+
+WIP Ladder-Climbing Accelerator Module
+
+Uses the power of magnets to accelerate your ladder climbing rate.
+WIP - Seems to be capped at +1m/s?
+ 
+Increases ladder climb rate by 100% of base.
+Reduces power capacity by 20MW.
+Consumes 5 MW when walking or climbing a ladder.
+Stacks with other modules of the same type.
+
+|
+
+S.L.I.D.E. Module
+
+Totally radical! Sliding any place, any time.
+
+Increases max slide angle by 7.5 degrees (0.1309 radians). 
+Reduces power capacity by 10MW.
+Stacks with other modules of the same type; hilarity ensues.
+Wall climbing is unfortunately not possible.
+
+|
+
+WIP Strong Air Dampening Module
+
+Effectively reduces maximum movement speed with the Hover Jetpack.
+Adds dampening to the Vanilla-Style Jetpack.
+Balance WIP
+
++0.25 dampening multiplier
+Consequently decreases your max flight speed.
+Increases the amount of time it takes for you to slow to a stop while flying.
+-25% energy consumption when air boosting.
+-10% energy consumption when flying.
+-20% fuel consumption when hovering and air boosting.
+Reduces power capacity by 10MW.
+Stacks with other modules of the same type.
+
+|
+
+WIP Weak Air Dampening Module
+
+Effectivley increases maximum movement speed with the Hover Jetpack.
+Balance WIP 
+
+-0.25 dampening multiplier
+Consequently increases your max flight speed.
+Increases the amount of time it takes for you to slow to a stop while flying.
++200% fuel consumption when flying.
++400% fuel consumption when air boosting.
++50% energy consumption when air boosting.
++10% energy consumption when flying.
+Reduces power capacity by 10MW.
+Stacks with other modules of the same type.
+
+|
+
+Slow Health Regenerator
+
+Regenerates your health at a slow speed, regardless of your current health.
+
+Regenerates 0.5 health per second.
+Reduces power capacity by 15 MW.
+Consumes 15 MW constantly.
+Installing more than one of the same tier has no effect.
+
+|
+
+Medium Health Regenerator
+
+Regenerates your health at a medium speed, regardless of your current health.
+
+Regenerates 2 health per second.
+Reduces power capacity by 25 MW.
+Consumes 20 MW constantly.
+Installing more than one of the same tier has no effect.
+
+|
+
+Fast Health Regenerator
+
+Regenerates your health at a high speed, regardless of your current health.
+
+Regenerates 5 health per second.
+Reduces power capacity by 50 MW.
+Consumes 40 MW constantly.
+Installing more than one of the same tier has no effect.
+
+|
+
+Ballistics-Resistant Plating Module
+
+Provides protection from FICSIT-issued firearms such as the Rebar Gun and Rifle. Great if your fellow pioneers aren't careful with their aim.
+
+A friendly reminder that you are under 24/7 surveillance by FICSIT.
+
++75% Rebar Gun and Rifle resistance.
+Does not prevent Rebar Gun ragdolling.
+Reduces power capacity by 20MW.
+Stacks with other modules of the same type.
+
+|
+
+Blast Plating Module
+
+Shielding to protect you from the damage, but not the knockback, of Nobelisk-based explosives. Blast away!
+
++50% Nobelisk resistance. 
+Reduces power capacity by 20MW.
+Stacks with other modules of the same type.
+
+|
+
+Crude Radiation Plating
+
+Protective equipment for exploring nuclear environments before proper research is done.
+Perhaps it would be useful for crafting the Dirty Reactor Module.
+
+Provides 33% resistance to radiation damage.
+Its bulk slows you down (reduced movement speed).
+Reduces power capacity by 10 MW.
+Stacks with other modules of the same type.
+
+|
+
+Fall Dampener Module
+
+Protects the user from all fall damage.
+
+Reduces power capacity by 30MW.
+Consumes 10MW.
+Installing more than one has no effect.
+
+|
+
+Integrated Gas Mask
+
+Integrated air filtration system that removes toxins from the air you breathe.
+
+Provides full immunity to gas damage.
+Does not consume gas mask filters to run.
+Reduces power capacity by 30 MW.
+Its bulk slows you down (reduced movement speed).
+Installing more than one has no effect.
+
+|
+
+Integrated Hazmat Suit
+
+Integrated shielding from the adverse effects of radiation.
+
+Provides full immunity to radiation damage.
+Does not consume iodine filters to run.
+Reduces power capacity by 60 MW.
+Its bulk slows you down (reduced movement speed).
+Installing more than one has no effect.
+
+|
+
+Shield Hypercharger Reconfigurator
+
+Reconfigures your shields to be much lower capacity but recharge considerably faster.
+Balance WIP.
+
+Reduces power capacity by 100 MW.
+Consumes 10 MW at all times.
+Consumes 120 MW while shields are recharging.
+-50% shield capacity.
++100% shield recharge rate.
+The delay between taking damage and your shields recharging is significantly reduced.
+If your suit shorts, it takes 3 times as long for the suit to reboot.
+Installing more than one has no effect.
+
+|
+
+Shield Generator MK1
+
+A basic shield generator for your armor.
+
+Increases max shield by 10 (one block of health).
+Consumes 10 MW while recharging.
+Reduces power capacity by 10MW.
++1 shield regen per second.
++1 second shield recharge delay
+Stacks with other modules of the same type.
+
+|
+
+Tank Shield Reconfigurator
+
+Reconfigures your shields to be much higher capacity but recharge slower.
+Balance WIP.
+
+Reduces power capacity by 100 MW.
+Consumes 10 MW at all times.
+Consumes 40 MW while shields are recharging.
++200% shield capacity.
+-25% shield recharge rate.
+The delay between taking damage and your shields recharging is tripled.
+Installing more than one has no effect.
+
+|
+
+Advanced Cooling System
+
+Reduces the base amount of time it takes for your suit to recover when it shorts.
+Balance WIP.
+
+-50% fuse time.
+Reduces power capacity by 30MW.
+Consumes 40 MW when shields are recharging.
+Stacks with other modules of the same type.
+
+|
+
+Basic Cooling System
+
+	Reduces the base amount of time it takes for your suit to recover when it shorts.
+Balance WIP
+
+-25% fuse time.
+Reduces power capacity by 10MW.
+Consumes 10 MW when shields are recharging.
+Stacks with other modules of the same type.
+
+|
+
+WIP Smart Belt Immunity Module
+
+***Does not currently do anything***
+Prevents the user from being moved against their intended movement direction by belts. Belts will only add to your movement speed, never detract. 
+
+Reduces power capacity by 20 MW.
+Consumes 5MW when walking.
+Consumes 10MW when sprinting.
+Installing more than one has no effect.
+
+|
+
+Hypertube Acceleration Coils Mk1
+
+Enables acceleration inside Hypertubes.
+Hold sprint to accelerate and crouch to slow down.
+Base maximum speed is 125m/s.
+
+Increases max hypertube speed by 25 m/s
+Consumes 30 MW when hypertubing, regardless of if you're accelerating or not.
+Reduces power capacity by 20MW.
+Stacks with other modules of the same type.
+
+|
+
+Night Vision Module
+
+Allows you to see much more clearly at night time.
+Currently only turns on at night time; does not affect vision in caves.
+
+Designed by Nog, PowerSuit mod creator.
+
+Reduces power capacity by 10 MW.
+Consumes 5 MW at all times.
+Installing more than one of the same tier has no effect.
+
+|
