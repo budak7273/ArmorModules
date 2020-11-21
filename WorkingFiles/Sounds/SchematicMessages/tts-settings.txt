@@ -1,0 +1,23 @@
+https://texttospeech.googleapis.com/v1beta1/text:synthesize
+
+
+{
+  "audioConfig": {
+    "audioEncoding": "LINEAR16",
+    "pitch": -1.2,
+    "speakingRate": 1
+  },
+  "input": {
+    "text": "R&D has developed modules for you to install in your PowerSuit. Check the Item Codex to view the description of a module before crafting it. Keep an eye on your suit's power consumption to avoid shorting the suit."
+  },
+  "voice": {
+    "languageCode": "en-US",
+    "name": "en-US-Wavenet-C"
+  }
+}
+
+OR
+
+https://cloud.google.com/text-to-speech
+Settings from above
+Record using Audacity - Windows WASAPI set to headset, 8 channels, volume 14, project rate 48000 Hz

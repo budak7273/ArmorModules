@@ -1,0 +1,7 @@
+R&D has developed a way to modify your Multipurpose Exploration Suit with capabilities of your choosing.
+New Recipe unlocked: Biofuel PowerSuit.
+
+Modules can be installed in your Suit, increasing navigational capabilities as well as odds of survival.
+
+Expect more PowerSuit options to become available as you progress in Milestones.
+Caution: Using too much power will shut down your suit until it can re boot.
