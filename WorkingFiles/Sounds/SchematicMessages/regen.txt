@@ -1,0 +1,3 @@
+New Modules unlocked. Regeneration Modules increase health regeneration rate at all times, increasing odds of survival.
+
+Caution: these modules consume a large amount of power.
