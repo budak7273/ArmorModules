@@ -18,7 +18,7 @@ Most of the multiplayer compatibility logic happens in the base PowerSuit mod. P
 Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub Issues page](https://github.com/budak7273/ArmorModules/issues/).
 
 - You may have issues with the jetpack actually thrusting you downwards at times or simply not working well at all. This is an issue with the lag compensation code. Please contact Nog or I about this so we can try and fix it - this issue has been plaguing us for a while. In the mean time, try to get your FPS as stable and as close to 60 as possible.
-- There is currently a bug regarding when the flight actually applies force to you. If you are falling and then activate flight by holding space, the suit may not actually start thrusting until you *let go of spacebar and then press it again*.
+- Suits do not save their last used fuel or fuel levels in the save file, so when you log in, your suit may claim to be running on Fuel even if you don't have any. This will update the next time your suit refills.
 - People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
 
 </details>
@@ -128,9 +128,11 @@ All Jetpacks can also run off of just energy alone, but the energy consumption i
 ![Suit HUD screenshot](https://i.imgur.com/WSc2Icm.png)
 
 The suit HUD has multiple bars, listed here from top to bottom:
+
+ ![](https://i.imgur.com/sQNFJbI.png)
 - **Hover and Flight display**
     - If are flying, a large white arrow will appear.
-    - If you are in Hover Mode, a smaller gray arrow will appear to the right of the flight arrow.
+    - If you are in Hover Mode, a smaller gray arrow will appear to the top right of the flight arrow.
 - **Movement speed display**
     - Displays your current velocity. 
 - **Shield - Light Blue** *(Empty unless you have shield modules installed)*
