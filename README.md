@@ -117,9 +117,7 @@ Once you have a Jetpack Module of some sort installed, you can start hover flyin
 - ![](https://i.imgur.com/tBnYvBb.png) **Hover Jetpack Module**
     - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, crouch to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair.
 
-A quick note about suit flight - there is currently a bug regarding when the flight actually applies force to you. If you are falling and then activate flight by holding space, the suit may not actually start thrusting until you *let go of spacebar and then press it again*. This will probably be fixed in a coming update.
-
-Consider using other modules to change the behavior and flight speed of the suit.
+Consider using other modules to change the flight behavior and speed of your suit. Most of these are in the Mobility section.
 
 All Jetpacks can also run off of just energy alone, but the energy consumption is *drastically* higher than if you had fuel.
 
@@ -188,7 +186,7 @@ The PowerSuit Mk1, Mk2, and Mk3 run on the following fuels:
 - **Fuel Tank - Base game body slot display**
     - Shows what tier of suit you are wearing on the far left and the name above the Fuel Tank.
     - Shows what type of fuel is currently being used. In the screenshot, it's Packaged Turbofuel.
-    - **Shows how much fuel is currently available to modules.** Currently, only Jetpack-type modules consume fuel. When on the ground, fuel will automatically transfer from the Fuel Reserves to the Fuel Tank, just like how the vanilla Jetpack refills on the ground. You can install a ![](https://i.imgur.com/bdOlMoP.png) Mid-Air Refueling Module for this to happen when flying as well.
+    - **Shows how much fuel is currently available to modules.** Currently, only Jetpack-type modules consume fuel. When on the ground, fuel will automatically transfer from the Fuel Reserves to the Fuel Tank, just like how the vanilla Jetpack refills on the ground. You can install a ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** for this to happen when flying as well.
 
 ## More Details
 
@@ -205,7 +203,7 @@ If you're interested in making your own modules or recipes for these modules, bo
 
 # Updates and Patch Notes
 
-I am quite a busy person, and it may take me a while to update the mod if it breaks. Please be patient when the game updates and please report any issues you encounter.
+I am quite a busy person, and it may take me a while to update the mod if it breaks. Please be patient when the game updates and please report any issues you encounter on the Discord or similar.
 
 ## Past Patch Notes
 
@@ -217,7 +215,7 @@ Find them [here](https://github.com/budak7273/ArmorModules/tree/master/PatchNote
 <summary>Click to Expand</summary>
 
 - Implement a higher density fuel item that all suits can run on.
-    - I already have this made, but I am having trouble overriding the base PowerSuit mod's suit descriptors to get them to actually accept it.
+    - I already have this made, but I am having trouble overriding the base PowerSuit mod's suit descriptors to get them to actually accept it. Only the Biofuel suit accepts it right now.
 - Make modules unlocked via M.A.M. Research Tree instead of (currently free) HUB milestones.
     - Research Trees currently don't sync correctly in multiplayer, which is why I haven't done this yet. More info on this [here](https://discordapp.com/channels/555424930502541343/555515791592652823/756561066200137880).
 - Finish modules marked as WIP
@@ -227,10 +225,13 @@ Find them [here](https://github.com/budak7273/ArmorModules/tree/master/PatchNote
     - Ensure that you can't get too ridiculously overpowered or make power management a complete non-issue
 - More modules!
     - Fuel-consuming suit power generators
-    - Damage resistance against enemies, but I think shields already fulfil this role pretty well.
+    - Damage resistance against enemies, but I think shields already fulfill this role pretty well.
     - Fuel backup system for when the suit runs out of power
     - Fun late game modules like out-of-bounds damage immunity
+    - Fuel efficiency increaser
+    - Sliding Generator
 - Make the milestones display in a consistent order across saves
+- Make modules names an descriptions pull from String Tables to allow for possible translation in the future
 
 </details>
 
