@@ -1,30 +1,34 @@
 # [Click here to install or see the mod page on Ficsit.app](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
-[![](https://i.imgur.com/LnZ7uKE.png)](https://ficsit.app/mod/BezrE8aswqXLRX/) [![PowerSuit Modules](https://i.imgur.com/almXu5F.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
+[![](https://i.imgur.com/LnZ7uKE.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)[![PowerSuit Modules](https://i.imgur.com/almXu5F.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
+
+![Huzzah - 2.0!](https://i.imgur.com/F6jkDDU.png)
+
 ![Multiplayer compatible!](https://raw.githubusercontent.com/deantendo/community/master/com_mp_yes.png)
 
 <details>
-<summary> **Multiplayer Compatibility Notes** </summary>
+<summary> Multiplayer Compatibility Notes </summary>
 
 Most of the multiplayer compatibility logic happens in the base PowerSuit mod. Please report any issues to me (Robb#6731) or Nog.
 
-- The Night Vision module currently only works for the host player, and will stack the screen effects if clients use it as well. I currently lack the Blueprint scripting knowledge to resolve this.
+- The Night Vision module currently only works for the host player, and will stack the screen effects on the host if clients use it as well. I currently lack the Blueprint scripting knowledge to resolve this.
 
 </details>
 
 <details>
-<summary> **Currently Known Bugs** </summary>
+<summary> Known Bugs </summary>
 
 Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub Issues page](https://github.com/budak7273/ArmorModules/issues/).
 
-- You may have issues with the jetpack actually thrusting you downwards at times or simply not working well at all. This is an issue with the lag compensation code. Please contact Nog or I about this so we can try and fix it - this issue has been plaguing us for a while. In the mean time, try to get your FPS as stable and as close to 60 as possible.
-- Suits do not save their last used fuel or fuel levels in the save file, so when you log in, your suit may claim to be running on Fuel even if you don't have any. This will update the next time your suit refills.
+- You may have issues with the jetpack actually thrusting you downwards at times or simply not working well at all. This is an issue with the lag compensation code, but it should have been fixed in recent updates. Please contact Nog or I about this so we can try and fix it - this issue has been plaguing us for a while. In the mean time, try to get your FPS as stable and as close to 60 as possible.
+- Suits do not save their last used fuel, stored energy levels, or fuel levels in the save file, so when you log in, your suit may claim to be running on Fuel even if you don't have any. This will update the next time your suit refills. Enjoy the free fuel!
 - People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
+- The way that module power cost multipliers (ex. +10% power consumption) applies is not functioning entirely correctly. This does not make modules unusable, but makes their power costs not behave as expected. I plan to resolve this in a future update.
 
 </details>
 
-This mod adds a whole bunch (20+) of armor modules for use in your **multiplayer-compatible**
- [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2).
+This mod adds a whole bunch (**45+**) of armor modules for use in your **multiplayer-compatible**
+ [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2). It also introduces a new Biofuel-powered suit (on top of PowerSuit's Mk1-3 suits) accessible as soon as you get Blade Runners.
 
 Although you can use this mod in tandem with the [NogsDefaultModules](https://ficsit.app/mod/57oAxg12P4iGdL) mod, they are not balanced for each other in the slightest. I would not recommend it.
 
@@ -34,14 +38,15 @@ Please report leave suggestions and report issues either in the [Modding Discord
 
 * Customize the function of your PowerSuit to your liking.
 There is no 'perfect' armor setup - you get to decide.
+* Work with R&D to develop 45+ modules to install across 11 new milestones to unlock - with ADA voicelines!
 * Combine the effects of the
 ![](https://i.imgur.com/5KW7uYY.png) Jetpack,
 ![](https://i.imgur.com/Pi65d74.png) Gas Mask,
 ![](https://i.imgur.com/BMOVzZp.png) Blade Runners,
 ![](https://i.imgur.com/ENzGwEc.png) Hazmat Suit,
 and more into one convenient, cost-balanced, customizable, and multiplayer-compatible package!
-
-* Manage the power usage of your suit with a variety of power-generation options.
+* Manage the power usage of your suit with a variety of power generation and storage options.
+* Get access to limited early game flight with the ![](https://i.imgur.com/r9Oo8XV.png) Biofuel Suit and ![](https://i.imgur.com/LUbGHnG.png) Thrust Boots Module as soon as you get Blade Runners and Steel.
 * Harness ![](https://i.imgur.com/gOgUQvu.png) nuclear power before T7 to power your suit, albeit with some risk to the user.
 * Power-slide like a champ with with the rocket-assisted ![](https://i.imgur.com/45XVK8q.png) S.L.I.D.E Module.
 * Further augment your
@@ -53,13 +58,13 @@ among other abilities, with additional modules.
 ![](https://i.imgur.com/rgnwkUy.png) shields.
 * See clearly at night with the
 ![](https://i.imgur.com/erv7HNj.png) Night Vision Module.
+* And much, much more!
 
-## Check out the mod in action!
+## Check out (old versions of) the mod in action!
 #### Thank you Random Gamer and TotalXclipse!
-The mod has updated since these videos were released, but they're still definitely worth a watch.
+The mod has updated *significantly* since these videos were released, but they're still definitely worth a watch.
 [![Random Gamer Video](https://i.imgur.com/WwqChWg.png)](https://www.youtube.com/watch?v=FRMOZ18eSc4)
 [![TotalXclipse Video](https://i.imgur.com/RGnJQRU.png)](https://www.youtube.com/watch?v=4JMTp2kC-oY)
-
 
 # FAQ - please read if you have an issue!
 
@@ -71,16 +76,18 @@ The mod has updated since these videos were released, but they're still definite
 - None of the milestones are appearing in the H.U.B. !
     - The milestones will not appear until you have unlocked at least one of the PowerSuit mod's equipment milestones which unlock the suit item, or this mod's Biofuel Power Suit.
 - Why does the green bar in my suit keep running out and my suit turning off?
-    - The green bar is your suit's power bar - you're running out of power. Consider adding modules that increase Capacity and Power generation, or removing some modules.
+    - The green bar is your suit's power bar - you're running out of power. Consider adding modules that increase Capacity and Power Generation, or removing some modules.
 - Module _____ isn't working!
     - This mod can be broken by updates to the main PowerSuit mod, and I often miss things in my testing. Please check the [Github issues](https://github.com/budak7273/ArmorModules/issues/) to see if it has already been reported. If not, send a message in the `#help-using-mods` channel of the modding Discord mentioning me (Robb#6731) to let me know, or [post an issue on Github](https://github.com/budak7273/ArmorModules/issues/new/choose).
+- Why does my fuel meter read over 100%?
+    - Read the Suit HUD - Fuel Reserves section of this page.
 - Why can I craft the Dirty Reactor Module before I have access to nuclear processing and the Hazmat Suit?
     - This is an intended feature. Perhaps there's another way to protect yourself from the radiation damage you take crafting the module?
 - I still hear the radiation damage noise when I have full radiation resistance (ex. Integrated Hazmat Module)
     - This is a limitation of the base PowerSuit mod. I don't have a fix for this right now, sorry.
 - Why is everything so cheap/expensive/overpowered/weak?
-    - I tried to balance the recipe costs and functionality of these modules according to my tastes, but I'm open to suggestions    - contact me on Discord (Robb#6731). Feel free to create a mod of your own to overwrite my mod's recipes for these items. 
- 
+    - I tried to balance the recipe costs and functionality of these modules according to my tastes, but I'm open to suggestions    - contact me on Discord (Robb#6731). Feel free to create a mod of your own to overwrite my mod's recipes for these items.
+
 </details>
 
 # Suit Info
@@ -103,7 +110,7 @@ One way to check these descriptions is by mousing over them in the H.U.B. milest
 
 ## Detailed Suit Usage Information
 
-If you would prefer a video format, consider watching one of the above Mod Spotlight videos, although they are outdated.
+If you would prefer a video format, consider watching one of the above Mod Spotlight videos, although they are outdated and many features have changed since.
 
 Install modules into your PowerSuit by equipping the suit and pressing **Right Alt** to open the suit's internal inventory. Drag modules in like you would a chest to install them. Shift clicking is not supported yet. Ctrl-Drag works, though.
 
@@ -111,9 +118,9 @@ Check out the *Stats* section of the suit inventory screen to see information ab
 
 Once you have a Jetpack Module of some sort installed, you can start hover flying by holding down space, just like the vanilla jetpack. All Jetpacks consumes Fuel, which your suit will refill when you are on the ground. The kind of accepted Fuel depends on the suit (see more below). You can install a Mid-Air Refueling module to allow refueling while flying. What kind of flight you have depends on what module you have installed:
 - ![](https://i.imgur.com/LUbGHnG.png) **Thrust Boots Module**
-    - Hold space to ascend. No boost functionality.
+    - Hold space to ascend. No boost functionality. This jetpack will reduce your horizontal speed as you fly, so don't expect to be zooming
 - ![](https://i.imgur.com/5KW7uYY.png) **Integrated Jetpack Module**
-    - Hold space to ascend. You can boost by holding spring. Flying with this jetpack will not reduce your speed much as you fly, a lot like the vanilla jetpack.
+    - Hold space to ascend. You can boost by holding sprint to go a bit faster. Flying with this jetpack will not reduce your horizontal speed as you fly, like the vanilla jetpack. This jetpack is a bit zippier and affords you a bit more flight range on a single tank, assuming you can provide the power.
 - ![](https://i.imgur.com/tBnYvBb.png) **Hover Jetpack Module**
     - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, crouch to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair.
 
@@ -127,20 +134,23 @@ All Jetpacks can also run off of just energy alone, but the energy consumption i
 
 The suit HUD has multiple bars, listed here from top to bottom:
 
- ![](https://i.imgur.com/sQNFJbI.png)
 - **Hover and Flight display**
-    - If are flying, a large white arrow will appear.
-    - If you are in Hover Mode, a smaller gray arrow will appear to the top right of the flight arrow.
+
+    ![](https://i.imgur.com/r7t1YlH.png)
+    - If are flying, a set of wings will appear.
+    - If you are in Hover Mode, a smaller set of blue swoops appears to the top right of the flight icon.
 - **Movement speed display**
-    - Displays your current velocity. 
+    - Displays your current velocity in meters per second. 
 - **Shield - Light Blue** *(Empty unless you have shield modules installed)*
     - Blocks most types of damage before your health is affected.
     - Your shield has a delay before it starts recharging again after you take damage. The remaining time is shown as a little red progress bar by this icon:
- 
+
     ![](https://i.imgur.com/pFLXSYe.png)
+
     - When your shield is recharging, you'll see an red battery icon above the shield bar:
- 
- ![](https://i.imgur.com/xfvLa6r.png)
+
+    ![](https://i.imgur.com/xfvLa6r.png)
+
 - **Power - Green**
     - Your suit has an internal battery (Power Total) that acts as its energy reserves, and it comes with a bit of power generation built in.
     - See how much energy your suit is using/generating by looking at the Power Balance readout in the Suit Stats screen. Positive numbers means you have a surplus, negative means you have a shortage. External PowerDraw shows you how much energy you are currently using. It does not include energy consumption due to shields recharging (might in the future)
@@ -151,19 +161,21 @@ The suit HUD has multiple bars, listed here from top to bottom:
     - If the suit runs out of internal battery, it will begin to Overdraw (if your tier of suit has the ability to do so), which is shown as a red progress bar advancing along the top of the Power bar. If the red bar reaches the end, your suit will short, and all modules will cease to function (including Jetpacks    - watch out!)
  
     ![](https://i.imgur.com/mBjdC6D.png)
-    - When the suit shorts, you will have to wait for it to reboot, indicated by the lighting bolt and yellow progress bar. If this doesn't go away, it means you're still consuming too much power for the suit to reboot. Try adding more generators or removing power-consuming modules.
+    - When the suit shorts, you will have to wait for it to reboot, indicated by the lighting bolt and yellow progress bar. If this doesn't go away, it means you're still consuming too much power for the suit to reboot. Try adding more generators or removing power-consuming modules. This is the reboot icon:
  
- ![](https://i.imgur.com/eoxOQUv.png)
+    ![](https://i.imgur.com/eoxOQUv.png)
+
 - **Fuel Reserves - Orange**
     - **Your suit's fuel reserves.** This is drained to fill the fuel tank when you are on the ground, and will refill automatically (by consuming items from your inventory) when it reaches 0%. Fuel in the Reserves is not directly accessible by modules.
-	- *Fuel only transfers from the Reserves to the Tank when you are on the ground.* You can install a  ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** to change this.
-    - Fuel is only needed for modules that consume fuel (currently just the ![](https://i.imgur.com/5KW7uYY.png) Jetpack, Thrust Boots, and Hover Jetpack)
+    - If your suit has high fuel efficiency, it's totally normal for this value to be over 100%. For example, the Biofuel Suit has a 400% fuel efficiency bonus.
+    - *Fuel only transfers from the Reserves to the Tank when you are on the ground.* You can install a  ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** to change this.
+    - Fuel is only needed for modules that consume fuel (currently just the Integrated Jetpack, Thrust Boots, and Hover Jetpack)
     - What items can be consumed to refuel the fuel reserves depends on what PowerSuit you have equipped: 
 
 <details>
 <summary>Accepted Fuels (click to expand)</summary>
 
-The Biofuel Suit runs on the following fuels:
+The Biofuel Suit runs on the following fuels, and has 400% fuel efficiency - you get extra suit Fuel compared to if you were using another suit with the same fuels.
 
 - 1x Packaged BioFuel
 - 2x Solid Biofuel
@@ -175,7 +187,7 @@ The PowerSuit Mk1, Mk2, and Mk3 run on the following fuels:
 
 - 1x Packaged TurboFuel
 - 2x Packaged Fuel
-- 2x Solid BioFuel
+- 2x Solid Biofuel
 - 10x Wood
 - 200x Leaves
 
