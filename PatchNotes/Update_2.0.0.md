@@ -3,7 +3,7 @@
 # Patch Notes
 **Big update here!** Thank you to those that have been sending feedback my way - I've tried to incorporate as much of it as I can into this update.
 
-There are now 45 total modules to play with, and 1 new suit!
+There are now 44+ modules to play with, and 1 new suit!
 
 Compatibility with PowerSuit version 0.3.3 and game version 137909
 
@@ -11,7 +11,7 @@ There are probably a few changes I forgot to list here, but I tried to get them 
 
 ## **Major changes - Please read!**
 - **Movement speed variance fixes**
-   - There have been issues in the past with movement speed and flight power varying depending on the FPS of the user. These should have all been fixed as of this update to this mod and the PowerSuit base mod. Please contact Nog or I if you're still having issues.
+   - There have been issues in the past with movement speed and flight power varying drastically depending on the FPS of the user. These should be mostly fixed as of this update to this mod and the PowerSuit base mod. Horizontal movement speed is enitrely fixed. One issue remains with ascent speed. Due to some trouble with base game systems, the lower your FPS, the higher your ascent speed. This is better than the (current) alternative of low FPS users not being able to fly at all.
 - **Jetpack Overhaul**
     - It's finally here - jetpack variants that work more like the Vanilla jetpack.
     - **Jetpacks no longer refill in midair by default.** You must install a **Mid-Air Refueling Module** to have this behavior again.
@@ -36,6 +36,9 @@ There are probably a few changes I forgot to list here, but I tried to get them 
 ## New Modules
 - **Thrust Boots**
     - Early game jetpack. Very slow vertical ascent and range - mostly just for maintaining height or slowing falls.
+- **Fuel Runners**
+    - Fuel-powered sprinting! Also check out the modified S.L.I.D.E Module for fuel-powered sliding.
+    - Consumes less power than Exoskeletons/Sprinting Compensators, but uses fuel.
 - **Mid-Air Refueling Module**
     - Allows your Fuel reserves to refill while flying at an additional 10% fuel and energy cost.
 - **Fuel Pumps Module**
@@ -64,6 +67,7 @@ There are probably a few changes I forgot to list here, but I tried to get them 
 - Ballistics Fabric renamed to Protective Weave and introduced in some additional recipes.
 - Drastically reduced cost of Ballistics Plating module. I accidentally set the recipe too high and never noticed until now.
 - Hazmat module now requires aluminum plates instead of motors.
+- Removed Turbomotor crafting requirement from Exoskeleton (combined walk and sprint) module
 
 ## Module tweaks
 - A number of modules that didn't have icons do now
@@ -87,9 +91,17 @@ There are probably a few changes I forgot to list here, but I tried to get them 
     - Mk3 5/s -> 4/s
 - **S.L.I.D.E. Module**
     - PowerSuits no longer provide infinite sliding time by default; you must install this module now for that functionality.
-    - You can power slide by pressing Left Alt while sliding for a speed boost.
+    - You can power slide by pressing Left Alt while sliding for a speed boost. The speed boost gets considerably faster as you add more modules.
     - Power sliding consumes Power.
-	- This module gets pretty silly. I suggest you try out stacking a few of them.
+    - This module gets pretty silly. I suggest you try out stacking a few of them.
+- Hazmat and Gas Mask
+	- Free filters forever is a bit too strong. It was suggested that these require suit fuel to run, but I don't want it blinking the HUD all the time, or for there to be too strong of a "penalty" for just having them on in your base.
+	- Now consume 15 MW and 10 MW respectively at all times.
+- Strong and Weak Air Dampening Modules
+	- With the changes to how jetpacks work and how dampening is calculated, these modules don't really have much use any more. I have left them, in but made them inaccessible in new saves, since they don't really do anything to flight behavior now.
+- Exoskeleton and Walking/Sprinting Compensator
+    - Doubled speed bonuses so they are more competitive with the flight modules.
+    - Use SLIDE modules to get moving really quickly on the ground.
 - Added MP warning to **Night Vision Module** description. It only works for the host in multiplayer. I do not yet have the BP knowledge to fix this.
 
 ## Bugfixes
