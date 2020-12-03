@@ -11,6 +11,11 @@
 
 Most of the multiplayer compatibility logic happens in the base PowerSuit mod. Please report any issues to me (Robb#6731) or Nog.
 
+- Clients can't see the player's material change when someone equips a suit. Hosts can see it just fine.
+- The 'Shield Broken' icon/timer doesn't display on clients' HUDs, but it still functions as it should.
+- The 'currently used fuel' icon will sometimes not match up for clients, but the fuel item usage and consumption still works as it should.
+- If a client is hover flying and the host jumps, it may play a jetpack sound for the host.
+- If a client logs out with radioactive items in their inventory or in a radioactive area, their 'ghost' player will die to radiation while they are offline.
 - The Night Vision module currently only works for the host player, and will stack the screen effects on the host if clients use it as well. I currently lack the Blueprint scripting knowledge to resolve this.
 
 </details>
@@ -20,14 +25,18 @@ Most of the multiplayer compatibility logic happens in the base PowerSuit mod. P
 
 Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub Issues page](https://github.com/budak7273/ArmorModules/issues/).
 
-- You may have issues with the jetpack actually thrusting you downwards at times or simply not working well at all. This is an issue with the lag compensation code, but it should have been fixed in recent updates. Please contact Nog or I about this so we can try and fix it - this issue has been plaguing us for a while. In the mean time, try to get your FPS as stable and as close to 60 as possible.
-- Suits do not save their last used fuel, stored energy levels, or fuel levels in the save file, so when you log in, your suit may claim to be running on Fuel even if you don't have any. This will update the next time your suit refills. Enjoy the free fuel!
+**Major**
+- You may have had issues in the past with the jetpack actually thrusting you downwards at times or simply not working well at all. This is an issue with the lag compensation code, but it should have been fixed in recent updates. Now, the lower your FPS is, you will have additional upwards thrust to compensate. This is not a perfect fix, but it should mean that you can always fly no matter your FPS. Nog and I are trying out possible solutions still - please let us know if you still can't fly upwards.
 - People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
+- Suits can (rarely) randomly lose their contents when you die. We have been able to reproduce this, but it's very inconsistent, and there doesn't seem to be any real cause for why it happens. We suspect it is a base game issue. For now, just reload the last save or cheat the modules back in if this happens to you.
+
+**Minor**
+- Suits do not save their last used fuel, stored energy levels, or fuel levels in the save file, so when you log in, your suit may claim to be running on Fuel even if you don't have any. This will update the next time your suit refills. Enjoy the free fuel!
 - The way that module power cost multipliers (ex. +10% power consumption) applies is not functioning entirely correctly. This does not make modules unusable, but makes their power costs not behave as expected. I plan to resolve this in a future update.
 
 </details>
 
-This mod adds a whole bunch (**45+**) of armor modules for use in your **multiplayer-compatible**
+This mod adds a whole bunch (**44+**) of armor modules for use in your **multiplayer-compatible**
  [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2). It also introduces a new Biofuel-powered suit (on top of PowerSuit's Mk1-3 suits) accessible as soon as you get Blade Runners.
 
 Although you can use this mod in tandem with the [NogsDefaultModules](https://ficsit.app/mod/57oAxg12P4iGdL) mod, they are not balanced for each other in the slightest. I would not recommend it.
@@ -199,6 +208,7 @@ The PowerSuit Mk1, Mk2, and Mk3 run on the following fuels:
     - Shows what tier of suit you are wearing on the far left and the name above the Fuel Tank.
     - Shows what type of fuel is currently being used. In the screenshot, it's Packaged Turbofuel.
     - **Shows how much fuel is currently available to modules.** Currently, only Jetpack-type modules consume fuel. When on the ground, fuel will automatically transfer from the Fuel Reserves to the Fuel Tank, just like how the vanilla Jetpack refills on the ground. You can install a ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** for this to happen when flying as well.
+    - **The higher the energy value of the fuel item, the longer one Fuel Tank will last you**. For example, if the suit is running on Turbofuel, one full tank will let you fly further than if it the suit was running on Leaves.
 
 ## More Details
 
