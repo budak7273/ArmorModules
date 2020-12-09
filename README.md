@@ -11,6 +11,9 @@
 
 Most of the multiplayer compatibility logic happens in the base PowerSuit mod. Please report any issues to me (Robb#6731) or Nog.
 
+- Clients may have to re-equip the suit upon logic to see the HUD. It should still function even without re-equipping, though.
+- If the host is hover flying and presses Ctrl+Space to stop, it will also kick clients out of hover flight. Landing normally does not trigger this.
+- If a client has a Mid-Air Refueling module installed, the host will hear obnoxious refueling sound spam.
 - Clients can't see the player's material change when someone equips a suit. Hosts can see it just fine.
 - The 'Shield Broken' icon/timer doesn't display on clients' HUDs, but it still functions as it should.
 - The 'currently used fuel' icon will sometimes not match up for clients, but the fuel item usage and consumption still works as it should.
@@ -27,6 +30,7 @@ Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub
 
 **Major**
 - You may have had issues in the past with the jetpack actually thrusting you downwards at times or simply not working well at all. This is an issue with the lag compensation code, but it should have been fixed in recent updates. Now, the lower your FPS is, you will have additional upwards thrust to compensate. This is not a perfect fix, but it should mean that you can always fly no matter your FPS. Nog and I are trying out possible solutions still - please let us know if you still can't fly upwards.
+- If you have a Mid-Air Refueling module installed, you may hear obnoxious refueling sound spam.
 - People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
 - Suits can (rarely) randomly lose their contents when you die. We have been able to reproduce this, but it's very inconsistent, and there doesn't seem to be any real cause for why it happens. We suspect it is a base game issue. For now, just reload the last save or cheat the modules back in if this happens to you.
 
@@ -147,7 +151,7 @@ The suit HUD has multiple bars, listed here from top to bottom:
 
     ![](https://i.imgur.com/r7t1YlH.png)
     - If are flying, a set of wings will appear.
-    - If you are in Hover Mode, a smaller set of blue swoops appears to the top right of the flight icon.
+    - If you are in Hover Mode, a smaller set of blue feathers appears to the top right of the flight icon.
 - **Movement speed display**
     - Displays your current velocity in meters per second. 
 - **Shield - Light Blue** *(Empty unless you have shield modules installed)*
