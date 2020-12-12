@@ -3,19 +3,19 @@
 # Patch Notes
 **Big update here!** Thank you to those that have been sending feedback my way - I've tried to incorporate as much of it as I can into this update.
 
-There are now 44+ modules to play with, and 1 new suit!
+There are now 45+ modules to play with, and 1 new suit!
 
-Compatibility with PowerSuit version 0.3.3 and game version 137909
+Compatibility with PowerSuit version 0.4.0 and game version 138299
 
 There are probably a few changes I forgot to list here, but I tried to get them all. A ton of stuff has changed on the base PowerSuit mod as well to allow these features - thanks Nog!
 
 ## **Major changes - Please read!**
 - **Movement speed variance fixes**
-   - There have been issues in the past with movement speed and flight power varying drastically depending on the FPS of the user. These should be mostly fixed as of this update to this mod and the PowerSuit base mod. Horizontal movement speed is enitrely fixed. One issue remains with ascent speed. Due to some trouble with base game systems, the lower your FPS, the higher your ascent speed. This is better than the (current) alternative of low FPS users not being able to fly at all.
+   - There have been issues in the past with movement speed and flight power varying drastically depending on the FPS of the user. These should be mostly fixed as of this update to this mod and the PowerSuit base mod. Horizontal movement speed is entirely fixed. One issue remains with ascent speed. Due to some trouble with base game systems, the lower your FPS, the higher your ascent speed. This is better than the (current) alternative of low FPS users not being able to fly at all.
 - **Jetpack Overhaul**
     - It's finally here - jetpack variants that work more like the Vanilla jetpack.
     - **Jetpacks no longer refill in midair by default.** You must install a **Mid-Air Refueling Module** to have this behavior again.
-    - **You no longer have to double tap space to enter flying mode** - just hold space and the suit will start to fly. Hover mode is now toggled with `Ctrl`+`Space`. You can still double tap space to stop hover flight.
+    - **You no longer have to double tap space to enter flying mode** - just hold space and the suit will start to fly. Hover mode is now toggled with `Ctrl`+`Space`, which also lets you stop flying while hovering.
     - **Jetpack sounds** implemented by Nog in the base PowerSuit mod. Huzzah!
     - The orange bar in the HUD means something different now. Read more in the Suit HUD section of the mod page.
 - Power generation modules have drastically reduced Power Capacity bonuses. Capacity increases have been moved to other (new) modules.
@@ -67,7 +67,8 @@ There are probably a few changes I forgot to list here, but I tried to get them 
 - Ballistics Fabric renamed to Protective Weave and introduced in some additional recipes.
 - Drastically reduced cost of Ballistics Plating module. I accidentally set the recipe too high and never noticed until now.
 - Hazmat module now requires aluminum plates instead of motors.
-- Removed Turbomotor crafting requirement from Exoskeleton (combined walk and sprint) module
+- Removed Turbomotor crafting requirement from Exoskeleton (combined walk and sprint) module.
+- More I probably forgot.
 
 ## Module tweaks
 - A number of modules that didn't have icons do now
@@ -95,18 +96,21 @@ There are probably a few changes I forgot to list here, but I tried to get them 
     - Power sliding consumes Power.
     - This module gets pretty silly. I suggest you try out stacking a few of them.
 - Hazmat and Gas Mask
-	- Free filters forever is a bit too strong. It was suggested that these require suit fuel to run, but I don't want it blinking the HUD all the time, or for there to be too strong of a "penalty" for just having them on in your base.
-	- Now consume 15 MW and 10 MW respectively at all times.
+    - Free filters forever is a bit too strong. It was suggested that these require suit fuel to run, but I don't want it blinking the HUD all the time, or for there to be too strong of a "penalty" for just having them on in your base.
+    - No longer slow you down in flight.
+    - Now consume 15 MW and 10 MW respectively at all times.
 - Strong and Weak Air Dampening Modules
-	- With the changes to how jetpacks work and how dampening is calculated, these modules don't really have much use any more. I have left them, in but made them inaccessible in new saves, since they don't really do anything to flight behavior now.
+    - With the changes to how jetpacks work and how dampening is calculated, these modules don't really have much use any more. I have left them, in but made them inaccessible in new saves, since they don't really do anything to flight behavior now.
 - Exoskeleton and Walking/Sprinting Compensator
     - Doubled speed bonuses so they are more competitive with the flight modules.
     - Use SLIDE modules to get moving really quickly on the ground.
 - Added MP warning to **Night Vision Module** description. It only works for the host in multiplayer. I do not yet have the BP knowledge to fix this.
 
 ## Bugfixes
-- The top secret hidden milestone is now T0 instead of T9, so having the mod installed shouldn't show extra tiers  that don't actually exist in the HUB. Thanks Mase#4410 and Bando#6593.
+- The top secret hidden milestone is now T0 instead of T9, so having the mod installed shouldn't show extra tiers that don't actually exist in the HUB. Thanks Mase#4410 and Bando#6593 for finding this.
 - Issue with flight thrust not kicking in when you start flying while falling fixed by Nog.
+- A lot changed internally with PowerSuit between this version and the last, so lots of lingering problems were probably fixed and new ones introduced.
 
-## Coming Soon
-- A few people have been requesting that the suits accept Batteries as a fuel source, or to have some other higher energy fuel source than packaged fuel and turbofuel. I have created this item, but I'm having issues overriding the suits added in the base PowerSuit mod to accept them. As such, this item will be coming out in a future update.
+## Coming Soon™
+- A few people have been requesting that the suits accept Batteries as a fuel source, or to have some other higher energy fuel source than just packaged fuel and turbofuel. I have created this item, but I'm having issues overriding the suits added in the base PowerSuit mod to accept them. As such, this item will be coming out in a future update.
+- Almost all of the mod's elements pull their text from String Tables now, which means localized copies of the mods are within reach. Please contact me if you would like to help translate the mod to another language.
