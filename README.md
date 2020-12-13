@@ -74,7 +74,9 @@ among other abilities, with additional modules.
 ## Check out (old versions of) the mod in action!
 #### Thank you Random Gamer and TotalXclipse!
 The mod has updated *significantly* since these videos were released, but they're still definitely worth a watch.
+
 [![Random Gamer Video](https://i.imgur.com/WwqChWg.png)](https://www.youtube.com/watch?v=FRMOZ18eSc4)
+
 [![TotalXclipse Video](https://i.imgur.com/RGnJQRU.png)](https://www.youtube.com/watch?v=4JMTp2kC-oY)
 
 # FAQ - please read if you have an issue!
@@ -82,10 +84,12 @@ The mod has updated *significantly* since these videos were released, but they'r
 <details>
 <summary>Click to Expand</summary>
 
+- Can I rebind what keys the suit uses?
+    - At the moment, no. The next SML update will have special support for custom keybinds, and it sounds like Nog plans to add that feature then. More info [here](https://github.com/Nogg-aholic/PowerSuit/issues/4).
 - Why do I crash on launch?
     - You need to install the [PowerSuit mod by Nog]((https://ficsit.app/mod/7J2LyFzTakqPQ5)) to use this mod. The launcher should have downloaded it for you automatically.
 - Why is everything so complicated?
-	- I wanted to provide as much information as possible in the module descriptions, which can make them seem a bit daunting. It's really quite simple at the core, though. Modules consume fuel and power, and sometimes speed you up or slow you down. You have to use other modules to offset power and fuel costs, or to speed you back up again. Please feel free to contact me with any suggestions or questions. 
+    - I wanted to provide as much information as possible in the module descriptions, which can make them seem a bit daunting. It's really quite simple at the core, though. Modules consume fuel and power, and sometimes speed you up or slow you down. You have to use other modules to offset power and fuel costs, or to speed you back up again. Please feel free to contact me with any suggestions or questions. 
 - None of the milestones are appearing in the H.U.B. !
     - The milestones will not appear until you have unlocked at least one of the PowerSuit mod's equipment milestones which unlock the suit item, or this mod's Biofuel Power Suit.
 - Why does the green bar in my suit keep running out and my suit turning off?
@@ -163,12 +167,12 @@ The suit HUD has multiple bars, listed here from top to bottom:
     - Your shield has a delay before it starts recharging again after you take damage. The remaining time is shown as a little red progress bar by this icon:
 
     <!--![](https://i.imgur.com/pFLXSYe.png)-->
-	![](https://i.imgur.com/9Pko0kp.png)
+    ![](https://i.imgur.com/9Pko0kp.png)
 
     - When your shield is recharging, you'll see an red battery icon above the shield bar:
 
     <!--![](https://i.imgur.com/xfvLa6r.png)-->
-	![](https://i.imgur.com/dGMe6wO.png)
+    ![](https://i.imgur.com/dGMe6wO.png)
 
 - **Power - Green**
     - Your suit has an internal battery (Power Total in the Suit Stats window) that acts as its energy reserves, and it comes with a bit of power generation built in.
@@ -239,9 +243,10 @@ Please let me know if I forgot to add you to this list.
 
 - **Nog** for writing the PowerSuit mod and working with me to debug it and the modules mod.
 - **Random Gamer** and **TotalXclipse** for making mod spotlights.
+- **Deantendo** for the very snazzy mod icon.
 - **Panakotta** for the examples of ADA Messages and the BP code to send them to players.
 - **Reika**, **K14M**, **ko5o01gg AKA Dakotka**, **StromE**, and **WillLMR** for testing and balance feedback.
-- **TwoTwoEleven** for help debugging the in-game mod icon.
+- **TwoTwoEleven** for help debugging the display of the in-game mod icon.
 
 # Updates and Patch Notes
 
