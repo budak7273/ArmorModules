@@ -137,9 +137,9 @@ Once you have a Jetpack Module of some sort installed, you can start hover flyin
 - ![](https://i.imgur.com/LUbGHnG.png) **Thrust Boots Module**
     - Hold space to ascend. No boost functionality. This jetpack will cap your horizontal speed as you fly, so don't expect to be zooming around with this one.
 - ![](https://i.imgur.com/5KW7uYY.png) **Integrated Jetpack Module**
-    - Hold space to ascend. You can boost by holding sprint to go a bit faster. Flying with this jetpack will not reduce your horizontal speed as you fly, just like the vanilla jetpack. This jetpack is a bit zippier and affords you a bit more flight range on a single tank, assuming you can provide the power and fuel required.
+    - Hold space to ascend. You can boost by holding sprint to go a bit faster. You can speed up your fall by holding left alt. Flying with this jetpack will not reduce your horizontal speed as you fly, just like the vanilla jetpack. This jetpack is a bit zippier and affords you a bit more flight range on a single tank, assuming you can provide the power and fuel required.
 - ![](https://i.imgur.com/tBnYvBb.png) **Hover Jetpack Module**
-    - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, crouch to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
+    - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, left alt to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
 
 Consider using other modules to change the flight behavior and speed of your suit. Most of these are in the Mobility section.
 
