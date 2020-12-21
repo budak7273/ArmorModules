@@ -8,6 +8,7 @@
 
 ## Bugfixes
 All bugfixes in this update were changes made on the base PowerSuit mod side. If it broke something, blame me, not Nog.
+- All Jetpacks now activate as soon as you press spacebar. They previously waited a short timeframe to allow you to jump without activating the jetpack, but this resulting in an unwelcome delay when walking off of edges and trying to fly. This may be tweaked further in the future.
 - Jetpack sounds now follow the Effects (and Master) volume sliders in the ingame settings. Fixes [this issue](https://github.com/Nogg-aholic/PowerSuit/issues/5).
 - Jetpack sounds should fall off correctly with distance now - hopefully no more hearing everyone at a constant volume across the map.
 - Consuming fuel items to refill the buffer no longer reboots the suit early, which would prevent movement speeds from being set correctly (affected Fuel Runners and Integrated Blade Runners). Fixes [this issue](https://github.com/budak7273/ArmorModules/issues/5).
