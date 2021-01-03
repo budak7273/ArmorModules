@@ -5,6 +5,7 @@
 ![Huzzah - 2.0!](https://i.imgur.com/F6jkDDU.png)
 
 ![Multiplayer compatible!](https://raw.githubusercontent.com/deantendo/community/master/com_mp_yes.png)
+![EA/EXP compatible!](https://raw.githubusercontent.com/deantendo/community/master/ea_yes_exp_yes.png)
 
 ## [Patch Notes - click me!](https://github.com/budak7273/ArmorModules/tree/master/PatchNotes)
 
@@ -210,6 +211,7 @@ The PowerSuit Mk1, Mk2, and Mk3 run on the following fuels:
 
 - 1x Packaged TurboFuel
 - 2x Packaged Fuel
+- 2x Packaged BioFuel
 - 2x Solid Biofuel
 - 10x Wood
 - 200x Leaves

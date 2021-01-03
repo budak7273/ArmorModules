@@ -7,7 +7,7 @@
     - The previous change resulted in being unable to jump with a jetpack (most noticeably the hover jetpack) without starting flight.
 	- You should no longer have to slide-jump or ctrl+jump to jump without starting the jetpack.
 	- New systems have been implemented that should you can jump around with relative ease without triggering flight on accident, while still letting you start flying quickly if you walk off a ledge.
-	- The timings are configurable. Read more in the New Features section.
+	- The timings are configurable, and in some cases *completely bypassed*. Read more in the New Features section.
 
 ## Bugfixes
 - I packed the base PowerSuit mod with the right texture files this time. Whoops. No more missing textures and icons, hopefully. Please let me know if you find any more.
@@ -15,7 +15,7 @@
 ## New Features
 These were changes made by me on the base PowerSuit mod side. If it broke something, yell at me, not Nog.
 - **PowerSuit config options**
-	- You can reload the configs without restarting the game with the chat command `/reloadPowerSuitConfig`. There is no confirmation message when it runs, it will just reload the configs. It does log to the SML console, though.
+	- You can **reload the configs without restarting the game** with the chat command `/reloadPowerSuitConfig`. There is no confirmation message when it runs, it will just reload the configs. It does log to the SML console, though, if you have that on.
 	- The configs are separate for multiplayer host and client; each has their own set.
     - You can now configure the following properties by editing `PowerSuit.cfg` in your Satisfactory install's `/configs/` folder.
     - **HoverFlightIgnitionDelaySeconds**: (`0.375` sec by default) How long in seconds the jetpack waits to start fly when your suit is capable of hovering (ex. Hover Jetpack module installed). You may want to increase this value if you want to ensure you reach the apex of your jump before your jetpack turns on.
