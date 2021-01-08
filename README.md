@@ -72,13 +72,18 @@ among other abilities, with additional modules.
 ![](https://i.imgur.com/erv7HNj.png) Night Vision Module.
 * And much, much more!
 
-## Check out (old versions of) the mod in action!
+## Check out the mod in action!
 #### Thank you Random Gamer and TotalXclipse!
+Here is a video of Random Gamer exploring the mod in his singleplayer series.
+
+[![Random Gamer Video](https://i.imgur.com/MXUp0tJ.png)](https://youtu.be/1Q7uDSOHZTo?t=588)
+
+
 The mod has updated *significantly* since these videos were released, but they're still definitely worth a watch.
 
-[![Random Gamer Video](https://i.imgur.com/WwqChWg.png)](https://www.youtube.com/watch?v=FRMOZ18eSc4)
-
 [![TotalXclipse Video](https://i.imgur.com/RGnJQRU.png)](https://www.youtube.com/watch?v=4JMTp2kC-oY)
+
+[![Random Gamer Video](https://i.imgur.com/WwqChWg.png)](https://www.youtube.com/watch?v=FRMOZ18eSc4)
 
 # FAQ - please read if you have an issue!
 
@@ -87,8 +92,10 @@ The mod has updated *significantly* since these videos were released, but they'r
 
 - Can I rebind what keys the suit uses?
     - At the moment, no. The next SML update will have special support for custom keybinds, and it sounds like Nog plans to add that feature then. More info [here](https://github.com/Nogg-aholic/PowerSuit/issues/4).
+- Why are the suit sounds so loud?
+    - Check out the config options for the [base PowerSuit mod](https://ficsit.app/mod/7J2LyFzTakqPQ5).
 - Why do I crash on launch?
-    - You need to install the [PowerSuit mod by Nog]((https://ficsit.app/mod/7J2LyFzTakqPQ5)) to use this mod. The launcher should have downloaded it for you automatically.
+    - You need to install the [PowerSuit mod by Nog](https://ficsit.app/mod/7J2LyFzTakqPQ5) to use this mod. The launcher should have downloaded it for you automatically.
 - Why is everything so complicated?
     - I wanted to provide as much information as possible in the module descriptions, which can make them seem a bit daunting. It's really quite simple at the core, though. Modules consume fuel and power, and sometimes speed you up or slow you down. You have to use other modules to offset power and fuel costs, or to speed you back up again. Please feel free to contact me with any suggestions or questions. 
 - None of the milestones are appearing in the H.U.B. !
@@ -119,7 +126,7 @@ Once you unlock the Biofuel Suit, you will receive a message in your in-game Inb
 Each module is crafted from a 
 ![](https://i.imgur.com/WJ1xfNw.png) **Base Module**
 and a handful of other components.
-All modules are currently crafted at the **Equipment Workbench** once they are unlocked in the H.U.B. .
+All modules are currently crafted at the **Equipment Workbench** once they are unlocked in the H.U.B.
 Do note that each Base Module requires a Power Shard to craft - but there are some alternate recipes you can unlock that don't need Power Shards.
 
 **All modules have extensive descriptions of what they do in their item description.** 
