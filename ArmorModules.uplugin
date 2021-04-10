@@ -13,12 +13,5 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "ArmorModules",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+	"Installed": false
 }
