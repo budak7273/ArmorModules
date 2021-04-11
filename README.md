@@ -74,7 +74,9 @@ among other abilities, with additional modules.
 
 ## Check out the mod in action!
 #### Thank you Random Gamer and TotalXclipse!
-Here is a video of Random Gamer exploring the mod in his singleplayer series.
+Here are some videos of Random Gamer exploring the mod in his singleplayer series.
+
+[![Newer Random Gamer Video](https://i.imgur.com/J8N04xw.png)](https://youtu.be/x12-zC7d61Y?t=140)
 
 [![Random Gamer Video](https://i.imgur.com/MXUp0tJ.png)](https://youtu.be/1Q7uDSOHZTo?t=588)
 
