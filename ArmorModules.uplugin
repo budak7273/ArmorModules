@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "2.1.0",
+	"Version": 3,
+	"VersionName": "3.0.0",
 	"FriendlyName": "PowerSuit Modules",
 	"Description": "A plethora of modules compatible with Nogs' PowerSuit Mod. \\nCheck out the mod page: https://ficsit.app/mod/BezrE8aswqXLRX \\nThis mod would be impossible without Nog's open source and easily extensible PowerSuit mod. Be sure to check it out, and consider writing a modules mod of your own. \\n\\nTurtle and rabbit icons from Freepik on flaticon.com",
 	"Category": "Modding",
-	"CreatedBy": "Robb, Nog",
+	"CreatedBy": "Robb#6731, Nog",
 	"CreatedByURL": "https://ficsit.app/mod/BezrE8aswqXLRX",
 	"DocsURL": "https://github.com/budak7273/ArmorModules/",
 	"MarketplaceURL": "",
@@ -13,5 +13,12 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "SML",
+			"SemVersion": "^3.0.0",
+			"Enabled": false
+		}
+	]
 }
