@@ -17,7 +17,7 @@ The base PowerSuit mod has vastly changed since SML2, and I've finally got (most
 
 - The Mk1-Mk3 suits that used to be in the PowerSuit mod itself are now added by this mod instead.
     - I have tweaked the abilities of these suits slightly, such as increasing slot counts.
-	- Since the suits have moved mods, you will have lost your suits from Update 3 saves. Sorry. Even if they hadn't moved, the inventory system has changed drastically, and probably would have broken anyways.
+    - Since the suits have moved mods, you will have lost your suits from Update 3 saves. Sorry. Even if they hadn't moved, the inventory system has changed drastically, and probably would have broken anyways.
 - Both this mod and PowerSuit are using the new SML Keybinds and Options features. You can change config settings on main menu's Mods menu, and keybinds from the base game's keybindings menu. The reload config command no longer exists.
 
 ## Watch out!
@@ -35,7 +35,7 @@ The following things will probably be changing in more updates coming Soon™:
 - **Module Item Consumption!**
     - The Gas Mask and Hazmat Suit modules now require filters and iodine filters respectively to run. It will consume them from your inventory at the same rate as the base game gas mask/hazmat suit.
     - You can see what item the module (or suit - you can see it's internal fuel refill buffer now) has consumed, and how much of said item is left, with a fancy new SML tooltip handler. Oooo, snazzy.
-	- ![](https://i.imgur.com/ozyLlGv.png)
+    - ![](https://i.imgur.com/ozyLlGv.png)
     - Don't like modules consuming items? You can turn it off in the...
 ![](https://i.imgur.com/VImfoyE.png)
 - **Configuration!**
@@ -43,7 +43,8 @@ The following things will probably be changing in more updates coming Soon™:
     - You can enable or disable debug logging. Turning this stuff on can be helpful for reporting issues with the mod.
     - You can control some of the balance settings for the mod. For example, you can make the Gas Mask module not require Filters to operate.
     - In the configs, you can also control the volume of the new...
-- **Sounds!** Lots of modules make sounds now depending on what you're doing with them.
+- **Sounds!**
+    - Lots of modules make sounds now depending on what you're doing with them.
     - On Equip/Unequip sounds for many modules. More to come.
     - Shield modules now make a sound when you take damage, your shield breaks, shield recharge starts, shield recharge finishes
     - Gas Mask and Hazmat Suit make sounds when they refill their filter. Gas Mask plays sound when entering and exiting gas zones.
@@ -56,9 +57,9 @@ The following things will probably be changing in more updates coming Soon™:
 - **Integrated Hover Pack**
     - It's the hover pack, but as a PowerSuit module! Currently offered as another milestone when you unlock the Hover Pack. The 'power grid' connection feature is currently disabled but will be coming soon.
 - **Fuel-Burning Generators**
-	- **Bio Burner**, **Fuel Burning Generator**, **Miniature Nuclear Reactor Module**
+    - **Bio Burner**, **Fuel Burning Generator**, **Miniature Nuclear Reactor Module**
     - Burns Suit Fuel to generate power for your suit at a significant rate.
-	- Also allows your Suit access to additional fuel options
+    - Also allows your Suit access to additional fuel options
 - **Zapline Acceleration Coils**
     - Speed around on your power lines with a stacking speed boost! Helps the Zapline stay more relevant later in the game and gives a nice boost early on.
 - **Zapline Power Tap**
@@ -98,7 +99,7 @@ The following things will probably be changing in more updates coming Soon™:
 - Hazmat Module now actually gives radiation immunity (instead of just damage resistance), so standing in radioactive areas no longer makes a ton of noise.
 - (Internal) ModMult properties combine with base-game values and each other in a more logical manner. This is what allowed the Crude Radiation Plating change
 - (Internal) Power (and fuel) consumption and production are split now, resulting in 'correct' fuel consumption increase resulting values. You probably wouldn't have noticed this in the past unless you were really looking for it.
-- A fun main menu easter egg that should be pretty easy to notice
+- Probably more that I forgot to put here.
 
 ## Coming Soon™
 
