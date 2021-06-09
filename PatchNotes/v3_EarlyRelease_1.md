@@ -25,11 +25,13 @@ I suggest that you install a cheat mod of sorts (I personally use Item Spawner (
 - During testing, I would very rarely get a crash when loading the main menu or a save file *after having already loaded one*. If you get this crash, please contact me with what you had in your suit at the time.
 
 
-## To install these early release files, you should:
+## Install Directions
 
-0. Read what I wrote above, and the patch notes I linked above, so you know what to look for!
-1. Locate your mods folder and *delete* any previous versions of PowerSuit and NogsPowerSuit that you have installed. If you don't do this, SMR will try and replace the new version with the old version, which would not be good.
+0. Please read what I wrote above, and the patch notes I linked above, so you know what to look for when testing!
+1. Locate your mods folder and **delete** any previous versions of PowerSuit *and NogsPowerSuit* that you have installed. If you don't do this, SMR will try and replace the new version with the old version, which would not be good. Also, the last publicly released version of NogsPowerSuit is not compatible with this version of PowerSuit.
 2. Download the PowerSuit and ArmorModules zips I have attached in the Nogs' Mods Discord (if you haven't joined yet, you can join [here](http://discord.gg/zqp6U7Y7Nu), and follow the directions here to install them:
-https://docs.ficsit.app/satisfactory-modding/latest/ManualInstallDirections.html#_installing_your_mod_of_choice
+- [Install Directions](https://docs.ficsit.app/satisfactory-modding/latest/ManualInstallDirections.html#_installing_your_mod_of_choice)
+- [PowerSuit Zip](https://cdn.discordapp.com/attachments/847973842525356113/852110730463543296/PowerSuit_EarlyRelease1.zip)
+- [PowerSuit Modules Zip](https://cdn.discordapp.com/attachments/847973842525356113/852110777216663572/ArmorModules_EarlyRelease1.zip)
 3. Launch the game, and you should see the 'EARLY RELEASE PowerSuit' and 'EARLY RELEASE PowerSuit Modules' mods listed on the mod menu.
 4. You're good to go! Contact me if you have any issues.
