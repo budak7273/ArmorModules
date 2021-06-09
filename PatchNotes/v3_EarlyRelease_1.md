@@ -33,7 +33,7 @@ I suggest that you install a cheat mod of sorts (I personally use Item Spawner (
 2. Download the PowerSuit and ArmorModules zips I have attached in the Nogs' Mods Discord (if you haven't joined yet, you can join [here](http://discord.gg/zqp6U7Y7Nu), and follow the directions here to install them:
 - [Install Directions](https://docs.ficsit.app/satisfactory-modding/latest/ManualInstallDirections.html#_installing_your_mod_of_choice)
 - [PowerSuit Zip](https://cdn.discordapp.com/attachments/847973842525356113/852110730463543296/PowerSuit_EarlyRelease1.zip)
-- [PowerSuit Modules Zip](https://cdn.discordapp.com/attachments/847973842525356113/852110777216663572/ArmorModules_EarlyRelease1.zip)
+- [PowerSuit Modules Zip, now on Early Release Version 2](https://cdn.discordapp.com/attachments/780930047895928852/852260936991375410/ArmorModules_EarlyRelease2.zip)
 3. Launch the game, and you should see the 'EARLY RELEASE PowerSuit' and 'EARLY RELEASE PowerSuit Modules' mods listed on the mod menu.
 4. You're good to go! Contact me if you have any issues.
 
