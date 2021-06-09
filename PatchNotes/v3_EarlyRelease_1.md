@@ -3,7 +3,7 @@ Here it is, the early release of PowerSuit Modules (and the updated version of P
 ### Before continuing, please read the change logs I have attached for both PowerSuit and PowerSuit Modules, as they will help you get an idea of what changed and what to look for. If you find a bug, or something is confusing or misleading, please don't hesitate to let me know.
 
 PowerSuit changelog: https://github.com/Nogg-aholic/PowerSuit/blob/master/PatchNotes/Update_0.4.0.md
-PowerSuit Modules changelog: https://github.com/budak7273/ArmorModules/blob/master/PatchNotes/Update_3.0.0.md
+PowerSuit Modules changelog: https://github.com/budak7273/ArmorModules/blob/SML3/PatchNotes/Update_3.0.0.md
 
 I suggest that you install a cheat mod of sorts (I personally use Item Spawner (no mp support) and Nog's new Item Codex-integrated cheat mod (has mp support)) to test out the mod. I do not suggest using it in your personal playthroughs yet since I am looking to change some milestone and module costs still, as well as possibly moving some items around (old ones could end up deleted). But if that's a risk you're fine with taking, by all means, go ahead.
 
