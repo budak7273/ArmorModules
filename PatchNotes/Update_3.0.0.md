@@ -1,3 +1,16 @@
+Early Release 2
+
+- Basic and Advanced Cooling, as well as the Night Vision modules, will no longer crash you on equip.
+- Fueled Flight modules (Jetpack, Thrust Boots, Hover Jetpack) no longer lose their suit fuel tank and fuel allowance bonuses when you run out of fuel
+
+- New Balance config option to disable fueled jetpacks from needing fuel
+- New sounds option to disable ADA message sounds
+- New debugging config option to entirely suppress ADA message delivery
+- Hazmat and Gas Mask now use the OMW system to show you fill level. Hazmat also shows radiation intensity.
+- Fueled Generators (Bio Burner, Fuel Burning Generator, Miniature Nuclear Reactor) use the new IMW system to show you how much power they are producing from your inventory screen.
+
+============================================
+
 Hooray! Update! At long last.
 
 ### Changes Overview
@@ -42,6 +55,7 @@ The following things will probably be changing in more updates coming Soon™:
     - You can now configure the mod from the main menu with the SML3 Config system!
     - You can enable or disable debug logging. Turning this stuff on can be helpful for reporting issues with the mod.
     - You can control some of the balance settings for the mod. For example, you can make the Gas Mask module not require Filters to operate.
+    - You can also make it so that Jetpacks no longer require fuel to operate, if that's your cup of tea.
     - In the configs, you can also control the volume of the new...
 - **Sounds!**
     - Lots of modules make sounds now depending on what you're doing with them.
@@ -50,6 +64,10 @@ The following things will probably be changing in more updates coming Soon™:
     - Gas Mask and Hazmat Suit make sounds when they refill their filter. Gas Mask plays sound when entering and exiting gas zones.
     - Flight sounds aren't ready yet, unfortunately.
     - Rare easter egg sound. Don't die looking for it.
+- **Overlay** and **Inventory Widgets**
+    - Ever wondering how much of that Filter is left in yuor shiny new Gas Mask module? Well, wonder no more, because it draws it on your HUD right above the suit UI!
+- **Smart Tooltips**
+	- Display how much Fuel is in a suit's buffer, what modules are installed in a suit without equipping it, and how much of an item is in a module's buffer (ex Gas Mask). This will be getting even better later on.
 - **More that I probably forgot to put here!**
 
 ### New Modules
@@ -94,7 +112,8 @@ The following things will probably be changing in more updates coming Soon™:
 
 - Fun main menu tweak! The Pioneer got an upgrade.
 - Mod icon now shows in the in-game mods list. Long overdue. Glad that SML3 finally fixed the problem that was causing this.
-- Suits no longer consume fuel items in certain multiples - it's always one at a time.
+- Suits no longer consume fuel items in certain multiples of items - it's always one at a time.
+- Jetpack and Hover Jetpack module now require you to have fuel to operate. You can turn this off in the config.
 - New icon for Hypertube Acceleration Coils, Fall Dampening Module, Packaged Coolant, Nuclear Fuel Charge, 
 - Hazmat Module now actually gives radiation immunity (instead of just damage resistance), so standing in radioactive areas no longer makes a ton of noise.
 - (Internal) ModMult properties combine with base-game values and each other in a more logical manner. This is what allowed the Crude Radiation Plating change
@@ -105,7 +124,7 @@ The following things will probably be changing in more updates coming Soon™:
 
 (In no particular order)
 
-- Fancy tooltips that help you better identify what modules do at a glance
+- Fancy tooltips and icons that help you better identify what modules do at a glance
 - Aquatic modules
 - Docs and mini demo videos of using different modules
 - Tie-ins with other mods (Better Blade Runners? Exosuit? Refined Power?)
