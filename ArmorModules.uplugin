@@ -19,7 +19,12 @@
 		{
 			"Name": "SML",
 			"SemVersion": "^3.0.0",
-			"Enabled": false
+			"Enabled": true
+		},
+		{
+			"Name": "PowerSuit",
+			"SemVersion": "^0.6.0",
+			"Enabled": true
 		}
 	]
 }
