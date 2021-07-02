@@ -25,6 +25,48 @@
 			"Name": "PowerSuit",
 			"SemVersion": "^0.6.0",
 			"Enabled": true
+		},
+		{
+			"Name": "ArmorModules__Modpack_All",
+			"SemVersion": ">=0.0.1",
+			"Enabled": false,
+			"bIsOptional": true
+		},
+		{
+			"Name": "ArmorModules_PowerGeneration",
+			"SemVersion": ">=0.0.1",
+			"Enabled": false,
+			"bIsOptional": true
+		},
+		{
+			"Name": "ArmorModules_Defense",
+			"SemVersion": ">=0.0.1",
+			"Enabled": false,
+			"bIsOptional": true
+		},
+		{
+			"Name": "ArmorModules_Flight",
+			"SemVersion": ">=0.0.1",
+			"Enabled": false,
+			"bIsOptional": true
+		},
+		{
+			"Name": "ArmorModules_Mobility",
+			"SemVersion": ">=0.0.1",
+			"Enabled": false,
+			"bIsOptional": true
+		},
+		{
+			"Name": "ArmorModules_SuitRegulation",
+			"SemVersion": ">=0.0.1",
+			"Enabled": false,
+			"bIsOptional": true
+		},
+		{
+			"Name": "ArmorModules_Special",
+			"SemVersion": ">=0.0.1",
+			"Enabled": false,
+			"bIsOptional": true
 		}
 	]
 }
