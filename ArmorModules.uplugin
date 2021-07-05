@@ -27,6 +27,11 @@
 			"Enabled": true
 		},
 		{
+			"Name": "MAMTips",
+			"SemVersion": ">=0.0.1",
+			"Enabled": true
+		},
+		{
 			"Name": "ArmorModules__Modpack_All",
 			"SemVersion": ">=0.0.1",
 			"Enabled": false,
