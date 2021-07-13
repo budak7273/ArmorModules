@@ -40,7 +40,9 @@ I suggest that you install a cheat mod of sorts (I personally use Item Spawner (
 - NogsPowerSuit
 - PowerSuit Modules
 - MAM Enhancer
+
 ...that you have installed. If you don't do this, SMR will try and replace the new version with the old version, which would not be good. If you don't do this, you will almost certainly crash on launch.
+
 2. Download the zip I have linked below via the Nogs' Mods Discord (if you haven't joined yet, you can join [here](http://discord.gg/zqp6U7Y7Nu), and follow the directions here to install them:
 - [Install Directions](https://docs.ficsit.app/satisfactory-modding/latest/ManualInstallDirections.html#_installing_your_mod_of_choice)
 - [Zip with base mod, all sub-mods, required dependencies, and a bonus updated copy of NogsPowerSuit](https://cdn.discordapp.com/attachments/847973842525356113/864021236623605790/ArmorModules_EarlyRelease3.zip)
