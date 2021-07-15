@@ -174,12 +174,11 @@ Keep in mind that these new modules are spread across the various sub-mods.
 
 - ADA Messages are temporarily out for this version. Now that every module is its own schematic, there is no good time to award the old ADA messages. I haven't had the time to write one for every module yet, but I will eventually.
 - **Weak Air Dampening** and **Strong Air Dampening** modules are gone for good and have been replaced by the **Configurable Dampening Module**.
-- The **Vertical Thruster Module** has been replaced with a general flight speed module. The Hoverpack flight logic makes creating vertical-only flight speed difficult. It might return again in the future.
 - Probably a couple more things I forgot that I removed. If something seems to be missing, ask me about it on Discord.
 
 ### Assorted Changes and Bugfixes
 
-- Fun main menu tweak! The Pioneer got an upgrade.
+- Fun main menu tweak! The Pioneer got a big upgrade.
 - Mod icon now shows in the in-game mods list. Long overdue. Glad that SML3 finally fixed the problem that was causing this.
 - Suits no longer consume fuel items in certain multiples of items - it's always one at a time.
 - Jetpack and Hover Jetpack module now require you to have fuel to operate, whereas previously they could operate on just Power at an increased cost. You can turn this off in the config.
@@ -194,6 +193,7 @@ Keep in mind that these new modules are spread across the various sub-mods.
 The following things will probably be changing in more updates coming Soon™:
 
 - Crafting and unlocking costs will likely be further re-balanced. I think they might be a bit too expensive right now. I will be using [ContentInfo](https://ficsit.app/mod/4u8Z4c4bCAS5PN) to help me balance the recipes. Check it out!
+- Nog and I plan to make the Suit capable of connecting to your base's grid like the Hover Pack does. There are a couple debilitating bugs with this right now, which is why we have it disabled for now.
 - Module Power and Fuel stats will be re-balanced. I know I won't get this right on the first try.
 - The new Suit Fuel-burning Generators may get different logic to decide when they turn on. Check out the config if you want to modify this some yourself.
 - Somerslink Regulators may be moved earlier or later in the game, or an alternative mod may be released to make them easier to craft/access.
