@@ -1,3 +1,14 @@
+Early Release 4
+
+- Real icons for all sub-mods
+- Hazmat now correctly detects radiation after crafting with radioactive items or quickly exiting a radioactive zone
+- Crude Radiation plating fixed
+- Working night vision module
+- Working ConfigDampening module
+- Module price tweaks and tree updates
+
+============================================
+
 Early Release 3
 
 The below changelog has been _mostly_ updated to reflect the changes in this update as well, so if you want more detailed info, read on.
@@ -72,6 +83,11 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
 
 ### New Core Features
 
+- **Sub Mod Division**
+	- PowerSuit Modules now consists of multiple smaller sub-mods as opposed to one monolithic mod.
+	- Pick and choose the sub-mods you want to play with, but I suggest using them all for the best experience.
+	- More sub-mods will be released in the future, potentially with modules that offer content for your other favorite mods
+	- **All sub-mods are linked from the top of the mod page (click the images)**
 - **MAM Trees!**
     - That's right, it's finally here. The feature I have wanted since the very start of the mod!
     - PowerSuit Modules now depends on the recently released [**MAM Enhancer**](https://ficsit.app/mod/EPUmESEWaBCk4n) mod
@@ -80,6 +96,8 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
         - Hover over the Module the node unlocks to see its description via tooltips
         - View the tooltips of the ingredients required to unlock the MAM node
     - All crafting components and modules are now unlocked via MAM trees. These trees become visible once you have obtained a set of Blade Runners.
+	- All tree nodes are visible once the tree is unlocked. I might change this in the future, but we'll see.
+	- For developers: All of my MAM tree nodes are automatically generated and populated from item recipes. Let me know if you want info on how to do this yourself.
     - After you research modules, you can craft them at the new...
 - **Fabrication Station!** (Module Crafting Workbench)
     - ![TODO image here]() 
@@ -104,20 +122,23 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
 	- This is largely still WIP. I really need a better repertoire of sounds to use. Working on that.
 	- **Don't like the current sounds? Turn them off in the mod config.**
     - On Equip/Unequip sounds for some modules. More to come.
-    - Shield modules now make a sound when you take damage, your shield breaks, shield recharge starts, shield recharge finishes
+    - Shield modules now make a sound when you take damage, your shield breaks, shield recharge starts, shield recharge finishes.
     - Gas Mask and Hazmat Suit make sounds when they refill their filter. Gas Mask plays sound when entering and exiting gas zones.
     - Flight sounds aren't ready yet, unfortunately.
 	- As stated earlier, new ADA messages are still in the works.
     - Rare easter egg sound. Don't die looking for it.
 - **Overlay** and **Inventory Widgets!**
-    - Ever wondering how much of that Filter is left in your shiny new Gas Mask module? Well, wonder no more, because it draws it on your HUD right above the suit UI!
+    - Ever wondering how much of that Filter is left in your shiny new filter-consuming Gas Mask module? Well, wonder no more, because it draws it on your HUD right above the suit UI! A couple of widgets support this, and more are on their way.
     - ![OMW]()
-- (PowerSuit feature) **Install modules directly from the inventory!**
-	- By the power of Nog, the Suit has gotten a massive UI upgrade. You can install Modules directly from the main inventory! You can still open the suit HUD like before, but not when your main inventory is open.
-	- ![New suit main inventory]()
 - **Smart Tooltips!**
     - Display how much Fuel is in a suit's buffer, what modules are installed in a suit without equipping it, and how much of an item is in a module's buffer (ex Gas Mask). This will be getting even better later on.
 	- ![Tooltip Screenshot]()
+- (PowerSuit feature) **Install modules directly from the inventory!**
+	- By the power of Nog, the Suit has gotten a massive UI upgrade.
+	- You can install Modules directly from the main inventory! You can still open the suit HUD like before, but not when your main inventory is open.
+	- ![New suit main inventory]()
+- (PowerSuit feature) **Updated Suit UI**
+	- 
 - **More that I probably forgot to put here!**
 
 ### New Modules
@@ -140,6 +161,8 @@ Keep in mind that these new modules are spread across the various sub-mods.
     - Hook on to your power lines with the Zapline, and instead of moving, refill your Suit Power and Suit Fuel at an impressive rate. Great for refueling your flight modules without landing. Eventually this will an the early-game equivalent of the Hover Pack 'power grid' connection, actually consuming power from the power line you're hooked on to.
 - **Smart Belt Immunity Module**
     - That's right, it's finally here! Walk around on belts as much as you'd like, unless you're holding sprint. If you're holding sprint, _belts will only ever assist your movement, never fight it_. A feature I've wanted in Factorio for a long time is finally here in Satisfactory!
+- **Configurable Dampening Module**
+	- Control how quickly your Hoverpack brings you to a stop, or disable it entirely.
 - **Spatial Tear Generator**
     - Keep your items on death, or teleport back to the HUB at will.
     - Drains charge from a Synchronized Somerslink Regulator to do so, an new expensive but renewable resource, with multiple options for obtaining and more coming soon.
@@ -147,7 +170,6 @@ Keep in mind that these new modules are spread across the various sub-mods.
     - Press a keybind (TODO what keybind?) to have drastically extended reach distance. Interact with buildings at a significantly increased range.
 - **Mobile Workstations**
 	- Craft Bench, Equipment Workshop, Fabrication Station, MAM, and (WIP) HUB are all accessible on-the-go!
-
 - **Ones I probably forgot to put here!**
 
 ### Changed Modules + Recipes
@@ -162,7 +184,7 @@ Keep in mind that these new modules are spread across the various sub-mods.
 - **Suits Mk1-3** have been given extra inventory slots and Mk3 has been made cheaper, notably no longer requiring Turbo Motors (hmm, maybe a new highest-tier suit will be introduced in the future?)
 - **Shield modules** now consume a small amount of power at all times to maintain the shield and additional power when recharging.
 - **Gas Mask** and **Hazmat Suit** modules now require much fewer of their respective filters to craft since they now actually use them for operation. They display their filter storage levels in the HUD as well as their item tooltips. The Hazmat Suit will also inform you of local radiation intensity.
-- The **Night Vision Module** should now work in multiplayer and allows you to control the brightness levels from your inventory.
+- The **Night Vision Module** should now work in multiplayer and allows you to control the brightness levels from your inventory, as well as enable it during the day time for caves and dark areas.
 - **Hypertube Acceleration module** now only increases max speed by 25m/s per module, consumes power when actively boosting, and consumes additional power proportional to how fast you are traveling.
 - **Health Regenerator modules** now only consume power when actually healing you.
 - **Fall Dampening module** now only consumes power when falling as opposed to at all times. It also has an icon.
@@ -178,6 +200,7 @@ Keep in mind that these new modules are spread across the various sub-mods.
 
 ### Assorted Changes and Bugfixes
 
+- _Due to the nature of re-writing the whole mod, any bugs from previous versions are likely no longer here by "accident" and have since been replaced with new ones_
 - Fun main menu tweak! The Pioneer got a big upgrade.
 - Mod icon now shows in the in-game mods list. Long overdue. Glad that SML3 finally fixed the problem that was causing this.
 - Suits no longer consume fuel items in certain multiples of items - it's always one at a time.
