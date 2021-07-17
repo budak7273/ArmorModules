@@ -71,6 +71,10 @@ Join the [Nogs Mods discord](http://discord.gg/zqp6U7Y7Nu) to report bugs and su
 
 The base PowerSuit mod has vastly changed since SML2, and I've finally got (mostly) everything updated, along with a boatload of new features. The Suit now uses an 'Attachments' system, allowing Modules to execute custom Blueprint (or C++) logic to interface with the suit. This is great, because it means that modules can do a ton of fun stuff that they couldn't before. But it was also a *ton* of work to get everything brought over, as I had to rewrite a significant bit of logic that used to be built into the suit.
 
+![Sub mods](https://i.imgur.com/8PRggMy.png)
+
+_Viewing installed sub-mods in the MAM_
+
 Since everyone's I have also taken the opportunity to **split the PowerSuit Modules mod into separate sub-mods.** This makes it easy for players to pick and choose what modules they want to play with. It also makes it easy for other mod developers to extend or require just some of my sub-mods, and hopefully makes updating them less of a hassle, too. As a consequence of everything changing up and moving around in this update, unfortunately **items from your Update 3 saves are lost.** I think this is an acceptable sacrifice because everything is changing price and balance anyways. The mod is quite different from what it used to be in Update 3.
 
 - The Mk1-Mk3 suits that used to be in the PowerSuit mod itself are now added by this mod instead.
@@ -89,6 +93,7 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
 	- More sub-mods will be released in the future, potentially with modules that offer content for your other favorite mods
 	- **All sub-mods are linked from the top of the mod page (click the images)**
 - **MAM Trees!**
+	- ![MAM tree](https://i.imgur.com/XTTiq6H.png)
     - That's right, it's finally here. The feature I have wanted since the very start of the mod!
     - PowerSuit Modules now depends on the recently released [**MAM Enhancer**](https://ficsit.app/mod/EPUmESEWaBCk4n) mod
         - This mod allows you to view extra info about what you're unlocking in the MAM.
@@ -100,22 +105,24 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
 	- For developers: All of my MAM tree nodes are automatically generated and populated from item recipes. Let me know if you want info on how to do this yourself.
     - After you research modules, you can craft them at the new...
 - **Fabrication Station!** (Module Crafting Workbench)
-    - ![TODO image here]() 
+    - ![Fabrication Station](https://i.imgur.com/0ysqT57.jpeg)
     - It might look a little familiar to some of you. After all, R&D does not waste.
     - In order to keep the clutter out of the base game equipment workshop and craft bench, all module and suit crafting recipes can be found here instead.
 - **Module Item Consumption!**
     - The Gas Mask and Hazmat Suit modules now require filters and iodine filters respectively to run. It will consume them from your inventory at the same rate as the base game gas mask/hazmat suit.
     - You can see what item the module (or suit - you can see it's internal fuel refill buffer now) has consumed, and how much of said item is left, with a fancy new SML tooltip handler. Oooo, snazzy.
     - ![Tooltip](https://i.imgur.com/ozyLlGv.png)
-    - You can also view storage levels from the HUD element they will add to your display.
-    - ![TODO Image here]() 
+    - Ever wondering how much of that Filter is left in your shiny new filter-consuming Gas Mask module, and you don't want to check the tooltip? Well, wonder no more, because it draws it on your HUD right above the suit UI! A couple of widgets support this, and more are on their way.
+    - ![Suit HUD OMWs](https://i.imgur.com/VB2OdXa.png)
     - Don't like modules consuming items? You can turn it off in the...
-![](https://i.imgur.com/VImfoyE.png)
-- **Configuration!**
-    - You can now configure the mod from the main menu with the SML3 Config system!
-    - You can enable or disable debug logging. Turning this stuff on can be helpful for reporting issues with the mod.
+![Configuration screen](https://i.imgur.com/K3Gl3rA.png)
+- **Configuration** and **Key Bindings!**
+    - You can now configure the mod from the main menu with the SML3 Config system! (More available than shown in the screenshot)
+	- You can configure keybinds from the base game key bindings screen. If you need to set purposely conflicting keys, you can edit your game input files in a text editor to force this, since the base-game widget does not support doing so.
+    - You can optionally enable debug logging. Turning this stuff on can be helpful for reporting issues with the mod.
     - You can control some of the balance settings for the mod. For example, you can make the Gas Mask module not require Filters to operate.
     - You can also make it so that Jetpacks no longer require fuel to operate, if that's your cup of tea.
+	- Remember that the PowerSuit mod also offers config options. Furthermore, some of the sub-mods offer their own config options.
     - In the configs, you can also control the volume of the new...
 - **Sounds!**
     - Many of modules make sounds now depending on what you're doing with them.
@@ -128,17 +135,14 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
 	- As stated earlier, new ADA messages are still in the works.
     - Rare easter egg sound. Don't die looking for it.
 - **Overlay** and **Inventory Widgets!**
-    - Ever wondering how much of that Filter is left in your shiny new filter-consuming Gas Mask module? Well, wonder no more, because it draws it on your HUD right above the suit UI! A couple of widgets support this, and more are on their way.
-    - ![OMW]()
-- **Smart Tooltips!**
-    - Display how much Fuel is in a suit's buffer, what modules are installed in a suit without equipping it, and how much of an item is in a module's buffer (ex Gas Mask). This will be getting even better later on.
-	- ![Tooltip Screenshot]()
+    - Configure the properties of modules that support it directly from your inventory!
+    - ![OMW](https://i.imgur.com/Un9e2qx.png)
 - (PowerSuit feature) **Install modules directly from the inventory!**
 	- By the power of Nog, the Suit has gotten a massive UI upgrade.
 	- You can install Modules directly from the main inventory! You can still open the suit HUD like before, but not when your main inventory is open.
-	- ![New suit main inventory]()
+	- ![New suit main inventory](https://i.imgur.com/O02pbZm.png)
 - (PowerSuit feature) **Updated Suit UI**
-	- 
+	- The suit UI has been re-organized 
 - **More that I probably forgot to put here!**
 
 ### New Modules
@@ -167,9 +171,9 @@ Keep in mind that these new modules are spread across the various sub-mods.
     - Keep your items on death, or teleport back to the HUB at will.
     - Drains charge from a Synchronized Somerslink Regulator to do so, an new expensive but renewable resource, with multiple options for obtaining and more coming soon.
 - **Extendo Arm Module**
-    - Press a keybind (TODO what keybind?) to have drastically extended reach distance. Interact with buildings at a significantly increased range.
+    - Press a keybind to have drastically extended reach distance. Interact with buildings at a significantly increased range.
 - **Mobile Workstations**
-	- Craft Bench, Equipment Workshop, Fabrication Station, MAM, and (WIP) HUB are all accessible on-the-go!
+	- Craft Bench, Equipment Workshop, Fabrication Station, and MAM are all accessible on-the-go!
 - **Ones I probably forgot to put here!**
 
 ### Changed Modules + Recipes
@@ -189,7 +193,7 @@ Keep in mind that these new modules are spread across the various sub-mods.
 - **Health Regenerator modules** now only consume power when actually healing you.
 - **Fall Dampening module** now only consumes power when falling as opposed to at all times. It also has an icon.
 - **Fuel Pumps** no longer have an out-of-fuel power penalty and now increases transfer speed by 25% instead of 50%. Note that 'transfer speed' is overall quite different now due to the new refueling handling, so the old and new speeds are hard to compare.
-- The the Suit Refueling system you are familiar with from the Update 3 version of the mod is back (it's part of this mod now and not PowerSuit) and you can see the old fuel information in your suit tooltip for now: ![](https://i.imgur.com/vLT04PE.png)
+- The the Suit Refueling system you are familiar with from the Update 3 version of the mod is back (it's part of this mod now and not PowerSuit) and you can see the refuel information in your suit tooltip for now: ![Fuel tooltip](https://i.imgur.com/vLT04PE.png)
 - **More that I probably forgot to put here!**
 
 ### Removed/Still WIP Modules and Features
