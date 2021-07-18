@@ -353,6 +353,7 @@ You can configure a number of properties of the mod to your liking using the SML
 ## More Details
 
 You can view the item description of a module before you craft it to see what it does. You can do this in a variety of ways:
+
 1. Hover over it in the H.U.B. milestone it's a part of
 2. Check it out in the Item Codex (default 'x'). All modules should have the word 'module' in their name for easy search.
 3. Hover over the 'output item' icon in the middle section of the Equipment Workbench GUI. It can be troublesome to get your cursor in the right position for this.
@@ -387,6 +388,8 @@ Find them [here](https://github.com/budak7273/ArmorModules/tree/master/PatchNote
 <details>
 <summary>Click to Expand</summary>
 
+- Create ADA messages for the new MAM Tree milestones
+  - My old ones for the HUB no longer fit because of how the categories are broken down now
 - Finish modules marked as WIP
   - Balance suggestions greatly appreciated
 - Give everything Resource Sink point values

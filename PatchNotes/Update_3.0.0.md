@@ -88,12 +88,12 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
 ### New Core Features
 
 - **Sub Mod Division**
-	- PowerSuit Modules now consists of multiple smaller sub-mods as opposed to one monolithic mod.
-	- Pick and choose the sub-mods you want to play with, but I suggest using them all for the best experience.
-	- More sub-mods will be released in the future, potentially with modules that offer content for your other favorite mods
-	- **All sub-mods are linked from the top of the mod page (click the images)**
+    - PowerSuit Modules now consists of multiple smaller sub-mods as opposed to one monolithic mod.
+    - Pick and choose the sub-mods you want to play with, but I suggest using them all for the best experience.
+    - More sub-mods will be released in the future, potentially with modules that offer content for your other favorite mods
+    - **All sub-mods are linked from the top of the mod page (click the images)**
 - **MAM Trees!**
-	- ![MAM tree](https://i.imgur.com/XTTiq6H.png)
+    - ![MAM tree](https://i.imgur.com/XTTiq6H.png)
     - That's right, it's finally here. The feature I have wanted since the very start of the mod!
     - PowerSuit Modules now depends on the recently released [**MAM Enhancer**](https://ficsit.app/mod/EPUmESEWaBCk4n) mod
         - This mod allows you to view extra info about what you're unlocking in the MAM.
@@ -101,8 +101,8 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
         - Hover over the Module the node unlocks to see its description via tooltips
         - View the tooltips of the ingredients required to unlock the MAM node
     - All crafting components and modules are now unlocked via MAM trees. These trees become visible once you have unlocked the T2 milestone 'PowerSuit Fabrication.'
-	- All tree nodes are visible once the tree is unlocked. I might change this in the future, but we'll see.
-	- For developers: All of my MAM tree nodes are automatically generated and populated from item recipes. Let me know if you want info on how to do this yourself.
+    - All tree nodes are visible once the tree is unlocked. I might change this in the future, but we'll see.
+    - For developers: All of my MAM tree nodes are automatically generated and populated from item recipes. Let me know if you want info on how to do this yourself.
     - After you research modules, you can craft them at the new...
 - **Fabrication Station!** (Module Crafting Workbench)
     - ![Fabrication Station](https://i.imgur.com/0ysqT57.jpeg)
@@ -118,31 +118,31 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
 ![Configuration screen](https://i.imgur.com/K3Gl3rA.png)
 - **Configuration** and **Key Bindings!**
     - You can now configure the mod from the main menu with the SML3 Config system! (More available than shown in the screenshot)
-	- You can configure keybinds from the base game key bindings screen. If you need to set purposely conflicting keys, you can edit your game input files in a text editor to force this, since the base-game widget does not support doing so.
+    - You can configure keybinds from the base game key bindings screen. If you need to set purposely conflicting keys, you can edit your game input files in a text editor to force this, since the base-game widget does not support doing so.
     - You can optionally enable debug logging. Turning this stuff on can be helpful for reporting issues with the mod.
     - You can control some of the balance settings for the mod. For example, you can make the Gas Mask module not require Filters to operate.
     - You can also make it so that Jetpacks no longer require fuel to operate, if that's your cup of tea.
-	- Remember that the PowerSuit mod also offers config options. Furthermore, some of the sub-mods offer their own config options.
+    - Remember that the PowerSuit mod also offers config options. Furthermore, some of the sub-mods offer their own config options.
     - In the configs, you can also control the volume of the new...
 - **Sounds!**
     - Many of modules make sounds now depending on what you're doing with them.
-	- This is largely still WIP. I really need a better repertoire of sounds to use. Working on that.
-	- **Don't like the current sounds? Turn them off in the mod config.**
+    - This is largely still WIP. I really need a better repertoire of sounds to use. Working on that.
+    - **Don't like the current sounds? Turn them off in the mod config.**
     - On Equip/Unequip sounds for some modules. More to come.
     - Shield modules now make a sound when you take damage, your shield breaks, shield recharge starts, shield recharge finishes.
     - Gas Mask and Hazmat Suit make sounds when they refill their filter. Gas Mask plays sound when entering and exiting gas zones.
     - Flight sounds aren't ready yet, unfortunately.
-	- As stated earlier, new ADA messages are still in the works.
+    - As stated earlier, new ADA messages are still in the works.
     - Rare easter egg sound. Don't die looking for it.
 - **Overlay** and **Inventory Widgets!**
     - Configure the properties of modules that support it directly from your inventory!
     - ![OMW](https://i.imgur.com/Un9e2qx.png)
 - (PowerSuit feature) **Install modules directly from the inventory!**
-	- By the power of Nog, the Suit has gotten a massive UI upgrade.
-	- You can install Modules directly from the main inventory! You can still open the suit HUD like before, but not when your main inventory is open.
-	- ![New suit main inventory](https://i.imgur.com/O02pbZm.png)
+    - By the power of Nog, the Suit has gotten a massive UI upgrade.
+    - You can install Modules directly from the main inventory! You can still open the suit HUD like before, but not when your main inventory is open.
+    - ![New suit main inventory](https://i.imgur.com/O02pbZm.png)
 - (PowerSuit feature) **Updated Suit UI**
-	- The suit UI has been re-organized 
+    - The suit UI has been re-organized 
 - **More that I probably forgot to put here!**
 
 ### New Modules
@@ -155,10 +155,10 @@ Keep in mind that these new modules are spread across the various sub-mods.
         - The vanilla 'power grid' connection feature is currently disabled, but will be coming soon.
 - **Fuel-Burning Generators**
     - **Bio Burner**, **Fuel Burning Generator**, **Miniature Nuclear Reactor Module**
-	- The mod has been re-balanced to encourage active power generators instead of passive ones.
+    - The mod has been re-balanced to encourage active power generators instead of passive ones.
     - Burns Suit Fuel to generate power for your suit at a significant rate.
     - Also allows your Suit access to additional fuel options
-	- The **PowerSuit Nuclear Fuel Cell** item is now available for your late-game fueling options.
+    - The **PowerSuit Nuclear Fuel Cell** item is now available for your late-game fueling options.
 - **Zapline Acceleration Coils**
     - Speed around on your power lines with a stacking speed boost! Helps the Zapline stay more relevant later in the game and gives a nice boost early on.
 - **Zapline Power Tap**
@@ -166,14 +166,14 @@ Keep in mind that these new modules are spread across the various sub-mods.
 - **Smart Belt Immunity Module**
     - That's right, it's finally here! Walk around on belts as much as you'd like, unless you're holding sprint. If you're holding sprint, _belts will only ever assist your movement, never fight it_. A feature I've wanted in Factorio for a long time is finally here in Satisfactory!
 - **Configurable Dampening Module**
-	- Control how quickly your Hoverpack brings you to a stop, or disable it entirely.
+    - Control how quickly your Hoverpack brings you to a stop, or disable it entirely.
 - **Spatial Tear Generator**
     - Keep your items on death, or teleport back to the HUB at will.
     - Drains charge from a Synchronized Somerslink Regulator to do so, an new expensive but renewable resource, with multiple options for obtaining and more coming soon.
 - **Extendo Arm Module**
     - Press a keybind to have drastically extended reach distance. Interact with buildings at a significantly increased range.
 - **Mobile Workstations**
-	- Craft Bench, Equipment Workshop, Fabrication Station, and MAM are all accessible on-the-go!
+    - Craft Bench, Equipment Workshop, Fabrication Station, and MAM are all accessible on-the-go!
 - **Ones I probably forgot to put here!**
 
 ### Changed Modules + Recipes
