@@ -4,8 +4,10 @@
 
 ![Huzzah - 2.0!](https://i.imgur.com/F6jkDDU.png)
 
-![Multiplayer compatible!](https://raw.githubusercontent.com/deantendo/community/master/com_mp_yes.png)
-![EA/EXP compatible!](https://raw.githubusercontent.com/deantendo/community/master/ea_yes_exp_yes.png)
+![Early Access version support: full](https://i.imgur.com/1TXo5em.png)
+![Experimental version support: full](https://i.imgur.com/kvJ4ZoR.png)
+![Singleplayer compatibility: full](https://i.imgur.com/S8roc0Y.png)
+![Multiplayer compatibility: partial](https://i.imgur.com/GJh3Lcb.png)
 
 ## [Patch Notes - click me!](https://github.com/budak7273/ArmorModules/tree/master/PatchNotes)
 
