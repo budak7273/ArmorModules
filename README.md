@@ -9,19 +9,26 @@
 ![Singleplayer compatibility: full](https://i.imgur.com/S8roc0Y.png)
 ![Multiplayer compatibility: partial](https://i.imgur.com/GJh3Lcb.png)
 
+## Check out the PowerSuit Modules suite of mods!
+
+[![Modpack](https://i.imgur.com/fr5kNHn.png)](https://ficsit.app/mod/CEjJnBXkLEiszx)
+[![BaseMod](https://i.imgur.com/rYq6phE.png)](https://ficsit.app/mod/BezrE8aswqXLRX)
+[![SuitRegulation](https://i.imgur.com/KutlEGt.png)](https://ficsit.app/mod/2bNso1rZPJqzub)
+[![PowerGeneration](https://i.imgur.com/qPR2fwd.png)](https://ficsit.app/mod/FJxNuUm6aAEmzV)
+[![Flight](https://i.imgur.com/JBxUd3K.png)](https://ficsit.app/mod/9tusv5NnasQ8tT)
+[![Mobility](https://i.imgur.com/6rcVvxA.png)](https://ficsit.app/mod/8KhUetkyuNi29h)
+[![PioneerProtection](https://i.imgur.com/kDzBR9p.png)](https://ficsit.app/mod/CpKSGnfYKMuD5u)
+[![Special](https://i.imgur.com/2cMXEcg.png)](https://ficsit.app/mod/67PBbhK1SbQEaF)
+
 ## [Patch Notes - click me!](https://github.com/budak7273/ArmorModules/tree/master/PatchNotes)
 
 <details>
 <summary> Multiplayer Compatibility Notes </summary>
 
-Most of the multiplayer compatibility logic happens in the base PowerSuit mod. Please report any issues to me (Robb#6731) or Nog.
+Please report any issues to me (Robb#6731) or Nog on the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu).
 
-- Clients may have to re-equip the suit upon logic to see the HUD. It should still function even without re-equipping, though.
-- Clients can't see the player's material change when someone equips a suit. Hosts can see it just fine.
-- The 'Shield Broken' icon/timer doesn't display on clients' HUDs, but it still functions as it should.
-- The 'currently used fuel' icon will sometimes not match up for clients, but the fuel item usage and consumption still works as it should.
-- If a client logs out with radioactive items in their inventory or in a radioactive area, their 'ghost' player will die to radiation while they are offline.
-- The Night Vision module currently only works for the host player, and will stack the screen effects on the host if clients use it as well. I currently lack the Blueprint scripting knowledge to resolve this.
+- Clients may have to re-equip the suit upon login for some suit functions to work.
+- (Unconfirmed in Update 4) If a client logs out with radioactive items in their inventory or in a radioactive area, their 'ghost' player will die to radiation while they are offline.
 
 </details>
 
@@ -30,64 +37,81 @@ Most of the multiplayer compatibility logic happens in the base PowerSuit mod. P
 
 Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub Issues page](https://github.com/budak7273/ArmorModules/issues/).
 
-**Major**
-- You may have had issues in the past with the jetpack actually thrusting you downwards at times or simply not working well at all. This is an issue with the lag compensation code, but it should have been fixed in recent updates. Now, the lower your FPS is, you will have additional upwards thrust to compensate. This is not a perfect fix, but it should mean that you can always fly no matter your FPS. Nog and I are trying out possible solutions still - please let us know if you still can't fly upwards.
-- People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
-- Suits can (rarely) randomly lose their contents when you die. We have been able to reproduce this, but it's very inconsistent, and there doesn't seem to be any real cause for why it happens. We suspect it is a base game issue. For now, just reload the last save or cheat the modules back in if this happens to you.
+### Major
 
-**Minor**
+- People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
+
+### Minor
+
+- Modules which display a warning message in the chat upon equip, or those tagged as WIP, may not be fully functioning yet.
 - Suits do not save their last used fuel, stored energy levels, or fuel levels in the save file, so when you log in, your suit may claim to be running on Fuel even if you don't have any. This will update the next time your suit refills. Enjoy the free fuel!
-- The way that module power cost multipliers (ex. +10% power consumption) applies is not functioning entirely as intended. This does not make modules unusable, but makes their power costs not behave as expected. I plan to resolve this in a future update.
 
 </details>
 
-This mod adds a whole bunch (**45+**) of armor modules for use in your **multiplayer-compatible**
- [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2). It also introduces a new Biofuel-powered suit (on top of PowerSuit's Mk1-3 suits) accessible as soon as you get Blade Runners.
+This mod (with all [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx)) adds a whole bunch (**57+**) of armor modules for use in your **multiplayer-compatible**
+ [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2). It introduces 4 different suits in which modules can be installed, the first of which is accessible as soon as you get Blade Runners.
 
-Although you can use this mod in tandem with the [NogsDefaultModules](https://ficsit.app/mod/57oAxg12P4iGdL) mod, they are not balanced for each other in the slightest. I would not recommend it.
+Although you can use this mod in tandem with the [NogsPowerSuit](https://ficsit.app/mod/FJJALSZBNhZ37d) mod, they are not balanced for each other in the slightest, and the Codename NGF modules is basically a cheat module for developer testing. I would not recommend it.
 
-Please report leave suggestions and report issues either in the [Modding Discord](https://bit.ly/SatisfactoryModding) or [as a Github issue](https://github.com/budak7273/ArmorModules/issues/new/choose).
+Please report leave suggestions and report issues either in the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu) or [as a Github issue](https://github.com/budak7273/ArmorModules/issues/new/choose).
 
 ## Feature Overview
 
-* Customize the function of your PowerSuit to your liking.
-There is no 'perfect' armor setup - you get to decide.
-* Work with R&D to develop 45+ modules to install across 11 new milestones to unlock - **with ADA voicelines**!
-* Combine the effects of the
-![](https://i.imgur.com/5KW7uYY.png) Jetpack,
-![](https://i.imgur.com/Pi65d74.png) Gas Mask,
-![](https://i.imgur.com/BMOVzZp.png) Blade Runners,
-![](https://i.imgur.com/ENzGwEc.png) Hazmat Suit,
+- Customize the function of your PowerSuit to your liking.
+There is no 'perfect' armor setup - you get to decide what is important to you.
+- Work with R&D to develop 57+ modules to install across 7 new reseach trees! (_ADA voicelines not updated yet, sorry_)
+- Combine the effects of the
+![Jetpack](https://i.imgur.com/tMw8e92.png) Jetpack /
+![HoverPack](https://i.imgur.com/9ESxs4c.png) Hover Pack,
+![GasMask](https://i.imgur.com/Pi65d74.png) Gas Mask,
+![BladeRunners](https://i.imgur.com/BMOVzZp.png) Blade Runners,
+![Hazmat](https://i.imgur.com/ENzGwEc.png) Hazmat Suit,
 and more into one convenient, cost-balanced, customizable, and multiplayer-compatible package!
-* Manage the power usage of your suit with a variety of power generation and storage options.
-* Get access to limited early game flight with the ![](https://i.imgur.com/r9Oo8XV.png) Biofuel Suit and ![](https://i.imgur.com/LUbGHnG.png) Thrust Boots Module as soon as you get Blade Runners and Steel.
-* Harness ![](https://i.imgur.com/gOgUQvu.png) nuclear power before T7 to power your suit, albeit with some risk to the user.
-* Power-slide like a champ with with the rocket-assisted ![](https://i.imgur.com/45XVK8q.png) S.L.I.D.E Module.
-* Further augment your
-![](https://i.imgur.com/vAlwH9e.png) ground and 
-![](https://i.imgur.com/13GW9xQ.png) air movement speed,
+- Manage the power usage of your suit with a variety of power generation and storage options.
+- Get access to limited early game flight with the
+![BioSuit](https://i.imgur.com/r9Oo8XV.png) Biofuel Suit and
+![ThrustBoots](https://i.imgur.com/LUbGHnG.png)
+Thrust Boots Module as soon as you get Blade Runners and Steel.
+- Harness
+![DirtyReactor](https://i.imgur.com/gOgUQvu.png)
+nuclear power before T7 to power your suit, albeit with some risk to the user.
+- Power-slide like a champ with with the rocket-assisted
+![SLIDE](https://i.imgur.com/45XVK8q.png) S.L.I.D.E Module.
+- Further augment your
+![GreenLegs](https://i.imgur.com/vAlwH9e.png) ground and
+![AirSpeed](https://i.imgur.com/13GW9xQ.png) air movement speed,
 among other abilities, with additional modules.
-* Protect yourself from enemies (and your fellow pioneers) with a variety of 
-![](https://i.imgur.com/ZLayQ7U.png) protective modules and
-![](https://i.imgur.com/rgnwkUy.png) shields.
-* See clearly at night with the
-![](https://i.imgur.com/erv7HNj.png) Night Vision Module.
-* And much, much more!
+- Protect yourself from enemies (and your fellow pioneers) with a variety of
+![BlastPlating](https://i.imgur.com/ZLayQ7U.png) protective modules and
+![Shield](https://i.imgur.com/rgnwkUy.png) shields.
+- See clearly at night with the
+![NightVision](https://i.imgur.com/erv7HNj.png) Night Vision Module.
+- Access craft benches on the go with the
+![MobileWorkbench](https://i.imgur.com/oODf4Sp.png) Mobile Workstation Modules.
+- ![NeverDie](https://i.imgur.com/66eeeR4.png)
+Teleport to the HUB from anywhere, at a significant cost.
+- And much, much more!
 
 ## Check out the mod in action!
-#### Thank you Random Gamer and TotalXclipse!
+
+The mod has updated *significantly* since these videos were released, but they're still worth a watch.
+
+<details>
+<summary> Outdated Videos </summary>
+
+**Thank you Random Gamer and TotalXclipse!**
+
+[![TotalXclipse Video](https://i.imgur.com/RGnJQRU.png)](https://www.youtube.com/watch?v=4JMTp2kC-oY)
+
 Here are some videos of Random Gamer exploring the mod in his singleplayer series.
 
 [![Newer Random Gamer Video](https://i.imgur.com/J8N04xw.png)](https://youtu.be/x12-zC7d61Y?t=140)
 
 [![Random Gamer Video](https://i.imgur.com/MXUp0tJ.png)](https://youtu.be/1Q7uDSOHZTo?t=588)
 
-
-The mod has updated *significantly* since these videos were released, but they're still definitely worth a watch.
-
-[![TotalXclipse Video](https://i.imgur.com/RGnJQRU.png)](https://www.youtube.com/watch?v=4JMTp2kC-oY)
-
 [![Random Gamer Video](https://i.imgur.com/WwqChWg.png)](https://www.youtube.com/watch?v=FRMOZ18eSc4)
+
+</details>
 
 # FAQ - please read if you have an issue!
 
