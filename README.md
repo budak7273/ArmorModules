@@ -39,12 +39,12 @@ Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub
 
 ### Major
 
-- People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
+- People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know. As of Update 4, this may no longer be a problem though.
+- Modules do not always apply their usage costs correctly if you have the Toggle Sprint option on. We're working on this, but it has been a lower priority
 
 ### Minor
 
 - Modules which display a warning message in the chat upon equip, or those tagged as WIP, may not be fully functioning yet.
-- Suits do not save their last used fuel, stored energy levels, or fuel levels in the save file, so when you log in, your suit may claim to be running on Fuel even if you don't have any. This will update the next time your suit refills. Enjoy the free fuel!
 
 </details>
 
@@ -89,19 +89,17 @@ among other abilities, with additional modules.
 - Access craft benches on the go with the
 ![MobileWorkbench](https://i.imgur.com/oODf4Sp.png) Mobile Workstation Modules.
 - ![NeverDie](https://i.imgur.com/66eeeR4.png)
-Teleport to the HUB from anywhere, at a significant cost.
+Teleport to the HUB (and automatically avoid your death, keeping your inventory!) from anywhere at a balanced cost that gets cheaper late game.
 - And much, much more!
 
 ## Check out the mod in action!
 
-The mod has updated *significantly* since these videos were released, but they're still worth a watch.
+The mod has changed *drastically* since these videos were released, but you may still find them valuable to watch.
 
 <details>
 <summary> Outdated Videos </summary>
 
 **Thank you Random Gamer and TotalXclipse!**
-
-[![TotalXclipse Video](https://i.imgur.com/RGnJQRU.png)](https://www.youtube.com/watch?v=4JMTp2kC-oY)
 
 Here are some videos of Random Gamer exploring the mod in his singleplayer series.
 
@@ -109,79 +107,145 @@ Here are some videos of Random Gamer exploring the mod in his singleplayer serie
 
 [![Random Gamer Video](https://i.imgur.com/MXUp0tJ.png)](https://youtu.be/1Q7uDSOHZTo?t=588)
 
+Even older videos:
+
+**TotalXclipse**
+
+[![TotalXclipse Video](https://i.imgur.com/RGnJQRU.png)](https://www.youtube.com/watch?v=4JMTp2kC-oY)
+
+**Random Gamer**
+
 [![Random Gamer Video](https://i.imgur.com/WwqChWg.png)](https://www.youtube.com/watch?v=FRMOZ18eSc4)
 
 </details>
 
-# FAQ - please read if you have an issue!
+## FAQ - please read if you have an issue!
 
 <details>
 <summary>Click to Expand</summary>
 
-- Can I rebind what keys the suit uses?
-    - At the moment, no. The next SML update will have special support for custom keybinds, and it sounds like Nog plans to add that feature then. More info [here](https://github.com/Nogg-aholic/PowerSuit/issues/4).
-- Why are the suit sounds so loud?
-    - Check out the config options for the [base PowerSuit mod](https://ficsit.app/mod/7J2LyFzTakqPQ5).
-- Why do I crash on launch?
-    - You need to install the [PowerSuit mod by Nog](https://ficsit.app/mod/7J2LyFzTakqPQ5) to use this mod. The launcher should have downloaded it for you automatically.
-- Why is everything so complicated?
-    - I wanted to provide as much information as possible in the module descriptions, which can make them seem a bit daunting. It's really quite simple at the core, though. Modules consume fuel and power, and sometimes speed you up or slow you down. You have to use other modules to offset power and fuel costs, or to speed you back up again. Please feel free to contact me with any suggestions or questions. 
+- How do I get started with the mod?
+  - Keep reading below the FAQ section.
+- Where do I craft Modules and Suits?
+  - You can craft them at the Fabrication Station, a new crafting station that is unlocked by the T2 milestone 'PowerSuit Fabrication'
 - None of the milestones are appearing in the H.U.B. !
-    - The milestones will not appear until you have unlocked at least one of the PowerSuit mod's equipment milestones which unlock the suit item, or this mod's Biofuel Power Suit.
-- Why does the green bar in my suit keep running out and my suit turning off?
-    - The green bar is your suit's power bar - you're running out of power. Consider adding modules that increase Capacity and Power Generation, or removing some modules. Note that jetpack modules will start drawing lots of power when you run out of Fuel, which can cause your suit to run out of power too.
+  - Only milestones for Suits appear in the H.U.B, as all Modules and crafting components are found in research trees in the MAM.
+- Why is the Suit not letting me install module _____?
+  - If the suit blocks you from installing a module, you likely have a conflicting module installed. Read the module's descriptions to find out why this might be the case. You can't install modules while the suit is rebooting, but you can remove them.
+- Can I rebind what keys the suit uses?
+  - Yes! With the power of the SML3 keybind system, it is now possible. You can find them on the base game Keybindings screen. If you want to add overlapping keybinds (which the game does not normally allow you to do) you edit your `GameUserSettings.ini` file, which can be found at `...\AppData\Local\FactoryGame\Saved\Config\WindowsNoEditor`
+- Why are the sounds so loud?
+  - You can configure the mod's volume levels (or disable sound outright) from the mod settings, accessible on the main menu Mods section.
+- Why do I crash on launch?
+  - This mod depends on other mods to be installed, and you are probably missing them. Use the Mod Manager to install, it will download them all for you automatically.
+- Why is everything so complicated?
+  - I wanted to provide as much information as possible in the module descriptions, which can make them seem a bit daunting. It's really quite simple at the core, though. Modules consume fuel and power, and sometimes speed you up or slow you down, or give you other benefits or abilities. You have to use other modules to offset power and fuel costs, or to speed you back up again. Please feel free to contact me with any suggestions or questions.
+- Why my suit keep saying ERR_SUIT_POWER_EXHAUSTED and turning off?
+  - You're running out of Suit power! Consider adding modules that increase Capacity and Power Generation, or removing some of your more power-hungry modules.
 - Module _____ isn't working!
-    - This mod can be broken by updates to the main PowerSuit mod, and I often miss things in my testing. Please check the **Known Bugs** and **Multiplayer Compatibility Notes** sections at the top of this page, as well as the [Github issues page](https://github.com/budak7273/ArmorModules/issues/), to see if it has already been reported. If not, please send a message in the `#help-using-mods` channel of the modding Discord mentioning me (Robb#6731) to let me know, or [post an issue on Github](https://github.com/budak7273/ArmorModules/issues/new/choose).
-- Why does my fuel meter read over 100%?
-    - Read the Suit HUD - Fuel Reserves section of this page.
+  - This mod is still actively in development. Please check the **Known Bugs** and **Multiplayer Compatibility Notes** sections at the top of this page, as well as the [Github issues page](https://github.com/budak7273/ArmorModules/issues/), to see if it has already been reported. If not, please send a message on the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu) to let me know, or [post an issue on Github](https://github.com/budak7273/ArmorModules/issues/new/choose).
 - Why can I craft the Dirty Reactor Module before I have access to nuclear processing and the Hazmat Suit?
-    - This is an intended feature. Perhaps there's another way to protect yourself from the radiation damage you take crafting the module?
-- I still hear the radiation damage noise when I have full radiation resistance (ex. Integrated Hazmat Module)
-    - This is a limitation of the base PowerSuit mod. I don't have a fix for this right now, sorry.
+  - This is an intended feature. Perhaps there's another way to protect yourself from the radiation damage you take crafting the module?
 - Why is everything so cheap/expensive/overpowered/weak?
-    - I tried to balance the recipe costs and functionality of these modules according to my tastes, but I'm open to suggestions    - contact me on Discord (Robb#6731). Feel free to create a mod of your own to overwrite my mod's recipes for these items.
+  - I tried to balance the recipe costs and functionality of these modules according to my tastes, but I'm open to suggestions - contact me on the modding Discord, or the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu). Feel free to create a mod of your own to overwrite my mod's recipes for these items. [ContentLib Recipes](https://ficsit.app/mod/5ak7eHymSNw4YN) makes it as simple as writing a JSON file to do so.
 
 </details>
 
-# Suit Info
+## Getting Started
 
-## Suit Controls
+### Coming Prepared
 
-Once you unlock the Biofuel Suit, you will receive a message in your in-game Inbox from R&D in the Tutorials section. This message has information about the controls. They can not currently be rebound to different keys.
+PowerSuit Modules now consists of multiple smaller sub-mods as opposed to one monolithic mod. If you have only installed the base mod, you should probably get some others if you want your suits to do anything.
 
-## Module Basics
+- Pick and choose the sub-mods you want to play with, but I suggest using the [All Modules Modpack](https://ficsit.app/mod/CEjJnBXkLEiszx) for the best experience
+- More sub-mods will be released in the future, potentially with modules that offer content for your other favorite mods
+- **All sub-mods are linked from the top of the mod page (click the images!)**
 
-Each module is crafted from a 
-![](https://i.imgur.com/WJ1xfNw.png) **Base Module**
+### Opening the Door
+
+The mod opens up once you have access to Caterium, so go out scouting and find some! Once you have some, find the T2 milestone 'PowerSuit Fabrication,' where you can work with R&D to develop the Biofuel Suit and the **Fabrication Station**.
+
+Each module is crafted from a
+![BaseModuleComponent](https://i.imgur.com/WJ1xfNw.png) **Module Base Component**
 and a handful of other components.
-All modules are currently crafted at the **Equipment Workbench** once they are unlocked in the H.U.B.
-Do note that each Base Module requires a Power Shard to craft - but there are some alternate recipes you can unlock that don't need Power Shards.
+New modules are unlocked in the **MAM** and crafted in the **Fabrication Station**.
 
-**All modules have extensive descriptions of what they do in their item description.** 
+![Fabrication Station](https://i.imgur.com/0ysqT57.jpeg)
 
-One way to check these descriptions is by mousing over them in the H.U.B. milestones. You can also check the Item Codex (press X). More are described below in the *More Details* section further down on the page.
+It might look a little familiar to some of you. After all, R&D does not waste.
 
-## Detailed Suit Usage Information
+You can craft Module Base Components with just Iron-tier components, but _it is more costly to do so_. If you wait until T3-4 when you have access to Steel-tier components, you can **unlock a cheaper recipe in the MAM.**
 
-If you would prefer a video format, consider watching one of the above Mod Spotlight videos, although they are outdated and many features have changed since.
+Do note that each Module Base Component requires a Power Shard to craft - but there are some alternate recipes you can unlock that don't need Power Shards.
 
-Install modules into your PowerSuit by equipping the suit and pressing **Right Alt** to open the suit's internal inventory. Drag modules in like you would a chest to install them. Shift clicking is not supported yet. Ctrl-Drag works, though.
+### Module Basics
 
-Check out the *Stats* section of the suit inventory screen to see information about your suit.
+**All modules have extensive descriptions of what they do in their item descriptions.**
 
-Once you have a Jetpack Module of some sort installed, you can start hover flying by holding down space, just like the vanilla jetpack. All Jetpacks consumes Fuel, which your suit will refill when you are on the ground. The kind of accepted Fuel depends on the suit (see more below). You can install a Mid-Air Refueling module to allow refueling while flying. What kind of flight you have depends on what module you have installed:
-- ![](https://i.imgur.com/LUbGHnG.png) **Thrust Boots Module**
-    - Hold space to ascend. No boost functionality. This jetpack will cap your horizontal speed as you fly, so don't expect to be zooming around with this one.
-- ![](https://i.imgur.com/5KW7uYY.png) **Integrated Jetpack Module**
-    - Hold space to ascend. You can boost by holding sprint to go a bit faster. You can speed up your fall by holding left alt. Flying with this jetpack will not reduce your horizontal speed as you fly, just like the vanilla jetpack. This jetpack is a bit zippier and affords you a bit more flight range on a single tank, assuming you can provide the power and fuel required.
-- ![](https://i.imgur.com/tBnYvBb.png) **Hover Jetpack Module**
-    - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, left alt to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
+By the power of [MAM Enhancer](https://ficsit.app/mod/EPUmESEWaBCk4n), you can view what modules are going to do before you unlock them! Simply select a MAM node in the tree, and MAM Enhancer will display a description of the node on the right, as well as allow you to view tooltips of the items you need to submit, or click on them to open them in your Item Codex.
 
-Consider using other modules to change the flight behavior and speed of your suit. Most of these are in the Mobility section.
+If you want to see a module's description again, you can always come back to the MAM,search it in the Item Codex (press X) or Quick Search (press U). More methods are described below in the *More Details* section further down on the page.
 
-All Jetpacks can also run off of just energy alone, but the energy consumption is *drastically* higher than if you had fuel.
+### Installing Modules
 
-### Suit HUD
+Once you equip your PowerSuit a new section will appear in your main inventory below your hand slots, as well as a panel on the right. You can **install modules by dragging them into the new slots like you would a chest.** Note that Shift clicking is not supported yet. If the suit blocks you from installing a module, you likely have a conflicting module installed. Read the module's descriptions to find out why this might be the case.
+
+![Install Modules]() TODO
+
+You can also press _'PowerSuit: Open Suit UI'_ (Right Alt by default) to open the suit's custom window, and press tab to open your inventory.
+
+You can check out the *Stats* section of the suit inventory screen to see information about your suit. Note that not all abilities a module gives you can be shown in this stats screen.
+
+### Suit Usage and Controls
+
+Once you unlock the Biofuel Suit, you will receive a message in your in-game Inbox from R&D in the Tutorials section (default X to open). This message has information about the controls. See the directions in the FAQ for rebinding keys.
+
+You can activate or configure the properties of various modules from the 'Modules' and 'Config' sections of the suit inventory widget.
+
+![Configure IMWs](https://i.imgur.com/gFmmqwZ.png)
+
+### Detailed Suit Usage Information
+
+#### Handheld Controllers
+
+All suits, even those not capable of flight, will give you handheld hoverpack controllers with useful suit information. If you don't want this, you can turn it off in the PowerSuit mod config in the main menu.
+
+Below is an image which labels what portions of the controllers correspond to what suit information.
+
+![Controllers Labelled](https://i.imgur.com/MsweUXe.png)
+
+If you start to Overdraw your suit (explained further below) the screens will get a red warning background and the Overdraw bar will increase until your suit shorts.
+
+![Overdraw](https://i.imgur.com/DuTiMrk.png)
+
+#### Tooltips
+
+All Suits and some Modules will show additional information when you hover over their item tooltips.
+
+Suits will display what item is currently in their internal fuel buffer, as well was what modules are installed.
+
+![Suit tooltip](https://i.imgur.com/qOKA1Io.png)
+
+The Gas Mask and Hazmat Suit modules will show how much of their current filter is remaining before they need to refuel.
+
+#### Suit HUD
+
+The suit HUD tells you a lot of information about your suit and your player at a glance.
+
+![SuitHUDOverview](https://i.imgur.com/cveEhct.png)
+
+A couple of extra details on the non-trivial portions:
+
+- The Fuse Indicator will be green when the suit is operating as normal, orange when Overdrawing, and red when Rebooting
+- The Intensity of Change indicators are arrows that show how much their respective stat is currently changing. The more significant the change, the more chevrons.
+- The Suit Mode Indicators inform you of the following:
+  - Airplane: You are currently flying
+  - Fuel Pump: Your Suit lacks items required for refueling. TODO test this
+  - Shield: If solid, your shield is on recharge cooldown. If flashing, your shield is currently recharging. TODO behavior flashing?
+  - Weight: If shown, your suit is in Gravity Flight Mode. Think of the base-game Jetpack versus the Hover Pack. A Jetpack has Gravity Flight, but a Hover Pack has Hover Flight.
+  - Two Feathers: If shown, your suit is in Frictionless Flight Override Mode. Think of the base-game Jetpack versus the Hover Pack. A Jetpack has Frictionless Flight, but a Hover Pack has Friction Flight, because it slows you to a stop.
+
+![Rebooting](https://i.imgur.com/y3AaZBe.png)
 
 ![Suit HUD screenshot](https://i.imgur.com/snuct51.png)
 
@@ -261,6 +325,31 @@ The PowerSuit Mk1, Mk2, and Mk3 run on the following fuels:
     - **Shows how much fuel is currently available to modules.** Currently, only Jetpack-type modules and the Fuel Runners consume fuel. When on the ground, fuel will automatically transfer from the Fuel Reserves to the Fuel Tank, just like how the vanilla Jetpack refills on the ground. You can install a ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** for this to happen when flying as well.
     - **The higher the energy value of the fuel item, the longer one Fuel Tank will last you**. For example, if the suit is running on Turbofuel, one full tank will let you fly further than if it the suit was running on Leaves or regular Fuel.
 
+#### Flight
+
+[![Flight modules](https://i.imgur.com/JBxUd3K.png) _These modules are only available when you have the Flight sub mod installed._](https://ficsit.app/mod/9tusv5NnasQ8tT)
+
+Once you have a Jetpack Module of some sort installed, you can start hover flying by holding down space, just like the vanilla jetpack. All Jetpacks consumes Fuel, which your suit will refill when you are on the ground. The kind of accepted Fuel depends on the suit (see more below). You can install a Mid-Air Refueling module to allow refueling while flying. What kind of flight you have depends on what module you have installed:
+
+TODO update descriptions
+
+- ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) **Thrust Boots Module**
+  - Hold space to ascend. No boost functionality. This jetpack will cap your horizontal speed as you fly, so don't expect to be zooming around with this one.
+- ![Jetpack](https://i.imgur.com/tMw8e92.png) **Integrated Jetpack Module**
+  - Hold space to ascend. You can boost by holding sprint to go a bit faster. You can speed up your fall by holding left alt. Flying with this jetpack will not reduce your horizontal speed as you fly, just like the vanilla jetpack. This jetpack is a bit zippier and affords you a bit more flight range on a single tank, assuming you can provide the power and fuel required.
+- ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) **Hover Jetpack Module**
+  - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, left alt to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
+- ![Hoverpack](https://i.imgur.com/9ESxs4c.png) **Integrated Hoverpack Module**
+  - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, left alt to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
+
+Consider using other modules to change the flight behavior and speed of your suit. Most of these are in the Mobility section.
+
+#### Mod Configuration
+
+You can configure a number of properties of the mod to your liking using the SML Configs system, accessible from the main menu. Here is a sampling of the config options available.
+
+![Config screenshot](https://i.imgur.com/RIQhVFf.png)
+
 ## More Details
 
 You can view the item description of a module before you craft it to see what it does. You can do this in a variety of ways:
@@ -274,20 +363,20 @@ A lot of the heavy lifting to make this mod possible is actually done in the Pow
 
 If you're interested in making your own modules or recipes for these modules, both this mod and the base PowerSuit mod are open source. Feel free to check out the source code or contact either Nog or I via the Satisfactory Modding Discord for more info.
 
-# Special Thanks
+## Special Thanks
 
 Please let me know if I forgot to add you to this list.
 
-- **Nog** for writing the PowerSuit mod and working with me to debug it and the modules mod.
-- **Random Gamer** and **TotalXclipse** for making mod spotlights.
-- **Deantendo** for the very snazzy mod icon.
+- **Nog** for writing the PowerSuit mod, and working with me to debug it and the Modules mod, and tolerating my endless questions.
+- **Deantendo#4265** for the very snazzy mod icon, which I have since ~~mutilated~~ adapted myself to make the icons for the sub-mods.
 - **Panakotta** for the examples of ADA Messages and the BP code to send them to players.
-- **Reika**, **K14M**, **ko5o01gg AKA Dakotka**, **StromE**, and **WillLMR** for testing and balance feedback.
-- **TwoTwoEleven** for help debugging the display of the in-game mod icon.
+- **RNGesus Prime**, **NotoriousRNG**, **Reika**, **K14M**, **ko5o01gg AKA Dakotka**, **StromE**, and **WillLMR** for testing and balance feedback.
+- **Random Gamer** and **TotalXclipse** for making mod spotlights.
+- **TwoTwoEleven** for help debugging the display of the in-game mod icon back in SML2.
 
-# Updates and Patch Notes
+## Updates and Patch Notes
 
-I am quite a busy person, and it may take me a while to update the mod if it breaks. Please be patient when the game updates and please report any issues you encounter on the Discord or GitHub. Feel free to contact me on Discord with any questions, suggestions, or comments you may have.
+I am quite a busy person, and it may take me a while to update the mod if it breaks. Please be patient when the game updates and please report any issues you encounter on the Discord or GitHub, both linked above. Feel free to contact me on Discord with any questions, suggestions, or comments you may have.
 
 ## Past Patch Notes
 
@@ -298,38 +387,31 @@ Find them [here](https://github.com/budak7273/ArmorModules/tree/master/PatchNote
 <details>
 <summary>Click to Expand</summary>
 
-- Implement a higher density fuel item that all suits can run on.
-    - I already have this made, but I am having trouble overriding the base PowerSuit mod's suit descriptors to get them to actually accept it. Only the Biofuel suit accepts it right now, and it can't be accessed without cheats.
-- Make modules unlocked via M.A.M. Research Tree instead of (currently free) HUB milestones.
-    - Research Trees currently don't sync correctly in multiplayer, which is why I haven't done this yet. More info on this [here](https://discordapp.com/channels/555424930502541343/555515791592652823/756561066200137880).
 - Finish modules marked as WIP
-    - Balance suggestions greatly appreciated
+  - Balance suggestions greatly appreciated
 - Give everything Resource Sink point values
 - Continue to evaluate balance of existing modules
-    - Ensure that you can't get too ridiculously overpowered or make power management a complete non-issue
+  - Ensure that you can't get too ridiculously overpowered or make power management a complete non-issue
 - Almost all of the mod's elements pull their text from String Tables now, which means localized copies of the mods are within reach. Please contact me if you would like to help translate the mod to another language.
 - More modules!
-    - Fuel-consuming suit power generators
-    - Damage resistance against enemies, but I think shields already fulfill this role pretty well.
-    - Fuel backup system for when the suit runs out of power
-    - Fun late game modules like out-of-bounds damage immunity
-    - Fuel efficiency increaser
-    - Sliding Generator
-- Make the milestones display in a consistent order across saves
-- Fix the night vision module for multiplayer
+  - Damage resistance against enemies, but I think shields already fulfill this role pretty well.
+  - Fuel backup system for when the suit runs out of power
+  - Fun late game modules like out-of-bounds damage immunity
+  - Fuel efficiency increaser
+  - Sliding Generator
+- My secret list of things on my Trello
 
 </details>
 
 ## Won't Add
+
 <details>
 <summary>Click to Expand</summary>
 
 Remember - this mod and the base PowerSuit mod are open source, and you're totally free to create your own modules with these as inspiration.
 
 - 3D models for any modules
-    - I don't plan to make custom models for the modules or crafting materials any time soon. They don't really have much of a reason to be moving around on conveyors or on the ground anyways.
-    - I may need some icons made in the future, though. If you would like to contribute models/icons for them I would greatly appreciate it.
-- 'Free' Cheat Modules
-    - Although they're entirely possible, I feel like they belong in another mod. Nothing's stopping you from giving yourself modules via PakUtilityMod or similar, though. The mod includes a couple cheat modules for debug purposes, but you'll need another mod's give command to obtain them. They all have 'Debug' in the name. Consider knowledge of these a little surprise for actually reading through my wordy mod page. Thanks!
+  - I don't plan to make custom models for the modules or crafting materials any time soon. They don't really have much of a reason to be moving around on conveyors or on the ground anyways.
+  - I may need some icons made in the future, though. If you would like to contribute models/icons for them I would greatly appreciate it.
 
 </details>

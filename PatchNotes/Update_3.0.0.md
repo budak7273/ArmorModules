@@ -100,7 +100,7 @@ Since everyone's I have also taken the opportunity to **split the PowerSuit Modu
         - You can select a node in the tree and view its details on the right
         - Hover over the Module the node unlocks to see its description via tooltips
         - View the tooltips of the ingredients required to unlock the MAM node
-    - All crafting components and modules are now unlocked via MAM trees. These trees become visible once you have obtained a set of Blade Runners.
+    - All crafting components and modules are now unlocked via MAM trees. These trees become visible once you have unlocked the T2 milestone 'PowerSuit Fabrication.'
 	- All tree nodes are visible once the tree is unlocked. I might change this in the future, but we'll see.
 	- For developers: All of my MAM tree nodes are automatically generated and populated from item recipes. Let me know if you want info on how to do this yourself.
     - After you research modules, you can craft them at the new...
