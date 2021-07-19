@@ -2,12 +2,7 @@
 
 [![](https://i.imgur.com/LnZ7uKE.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)[![PowerSuit Modules](https://i.imgur.com/almXu5F.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
-![Huzzah - 2.0!](https://i.imgur.com/F6jkDDU.png)
-
-![Early Access version support: full](https://i.imgur.com/1TXo5em.png)
-![Experimental version support: full](https://i.imgur.com/kvJ4ZoR.png)
-![Singleplayer compatibility: full](https://i.imgur.com/S8roc0Y.png)
-![Multiplayer compatibility: partial](https://i.imgur.com/GJh3Lcb.png)
+![Sweet - 3.0!](https://i.imgur.com/of7GESS.png)
 
 ## Check out the PowerSuit Modules suite of mods!
 
@@ -18,7 +13,14 @@
 [![Flight](https://i.imgur.com/JBxUd3K.png)](https://ficsit.app/mod/9tusv5NnasQ8tT)
 [![Mobility](https://i.imgur.com/6rcVvxA.png)](https://ficsit.app/mod/8KhUetkyuNi29h)
 [![PioneerProtection](https://i.imgur.com/kDzBR9p.png)](https://ficsit.app/mod/CpKSGnfYKMuD5u)
-[![Special](https://i.imgur.com/2cMXEcg.png)](https://ficsit.app/mod/67PBbhK1SbQEaF)
+[![Special](https://i.imgur.com/YyRNkSL.png)](https://ficsit.app/mod/67PBbhK1SbQEaF)
+
+## Version Support
+
+![Early Access version support: full](https://i.imgur.com/1TXo5em.png)
+![Experimental version support: full](https://i.imgur.com/kvJ4ZoR.png)
+![Singleplayer compatibility: full](https://i.imgur.com/S8roc0Y.png)
+![Multiplayer compatibility: partial](https://i.imgur.com/GJh3Lcb.png)
 
 ## [Patch Notes - click me!](https://github.com/budak7273/ArmorModules/tree/master/PatchNotes)
 
@@ -99,6 +101,9 @@ The mod has changed *drastically* since these videos were released, but you may 
 <details>
 <summary> Outdated Videos </summary>
 
+_Check out an old version of the mod on the Update 4 Launch Stream!_
+[![Update 4 Launch Stream - Modding Segment](https://i.imgur.com/uHOWRWV.png)](https://youtu.be/Gdz6SUv9Om4?t=11384)
+
 **Thank you Random Gamer and TotalXclipse!**
 
 Here are some videos of Random Gamer exploring the mod in his singleplayer series.
@@ -161,6 +166,8 @@ PowerSuit Modules now consists of multiple smaller sub-mods as opposed to one mo
 - More sub-mods will be released in the future, potentially with modules that offer content for your other favorite mods
 - **All sub-mods are linked from the top of the mod page (click the images!)**
 
+[![Modpack](https://i.imgur.com/fr5kNHn.png)](https://ficsit.app/mod/CEjJnBXkLEiszx) _Install the All Modules Modpack here!_
+
 ### Opening the Door
 
 The mod opens up once you have access to Caterium, so go out scouting and find some! Once you have some, find the T2 milestone 'PowerSuit Fabrication,' where you can work with R&D to develop the Biofuel Suit and the **Fabrication Station**.
@@ -190,9 +197,16 @@ If you want to see a module's description again, you can always come back to the
 
 Once you equip your PowerSuit a new section will appear in your main inventory below your hand slots, as well as a panel on the right. You can **install modules by dragging them into the new slots like you would a chest.** Note that Shift clicking is not supported yet. If the suit blocks you from installing a module, you likely have a conflicting module installed. Read the module's descriptions to find out why this might be the case.
 
-![Install Modules]() TODO
+![Install Modules](https://i.imgur.com/rTIhLlI.png)
 
 You can also press _'PowerSuit: Open Suit UI'_ (Right Alt by default) to open the suit's custom window, and press tab to open your inventory.
+
+<details>
+<summary> Suit Window screenshot </summary>
+
+![SuitWindow](https://i.imgur.com/kwLZQWD.png)
+
+</details>
 
 You can check out the *Stats* section of the suit inventory screen to see information about your suit. Note that not all abilities a module gives you can be shown in this stats screen.
 
@@ -329,18 +343,31 @@ The PowerSuit Mk1, Mk2, and Mk3 run on the following fuels:
 
 [![Flight modules](https://i.imgur.com/JBxUd3K.png) _These modules are only available when you have the Flight sub mod installed._](https://ficsit.app/mod/9tusv5NnasQ8tT)
 
-Once you have a Jetpack Module of some sort installed, you can start hover flying by holding down space, just like the vanilla jetpack. All Jetpacks consumes Fuel, which your suit will refill when you are on the ground. The kind of accepted Fuel depends on the suit (see more below). You can install a Mid-Air Refueling module to allow refueling while flying. What kind of flight you have depends on what module you have installed:
+Once you have a Flight Module installed, you can start flight by holding down space, just like the vanilla jetpack and Hover Pack. Most Flight Modules consume Fuel, which your suit will refill when you are on the ground. The kind of accepted Fuel depends on the suit and what modules you have installed. Hover over the Accepted Fuels region of the suit inventory to find out what fuels your Suit (and thus Flight Module can run on.)
 
-TODO update descriptions
+You can install a Mid-Air Refueling module to allow refueling while flying.
+
+What kind of flight you have depends on what module you have installed:
+
+##### Flight Modules
 
 - ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) **Thrust Boots Module**
-  - Hold space to ascend. No boost functionality. This jetpack will cap your horizontal speed as you fly, so don't expect to be zooming around with this one.
+  - _Consumes Suit Fuel and Power_
+  - Your first flight opportunity, this limited module allows for some extra mobility, but is nowhere near as good as a jetpack.
+  - Hold space to ascend, consuming fuel and energy to fly. Press 'PowerSuit Accelerate' (Shift by default) for a slight boost. This jetpack will _cap your horizontal speed as you fly_, so don't expect to be zooming around with this one.
 - ![Jetpack](https://i.imgur.com/tMw8e92.png) **Integrated Jetpack Module**
+  - _Consumes Suit Fuel and Power_
+  - The PowerSuit equivalent of the vanilla Jetpack.
   - Hold space to ascend. You can boost by holding sprint to go a bit faster. You can speed up your fall by holding left alt. Flying with this jetpack will not reduce your horizontal speed as you fly, just like the vanilla jetpack. This jetpack is a bit zippier and affords you a bit more flight range on a single tank, assuming you can provide the power and fuel required.
 - ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) **Hover Jetpack Module**
+  - _Consumes Suit Fuel and Power_
   - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, left alt to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
 - ![Hoverpack](https://i.imgur.com/9ESxs4c.png) **Integrated Hoverpack Module**
+  - _Consumes only Power_
+  - The PowerSuit equivalent of the vanilla Hover Pack.
   - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, left alt to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
+
+##### Flight Controls
 
 Consider using other modules to change the flight behavior and speed of your suit. Most of these are in the Mobility section.
 
@@ -374,6 +401,12 @@ Please let me know if I forgot to add you to this list.
 - **RNGesus Prime**, **NotoriousRNG**, **Reika**, **K14M**, **ko5o01gg AKA Dakotka**, **StromE**, and **WillLMR** for testing and balance feedback.
 - **Random Gamer** and **TotalXclipse** for making mod spotlights.
 - **TwoTwoEleven** for help debugging the display of the in-game mod icon back in SML2.
+
+### Assorted Credits
+
+- The Coffee Stain Studios time machine for the Fabrication Station model.
+- Extendo Arm module icon from [Game Icons.Net](https://game-icons.net/)
+- Rabbit and Turtle icons for Shield Reconfigurators from [Freepik](flaticon.com)
 
 ## Updates and Patch Notes
 
