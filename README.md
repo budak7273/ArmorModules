@@ -2,7 +2,9 @@
 
 [![PowerSuit Modules](https://i.imgur.com/almXu5F.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
-[![Sweet - 3.0!](https://i.imgur.com/of7GESS.png)](https://github.com/budak7273/ArmorModules)
+[![Modpack link](https://i.imgur.com/rJ5t9u1.png)](https://ficsit.app/mod/CEjJnBXkLEiszx)
+
+[![UpdateBanner](https://i.imgur.com/rU1PLZg.png)](https://ficsit.app/mod/BezrE8aswqXLRX)
 
 ## Check out the PowerSuit Modules suite of mods!
 
@@ -39,6 +41,7 @@
 Please report any issues to me (Robb#6731) or Nog on the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu).
 
 - Clients may have to re-equip the suit upon login for some suit functions to work.
+- The 'Spatial Tear Generator' module will almost probably kill multiplayer clients if it activates (base game, still working on a fix for that)
 - (Unconfirmed in Update 4) If a client logs out with radioactive items in their inventory or in a radioactive area, their 'ghost' player could die to radiation while they are offline.
 
 </details>
@@ -59,12 +62,18 @@ Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub
 
 </details>
 
-This mod (with all [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx) installed) adds a whole bunch (**57+**) of armor modules for use in your **multiplayer-compatible**
+## Introduction
+
+_This mod is a 'base mod.' You must install [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx) to get the full functionality._
+
+This mod (with all [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx) installed) adds a whole bunch of armor modules (**57+**) for use in your **multiplayer-compatible**
  [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2). It introduces 4 different suits in which modules can be installed, the first of which is accessible as soon as you get Blade Runners.
 
-Please report leave suggestions and report issues either in the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu) or [as a Github issue](https://github.com/budak7273/ArmorModules/issues/new/choose).
+Please leave suggestions and report issues either on the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu) or [as a Github issue](https://github.com/budak7273/ArmorModules/issues/new/choose).
 
 Although you can use this mod in tandem with the [NogsPowerSuit](https://ficsit.app/mod/FJJALSZBNhZ37d) mod, they are not balanced for each other in the slightest, and the Codename NGF module is basically a cheat module for developer testing. I would not recommend it.
+
+## [Play the intended PowerSuit Modules experience by installing the Modpack!](https://ficsit.app/mod/CEjJnBXkLEiszx)
 
 ## Feature Overview
 
