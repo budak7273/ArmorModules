@@ -218,9 +218,7 @@ You can activate or configure the properties of various modules from the 'Module
 
 ![Configure IMWs](https://i.imgur.com/gFmmqwZ.png)
 
-### Detailed Suit Usage Information
-
-#### Handheld Controllers
+## Handheld Controllers
 
 All suits, even those not capable of flight, will give you handheld hoverpack controllers with useful suit information. If you don't want this, you can turn it off in the PowerSuit mod config in the main menu.
 
@@ -232,7 +230,7 @@ If you start to Overdraw your suit (explained further below) the screens will ge
 
 ![Overdraw](https://i.imgur.com/DuTiMrk.png)
 
-#### Tooltips
+## Tooltips
 
 All Suits and some Modules will show additional information when you hover over their item tooltips.
 
@@ -242,11 +240,11 @@ Suits will display what item is currently in their internal fuel buffer, as well
 
 The Gas Mask and Hazmat Suit modules will show how much of their current filter is remaining before they need to refuel.
 
-#### Suit HUD
+## Suit HUD
 
 The suit HUD tells you a lot of information about your suit and your player at a glance.
 
-![SuitHUDOverview](https://i.imgur.com/cveEhct.png)
+![SuitHUDOverview](https://i.imgur.com/BzcsBDY.png)
 
 A couple of extra details on the non-trivial portions:
 
@@ -256,58 +254,109 @@ A couple of extra details on the non-trivial portions:
   - Airplane: You are currently flying
   - Fuel Pump: Your Suit lacks items required for refueling. TODO test this
   - Shield: If solid, your shield is on recharge cooldown. If flashing, your shield is currently recharging. TODO behavior flashing?
-  - Weight: If shown, your suit is in Gravity Flight Mode. Think of the base-game Jetpack versus the Hover Pack. A Jetpack has Gravity Flight, but a Hover Pack has Hover Flight.
-  - Two Feathers: If shown, your suit is in Frictionless Flight Override Mode. Think of the base-game Jetpack versus the Hover Pack. A Jetpack has Frictionless Flight, but a Hover Pack has Friction Flight, because it slows you to a stop.
+  - Weight: If shown, your suit is in Gravity Flight Mode. See the Flight section for more info.
+  - Two Feathers: If shown, your suit is in Frictionless Flight Override Mode. See the Flight section for more info.
+
+## Suit Concepts
+
+### Power
+
+[![PowerGeneration](https://i.imgur.com/qPR2fwd.png)](https://ficsit.app/mod/FJxNuUm6aAEmzV) [![SuitRegulation](https://i.imgur.com/KutlEGt.png)](https://ficsit.app/mod/2bNso1rZPJqzub) _The Power Generation and Suit Regulation sub mods contain modules that help manage your Suit Power and Fuel._
+
+**Power** is electrical energy essential for the operation of most modules. Modules will either consume or generate power. A small amount of Power is passively produced by your suit, but you must install additional modules to generate or store more at a time.
+
+Some modules will generate power for free, others will require 
+
+#### **Fuse and Overdraw**
+
+If your suit runs out of power, you will enter **Overdraw**. The HUD's Fuse Indicator light will turn orange, your handheld controllers will gain a red warning background, and their Overdraw progress bar will begin to increase.
+While Overdrawing, you can consume an unlimited amount of power, but if you are still out of power when the Overdraw progress bar reaches the maximum, your suit will have to **Reboot**.
+
+![Overdraw](https://i.imgur.com/DuTiMrk.png)
+
+#### **Rebooting**
+
+When your suit begins to reboot, all of your installed Modules will cease to function, and you must wait for the suit to reboot again before you can use them. This is certainly not advantageous while flying, or in a dangerous environment, so consider investing in modules that increase your Power Capacity or Power Generation.
 
 ![Rebooting](https://i.imgur.com/y3AaZBe.png)
+
+### **Fuel**
+
+Some modules will also consume Suit **Fuel** to operate. Examples of this include the Integrated Jetpack, Fuel Runners, and Bio Burner modules.
+
+Note that Suit Fuel is not limited to only base-game [Packaged Fuel](https://satisfactory.fandom.com/wiki/Packaged_Fuel), your Suit can refuel by consuming any of the items it supports, which can be viewing in the Suit Stats section. Some Modules can grant your suit access to additional fuel item options, or even generate it from nothing.
+
+Your Suit will consume items from your inventory to refuel itself while you are on the ground. After consuming an item, the fuel will transfer into your suit's fuel tank in accordance with its **Fuel Transfer Speed**.
+
+**Fuel Efficiency** is a special bonus that changes how much effective Fuel you get out of the items your suit consumes.
+
+[![Flight](https://i.imgur.com/JBxUd3K.png)](https://ficsit.app/mod/9tusv5NnasQ8tT) _Note: Your suit can refuel mid-air if you have a Mid-Air Refueling Module from the Flight sub mod installed._
+
+Once yoyur
+
+Note that different suits have different Fuel Transfer Speeds and Fuel Efficiency which modules can modify.
+
+This is drained to fill the fuel tank when you are on the ground, and will refill automatically (by consuming items from your inventory) when it reaches 0%. Fuel in the Reserves is not directly accessible by modules.
+  - If your suit has high fuel efficiency, it's totally normal for this value to be over 100%. For example, the Biofuel Suit has a 400% fuel efficiency bonus.
+  - *Fuel only transfers from the Reserves to the Tank when you are on the ground.* You can install a  ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** to change this.
+  - Fuel is only needed for modules that consume fuel (currently just the Integrated Jetpack, Thrust Boots, and Hover Jetpack)
+  - What items can be consumed to refuel the fuel reserves depends on what PowerSuit you have equipped:
+
+### **Shield**
+
+[![PioneerProtection](https://i.imgur.com/kDzBR9p.png)](https://ficsit.app/mod/CpKSGnfYKMuD5u) _The Pioneer Protection sub mod offers modules that grant you Shield._
+
+**Shield** can be thought of as a special health bar that will be taken from before your actual Health. Shields can only absorb certain kinds of damage by default - for example, radiation damage is not stopped by shields.
+
+When your shield takes damage, it will begin to recharge again after a delay.
+
+# OLD
 
 ![Suit HUD screenshot](https://i.imgur.com/snuct51.png)
 
 The suit HUD has multiple bars, listed here from top to bottom:
 
 - **Hover and Flight display**
-
-    ![](https://i.imgur.com/FB3gt0a.png)
-    - If are flying, a set of wings will appear.
-    - If you are in Hover Mode, a set of green feathers appears to the top right of the flight icon.
+  ![](https://i.imgur.com/FB3gt0a.png)
+  - If are flying, a set of wings will appear.
+  - If you are in Hover Mode, a set of green feathers appears to the top right of the flight icon.
 - **Movement speed display**
-    - Displays information about your current velocity in meters per second.
-    - The 'up arrow' section displays the magnitude of your vertical velocity vector.
-    - The 'right arrow' section displays the magnitude of your horizontal velocity vector.
-    - The rightmost number readout with the m/s shows your overall velocity - the combined horizontal and the vertical velocities.
-
+  - Displays information about your current velocity in meters per second.
+  - The 'up arrow' section displays the magnitude of your vertical velocity vector.
+  - The 'right arrow' section displays the magnitude of your horizontal velocity vector.
+  - The rightmost number readout with the m/s shows your overall velocity - the combined horizontal and the vertical velocities.
 - **Shield - Light Blue** *(Empty unless you have shield modules installed)*
-    - Blocks most types of damage before your health is affected.
-    - Your shield has a delay before it starts recharging again after you take damage. The remaining time is shown as a little red progress bar by this icon:
+  - Blocks most types of damage before your health is affected.
+  - Your shield has a delay before it starts recharging again after you take damage. The remaining time is shown as a little red progress bar by this icon:
 
-    <!--![](https://i.imgur.com/pFLXSYe.png)-->
-    ![](https://i.imgur.com/9Pko0kp.png)
+  <!--![](https://i.imgur.com/pFLXSYe.png)-->
+  ![](https://i.imgur.com/9Pko0kp.png)
 
-    - When your shield is recharging, you'll see an red battery icon above the shield bar:
+  - When your shield is recharging, you'll see an red battery icon above the shield bar:
 
-    <!--![](https://i.imgur.com/xfvLa6r.png)-->
-    ![](https://i.imgur.com/dGMe6wO.png)
+  <!--![](https://i.imgur.com/xfvLa6r.png)-->
+  ![](https://i.imgur.com/dGMe6wO.png)
 
 - **Power - Green**
-    - Your suit has an internal battery (Power Total in the Suit Stats window) that acts as its energy reserves, and it comes with a bit of power generation built in.
-    - See how much energy your suit is using/generating by looking at the Power Balance readout in the Suit Stats screen. Positive numbers means you have a surplus, negative means you have a shortage. External PowerDraw shows you how much energy you are currently using. It does not include energy consumption due to shields recharging (might in the future)
-    - Installing generally modules decreases the maximum internal battery.
-    - Some modules consume power to run, which will drain the internal battery's charge.
-    - To *raise your internal battery capacity*, install one of the 3 Capacity-boosting modules.
-    - To *recharge the internal battery faster*, install one of many Generation modules, which do not currently consume any resources to operate.
-    - If the suit runs out of internal battery, it will begin to Overdraw (if your tier of suit has the ability to do so), which is shown as a red progress bar advancing along the top of the Power bar. If the red bar reaches the end, your suit will short, and all modules will cease to function (including Jetpacks    - watch out!)
- 
-    ![](https://i.imgur.com/mBjdC6D.png)
-    - When the suit shorts, you will have to wait for it to reboot, indicated by the lighting bolt and yellow progress bar. If this doesn't go away, it means you're still consuming too much power for the suit to reboot. Try adding more generators or removing power-consuming modules. This is the reboot icon:
- 
-    ![](https://i.imgur.com/eoxOQUv.png)
+  - Your suit has an internal battery (Power Total in the Suit Stats window) that acts as its energy reserves, and it comes with a bit of power generation built in.
+  - See how much energy your suit is using/generating by looking at the Power Balance readout in the Suit Stats screen. Positive numbers means you have a surplus, negative means you have a shortage. External PowerDraw shows you how much energy you are currently using. It does not include energy consumption due to shields recharging (might in the future)
+  - Installing generally modules decreases the maximum internal battery.
+  - Some modules consume power to run, which will drain the internal battery's charge.
+  - To *raise your internal battery capacity*, install one of the 3 Capacity-boosting modules.
+  - To *recharge the internal battery faster*, install one of many Generation modules, which do not currently consume any resources to operate.
+  - If the suit runs out of internal battery, it will begin to Overdraw (if your tier of suit has the ability to do so), which is shown as a red progress bar advancing along the top of the Power bar. If the red bar reaches the end, your suit will short, and all modules will cease to function (including Jetpacks    - watch out!)
+
+  ![](https://i.imgur.com/mBjdC6D.png)
+  - When the suit shorts, you will have to wait for it to reboot, indicated by the lighting bolt and yellow progress bar. If this doesn't go away, it means you're still consuming too much power for the suit to reboot. Try adding more generators or removing power-consuming modules. This is the reboot icon:
+
+  ![](https://i.imgur.com/eoxOQUv.png)
 
 - **Fuel Reserves - Orange**
-    - **Your suit's fuel reserves.** This is drained to fill the fuel tank when you are on the ground, and will refill automatically (by consuming items from your inventory) when it reaches 0%. Fuel in the Reserves is not directly accessible by modules.
-    - If your suit has high fuel efficiency, it's totally normal for this value to be over 100%. For example, the Biofuel Suit has a 400% fuel efficiency bonus.
-    - *Fuel only transfers from the Reserves to the Tank when you are on the ground.* You can install a  ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** to change this.
-    - Fuel is only needed for modules that consume fuel (currently just the Integrated Jetpack, Thrust Boots, and Hover Jetpack)
-    - What items can be consumed to refuel the fuel reserves depends on what PowerSuit you have equipped: 
+  - **Your suit's fuel reserves.** This is drained to fill the fuel tank when you are on the ground, and will refill automatically (by consuming items from your inventory) when it reaches 0%. Fuel in the Reserves is not directly accessible by modules.
+  - If your suit has high fuel efficiency, it's totally normal for this value to be over 100%. For example, the Biofuel Suit has a 400% fuel efficiency bonus.
+  - *Fuel only transfers from the Reserves to the Tank when you are on the ground.* You can install a  ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** to change this.
+  - Fuel is only needed for modules that consume fuel (currently just the Integrated Jetpack, Thrust Boots, and Hover Jetpack)
+  - What items can be consumed to refuel the fuel reserves depends on what PowerSuit you have equipped:
 
 <details>
 <summary>Accepted Fuels (click to expand)</summary>
@@ -334,44 +383,79 @@ The PowerSuit Mk1, Mk2, and Mk3 run on the following fuels:
 ![](https://i.imgur.com/YR154oF.png)
 
 - **Fuel Tank - Base game body slot display**
-    - Shows what tier of suit you are wearing on the far left and the name above the Fuel Tank.
-    - Shows what type of fuel is currently being used. In the screenshot, it's Packaged Turbofuel.
-    - **Shows how much fuel is currently available to modules.** Currently, only Jetpack-type modules and the Fuel Runners consume fuel. When on the ground, fuel will automatically transfer from the Fuel Reserves to the Fuel Tank, just like how the vanilla Jetpack refills on the ground. You can install a ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** for this to happen when flying as well.
-    - **The higher the energy value of the fuel item, the longer one Fuel Tank will last you**. For example, if the suit is running on Turbofuel, one full tank will let you fly further than if it the suit was running on Leaves or regular Fuel.
+  - Shows what tier of suit you are wearing on the far left and the name above the Fuel Tank.
+  - Shows what type of fuel is currently being used. In the screenshot, it's Packaged Turbofuel.
+  - **Shows how much fuel is currently available to modules.** Currently, only Jetpack-type modules and the Fuel Runners consume fuel. When on the ground, fuel will automatically transfer from the Fuel Reserves to the Fuel Tank, just like how the vanilla Jetpack refills on the ground. You can install a ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** for this to happen when flying as well.
+  - **The higher the energy value of the fuel item, the longer one Fuel Tank will last you**. For example, if the suit is running on Turbofuel, one full tank will let you fly further than if it the suit was running on Leaves or regular Fuel.
 
-#### Flight
+## Flight
+
+The [PowerSuit Modules: Flight](https://ficsit.app/mod/9tusv5NnasQ8tT) sub-mod offers a number of balanced flight options. Below are descriptions of their functions and flight controls.
 
 [![Flight modules](https://i.imgur.com/JBxUd3K.png) _These modules are only available when you have the Flight sub mod installed._](https://ficsit.app/mod/9tusv5NnasQ8tT)
 
-Once you have a Flight Module installed, you can start flight by holding down space, just like the vanilla jetpack and Hover Pack. Most Flight Modules consume Fuel, which your suit will refill when you are on the ground. The kind of accepted Fuel depends on the suit and what modules you have installed. Hover over the Accepted Fuels region of the suit inventory to find out what fuels your Suit (and thus Flight Module can run on.)
+### **Flight Modules**
 
-You can install a Mid-Air Refueling module to allow refueling while flying.
+Most Flight Modules consume Fuel, which your suit will refill when you are on the ground. The kind of accepted Fuel depends on the suit and what modules you have installed. Hover over the Accepted Fuels region of the suit inventory to find out what fuels your Suit (and thus Flight Module can run on.)
 
-What kind of flight you have depends on what module you have installed:
-
-##### Flight Modules
+Review the different types of flight below in the 'Flight Controls' section.
 
 - ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) **Thrust Boots Module**
   - _Consumes Suit Fuel and Power_
+  - Thrust Flight with Friction
   - Your first flight opportunity, this limited module allows for some extra mobility, but is nowhere near as good as a jetpack.
-  - Hold space to ascend, consuming fuel and energy to fly. Press 'PowerSuit Accelerate' (Shift by default) for a slight boost. This jetpack will _cap your horizontal speed as you fly_, so don't expect to be zooming around with this one.
+  - This flight module will _cap your horizontal speed as you fly_, so don't expect to be zooming around with this one.
 - ![Jetpack](https://i.imgur.com/tMw8e92.png) **Integrated Jetpack Module**
   - _Consumes Suit Fuel and Power_
+  - Frictionless Thrust Flight
   - The PowerSuit equivalent of the vanilla Jetpack.
-  - Hold space to ascend. You can boost by holding sprint to go a bit faster. You can speed up your fall by holding left alt. Flying with this jetpack will not reduce your horizontal speed as you fly, just like the vanilla jetpack. This jetpack is a bit zippier and affords you a bit more flight range on a single tank, assuming you can provide the power and fuel required.
+  - Your flight range is determined by your suit's fuel tank size, which this module also increases.
 - ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) **Hover Jetpack Module**
   - _Consumes Suit Fuel and Power_
-  - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, left alt to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
+  - Hover Flight with Friction
+  - The original PowerSuit jetpack - we had hover flight before it was cool!
+  - A weaker version of the Hover Pack that is accessible at the same tech tier as the Jetpack.
 - ![Hoverpack](https://i.imgur.com/9ESxs4c.png) **Integrated Hoverpack Module**
-  - _Consumes only Power_
+  - _Consumes exclusively Power_
+  - Hover Flight with Friction
   - The PowerSuit equivalent of the vanilla Hover Pack.
-  - Hold space to ascend, automatically putting you into hover mode. While flying, hold space to ascend, left alt to descend, and sprint to boost. When you are not pressing any movement keys, the Hover Jetpack will attempt to bring you to a full stop midair. You can press Ctrl-Space to toggle hovering mid-flight.
+  - Does not currently connect to your base's electric grid. That feature is coming in future versions.
 
-##### Flight Controls
+### **Flight Controls**
 
-Consider using other modules to change the flight behavior and speed of your suit. Most of these are in the Mobility section.
+There are two types of flight that modules can grant. Don't worry - you're already familiar with them from the base game.
 
-#### Mod Configuration
+- ![Jetpack](https://i.imgur.com/tMw8e92.png) ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) **Thrust Flight** (also called Gravity Flight)
+  - _Similar to the vanilla Jetpack_
+  - Hold space to ascend. You will fall to the ground when not pressing space.
+  - Press 'PowerSuit Accelerate' (Shift by default) for a boost.
+  - You can speed up your fall by holding crouch.
+- ![Hoverpack](https://i.imgur.com/9ESxs4c.png) ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) **Hover Flight**
+  - _Similar to the vanilla Hover Pack_
+  - Hold space to ascend. You will not descend until you press your crouch key.
+  - Press 'PowerSuit Accelerate' (Shift by default) for a boost.
+  - In order to descend, you must press your crouch key.
+  - Double-tap crouch to stop flying is not currently implemented. That feature is coming soon in a future version.
+
+To help understand the types of flight, think of the base-game Jetpack versus the Hover Pack. A Jetpack has Gravity Flight, but a Hover Pack has Hover Flight.
+
+There are two flight friction behaviors to consider as well:
+
+- ![Jetpack](https://i.imgur.com/tMw8e92.png) **Frictionless Flight**
+  - _Similar to the vanilla Jetpack_
+  - When you stop pressing the movement keys, you will keep your horizontal momentum, continuing to move through the air. This is  great for if you've just shot yourself out of a Hypertube Cannon, but not so great for precise building.
+- ![Hoverpack](https://i.imgur.com/9ESxs4c.png) ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) **Friction Flight**
+  - _Similar to the vanilla Hover Pack_
+  - When you stop pressing the movement keys, you will be gradually brought to a stop mid-air, losing your horizontal momentum.
+
+To help understand the flight friction behaviors, think of the base-game Jetpack versus the Hover Pack. A Jetpack has Frictionless Flight, but a Hover Pack has Friction Flight, because it slows you to a stop.
+
+Consider using other modules to change the flight behavior and speed of your suit.
+
+- The **Mid-Air Refueling** module enables refueling while still flying.
+- The **Configurable Dampening** module enables modifying the strength of flight friction, or removing it entirely, right from your inventory.
+
+## Mod Configuration
 
 You can configure a number of properties of the mod to your liking using the SML Configs system, accessible from the main menu. Here is a sampling of the config options available.
 
@@ -396,7 +480,7 @@ If you're interested in making your own modules or recipes for these modules, bo
 Please let me know if I forgot to add you to this list.
 
 - **Nog** for writing the PowerSuit mod, and working with me to debug it and the Modules mod, and tolerating my endless questions.
-- **Deantendo#4265** for the very snazzy mod icon, which I have since ~~mutilated~~ adapted myself to make the icons for the sub-mods.
+- **Deantendo#4265** for the very snazzy mod icon, which I have since ~~mutilated~~ adapted to make the icons for the sub-mods.
 - **Panakotta** for the examples of ADA Messages and the BP code to send them to players.
 - **RNGesus Prime**, **NotoriousRNG**, **Reika**, **K14M**, **ko5o01gg AKA Dakotka**, **StromE**, and **WillLMR** for testing and balance feedback.
 - **Random Gamer** and **TotalXclipse** for making mod spotlights.
