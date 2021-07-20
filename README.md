@@ -1,8 +1,8 @@
 # [Click here to install or see the mod page on Ficsit.app](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
-[![](https://i.imgur.com/LnZ7uKE.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)[![PowerSuit Modules](https://i.imgur.com/almXu5F.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
+[![PowerSuit Modules](https://i.imgur.com/almXu5F.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
-![Sweet - 3.0!](https://i.imgur.com/of7GESS.png)
+[![Sweet - 3.0!](https://i.imgur.com/of7GESS.png)](https://github.com/budak7273/ArmorModules)
 
 ## Check out the PowerSuit Modules suite of mods!
 
@@ -200,7 +200,7 @@ Do note that each Module Base Component requires a Power Shard to craft - but th
 
 By the power of [MAM Enhancer](https://ficsit.app/mod/EPUmESEWaBCk4n), you can view what modules are going to do before you unlock them! Simply select a MAM node in the tree, and MAM Enhancer will display a description of the node on the right, as well as allow you to view tooltips of the items you need to submit, or click on them to open them in your Item Codex.
 
-If you want to see a module's description again, you can always come back to the MAM, search it in the Item Codex (press X) or Quick Search (press U). More methods are described below in the *More Details* section further down on the page.
+If you want to see a module's description again, you can always come back to the MAM, search it in the Item Codex (press X) or Quick Search (press U). You can also hover over just the right spot of the preview icon in the Fabrication Station, which is a bit of a pain to do, but possible. I will be improving this later.
 
 ### Installing Modules
 
@@ -262,8 +262,8 @@ A couple of extra details on the non-trivial portions:
 - The Intensity of Change indicators are arrows that show how much their respective stat is currently changing. The more significant the change, the more chevrons.
 - The Suit Mode Indicators inform you of the following:
   - Airplane: You are currently flying
-  - Fuel Pump: Your Suit lacks items required for refueling. TODO test this
-  - Shield: If solid, your shield is on recharge cooldown. If flashing, your shield is currently recharging. TODO behavior flashing?
+  - Fuel Pump: Appears when your suit is low on Suit Fuel. If this remains showing and your suit is not re-fueling, you probably lack the items required for refueling. See the Fuel section for more info.
+  - Shield: If this icon is flashing, your shield is currently on recharge cooldown.
   - Weight: If shown, your suit is in Gravity Flight Mode. See the Flight section for more info.
   - Two Feathers: If shown, your suit is in Frictionless Flight Override Mode. See the Flight section for more info.
 
@@ -294,23 +294,26 @@ When your suit begins to reboot, all of your installed Modules will cease to fun
 
 Some modules will also consume Suit **Fuel** to operate. Examples of this include the Integrated Jetpack, Fuel Runners, and Bio Burner modules.
 
-Note that Suit Fuel is not limited to only base-game [Packaged Fuel](https://satisfactory.fandom.com/wiki/Packaged_Fuel), your Suit can refuel by consuming any of the items it supports, which can be viewing in the Suit Stats section. Some Modules can grant your suit access to additional fuel item options, or even generate it from nothing.
+Note that Suit Fuel is not limited to only base-game [Packaged Fuel](https://satisfactory.fandom.com/wiki/Packaged_Fuel), your Suit can refuel by consuming any of the items it supports, which can be viewing in the Suit Stats section. Some Modules can grant your suit access to additional fuel item options (for example, the Integrated Jetpack allows all suits to use Packaged Fuel), or even generate it from nothing.
 
-Your Suit will consume items from your inventory to refuel itself while you are on the ground. After consuming an item, the fuel will transfer into your suit's fuel tank in accordance with its **Fuel Transfer Speed**.
+![Allowed Fuels](https://i.imgur.com/ZMdYfiV.png)
 
-**Fuel Efficiency** is a special bonus that changes how much effective Fuel you get out of the items your suit consumes.
+Your Suit will consume items from your inventory to refuel itself while you are on the ground. After consuming an item, the fuel will transfer into your suit's fuel tank in accordance with its **Fuel Transfer Speed**. You can see how much of the consumed item remains by looking at the suit's item tooltip.
 
-[![Flight](https://i.imgur.com/JBxUd3K.png)](https://ficsit.app/mod/9tusv5NnasQ8tT) _Note: Your suit can refuel mid-air if you have a Mid-Air Refueling Module from the Flight sub mod installed._
+<details>
+<summary> Suit Tooltip </summary>
 
-Once yoyur
+Note that the accepted fuels listed here are the ones the suit unlocks by default. The true list (which could have been modified by Modules) is found in the suit stats section.
 
-Note that different suits have different Fuel Transfer Speeds and Fuel Efficiency which modules can modify.
+![Suit tooltip](https://i.imgur.com/qOKA1Io.png)
 
-This is drained to fill the fuel tank when you are on the ground, and will refill automatically (by consuming items from your inventory) when it reaches 0%. Fuel in the Reserves is not directly accessible by modules.
-  - If your suit has high fuel efficiency, it's totally normal for this value to be over 100%. For example, the Biofuel Suit has a 400% fuel efficiency bonus.
-  - *Fuel only transfers from the Reserves to the Tank when you are on the ground.* You can install a  ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** to change this.
-  - Fuel is only needed for modules that consume fuel (currently just the Integrated Jetpack, Thrust Boots, and Hover Jetpack)
-  - What items can be consumed to refuel the fuel reserves depends on what PowerSuit you have equipped:
+</details>
+
+**Fuel Efficiency** is a special bonus that changes how much effective Suit Fuel you get out of the items your suit consumes.
+
+[![Flight](https://i.imgur.com/JBxUd3K.png)](https://ficsit.app/mod/9tusv5NnasQ8tT) _Note: Your suit can refuel mid-air if you have a ![MidAirRefuel](https://i.imgur.com/bdOlMoP.png) Mid-Air Refueling Module from the Flight sub mod installed._
+
+Note that different suits have different Fuel Transfer Speeds and Fuel Efficiency values, which can also be further modified by Modules.
 
 ### **Shield**
 
@@ -319,84 +322,6 @@ This is drained to fill the fuel tank when you are on the ground, and will refil
 **Shield** can be thought of as a special health bar that will be taken from before your actual Health. Shields can only absorb certain kinds of damage by default - for example, radiation damage is not stopped by shields.
 
 When your shield takes damage, it will begin to recharge again after a delay.
-
-# OLD
-
-![Suit HUD screenshot](https://i.imgur.com/snuct51.png)
-
-The suit HUD has multiple bars, listed here from top to bottom:
-
-- **Hover and Flight display**
-  ![](https://i.imgur.com/FB3gt0a.png)
-  - If are flying, a set of wings will appear.
-  - If you are in Hover Mode, a set of green feathers appears to the top right of the flight icon.
-- **Movement speed display**
-  - Displays information about your current velocity in meters per second.
-  - The 'up arrow' section displays the magnitude of your vertical velocity vector.
-  - The 'right arrow' section displays the magnitude of your horizontal velocity vector.
-  - The rightmost number readout with the m/s shows your overall velocity - the combined horizontal and the vertical velocities.
-- **Shield - Light Blue** *(Empty unless you have shield modules installed)*
-  - Blocks most types of damage before your health is affected.
-  - Your shield has a delay before it starts recharging again after you take damage. The remaining time is shown as a little red progress bar by this icon:
-
-  <!--![](https://i.imgur.com/pFLXSYe.png)-->
-  ![](https://i.imgur.com/9Pko0kp.png)
-
-  - When your shield is recharging, you'll see an red battery icon above the shield bar:
-
-  <!--![](https://i.imgur.com/xfvLa6r.png)-->
-  ![](https://i.imgur.com/dGMe6wO.png)
-
-- **Power - Green**
-  - Your suit has an internal battery (Power Total in the Suit Stats window) that acts as its energy reserves, and it comes with a bit of power generation built in.
-  - See how much energy your suit is using/generating by looking at the Power Balance readout in the Suit Stats screen. Positive numbers means you have a surplus, negative means you have a shortage. External PowerDraw shows you how much energy you are currently using. It does not include energy consumption due to shields recharging (might in the future)
-  - Installing generally modules decreases the maximum internal battery.
-  - Some modules consume power to run, which will drain the internal battery's charge.
-  - To *raise your internal battery capacity*, install one of the 3 Capacity-boosting modules.
-  - To *recharge the internal battery faster*, install one of many Generation modules, which do not currently consume any resources to operate.
-  - If the suit runs out of internal battery, it will begin to Overdraw (if your tier of suit has the ability to do so), which is shown as a red progress bar advancing along the top of the Power bar. If the red bar reaches the end, your suit will short, and all modules will cease to function (including Jetpacks    - watch out!)
-
-  ![](https://i.imgur.com/mBjdC6D.png)
-  - When the suit shorts, you will have to wait for it to reboot, indicated by the lighting bolt and yellow progress bar. If this doesn't go away, it means you're still consuming too much power for the suit to reboot. Try adding more generators or removing power-consuming modules. This is the reboot icon:
-
-  ![](https://i.imgur.com/eoxOQUv.png)
-
-- **Fuel Reserves - Orange**
-  - **Your suit's fuel reserves.** This is drained to fill the fuel tank when you are on the ground, and will refill automatically (by consuming items from your inventory) when it reaches 0%. Fuel in the Reserves is not directly accessible by modules.
-  - If your suit has high fuel efficiency, it's totally normal for this value to be over 100%. For example, the Biofuel Suit has a 400% fuel efficiency bonus.
-  - *Fuel only transfers from the Reserves to the Tank when you are on the ground.* You can install a  ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** to change this.
-  - Fuel is only needed for modules that consume fuel (currently just the Integrated Jetpack, Thrust Boots, and Hover Jetpack)
-  - What items can be consumed to refuel the fuel reserves depends on what PowerSuit you have equipped:
-
-<details>
-<summary>Accepted Fuels (click to expand)</summary>
-
-The Biofuel Suit runs on the following fuels, and has 400% fuel efficiency - you get extra suit Fuel compared to if you were using another suit with the same fuels.
-
-- 1x Packaged BioFuel
-- 2x Solid Biofuel
-- 5x Biomass
-- 10x Wood
-- 50x Leaves
-
-The PowerSuit Mk1, Mk2, and Mk3 run on the following fuels:
-
-- 1x Packaged TurboFuel
-- 2x Packaged Fuel
-- 2x Packaged BioFuel
-- 2x Solid Biofuel
-- 10x Wood
-- 200x Leaves
-
-</details>
-
-![](https://i.imgur.com/YR154oF.png)
-
-- **Fuel Tank - Base game body slot display**
-  - Shows what tier of suit you are wearing on the far left and the name above the Fuel Tank.
-  - Shows what type of fuel is currently being used. In the screenshot, it's Packaged Turbofuel.
-  - **Shows how much fuel is currently available to modules.** Currently, only Jetpack-type modules and the Fuel Runners consume fuel. When on the ground, fuel will automatically transfer from the Fuel Reserves to the Fuel Tank, just like how the vanilla Jetpack refills on the ground. You can install a ![](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling Module** for this to happen when flying as well.
-  - **The higher the energy value of the fuel item, the longer one Fuel Tank will last you**. For example, if the suit is running on Turbofuel, one full tank will let you fly further than if it the suit was running on Leaves or regular Fuel.
 
 ## Flight
 
@@ -462,8 +387,9 @@ To help understand the flight friction behaviors, think of the base-game Jetpack
 
 Consider using other modules to change the flight behavior and speed of your suit.
 
-- The **Mid-Air Refueling** module enables refueling while still flying.
-- The **Configurable Dampening** module enables modifying the strength of flight friction, or removing it entirely, right from your inventory.
+- Modules exist to increase your speed while flying.
+- The ![MidAirRefuel](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling** module enables refueling while still flying.
+- The ![ConfigDampen](https://i.imgur.com/E6XqR53.png) **Configurable Dampening** module enables modifying the intensity of flight friction, or removing it entirely, configurable on-the-go.
 
 ## Mod Configuration
 
@@ -471,19 +397,17 @@ You can configure a number of properties of the mod to your liking using the SML
 
 ![Config screenshot](https://i.imgur.com/RIQhVFf.png)
 
-## More Details
-
-You can view the item description of a module before you craft it to see what it does. You can do this in a variety of ways:
-
-1. Hover over it in the H.U.B. milestone it's a part of
-2. Check it out in the Item Codex (default 'x'). All modules should have the word 'module' in their name for easy search.
-3. Hover over the 'output item' icon in the middle section of the Equipment Workbench GUI. It can be troublesome to get your cursor in the right position for this.
+## Further Ramblings
 
 I did my best to balance these modules recipes with respect to when you can obtain them. I am actively looking for feedback on this - please contact me if you have suggestions.
 
-A lot of the heavy lifting to make this mod possible is actually done in the PowerSuit mod itself. If you're interested in seeing what's possible with the mod or making some modules of your own, I strongly suggest you check out its mod page for more info.
+If you disagree with my recipe balance decisions and interested in making your own recipes for these modules, I suggest you check out the [ContentLib Recipes](https://ficsit.app/mod/5ak7eHymSNw4YN) mod, which makes writing your own as simple as putting a JSON file in the right folder.
 
-If you're interested in making your own modules or recipes for these modules, both this mod and the base PowerSuit mod are open source. Feel free to check out the source code or contact either Nog or I via the Satisfactory Modding Discord for more info.
+Most modules make use of the 'Attachment Actor' system, a PowerSuit extension of the usual attachments used by the base game. This allows installed Modules to execute custom Blueprint (or C++) logic to interface with the suit and the world. This is great, because it means that modules can do a ton of fun stuff that they couldn't before. But it was also a *ton* of work to get everything brought over from SML2, as I had to rewrite a significant bit of logic that used to be built into the suit. Despite this added complexity, a lot of the heavy lifting to make this mod possible is still done in the PowerSuit mod itself. it'
+
+If you're interested in seeing what's possible with the mod or making some modules of your own, I suggest you check out the source code, as both this mod and the base PowerSuit mod are open source. Feel free to contact Nog or I on Discord. I would be happy to assist you in developing your own Modules, and you are free to depend on this mod if you want to make use of some of the additional module utilities I have developed.
+
+For developers: All of my MAM tree nodes are automatically generated and populated from item recipes. Let me know if you want info on how to do this yourself.
 
 ## Special Thanks
 
@@ -499,7 +423,7 @@ Please let me know if I forgot to add you to this list.
 ### Assorted Credits
 
 - The Coffee Stain Studios time machine for the Fabrication Station model.
-- Extendo Arm module icon from [Game Icons.Net](https://game-icons.net/)
+- Extendo Arm module icon from [GameIcons.net](https://game-icons.net/)
 - Rabbit and Turtle icons for Shield Reconfigurators from [Freepik](flaticon.com)
 
 ## Updates and Patch Notes
@@ -515,6 +439,7 @@ Find them [here](https://github.com/budak7273/ArmorModules/tree/master/PatchNote
 <details>
 <summary>Click to Expand</summary>
 
+- My secret list of things on my Trello
 - Create ADA messages for the new MAM Tree milestones
   - My old ones for the HUB no longer fit because of how the categories are broken down now
 - Finish modules marked as WIP
@@ -529,7 +454,7 @@ Find them [here](https://github.com/budak7273/ArmorModules/tree/master/PatchNote
   - Fun late game modules like out-of-bounds damage immunity
   - Fuel efficiency increaser
   - Sliding Generator
-- My secret list of things on my Trello
+- A separate sub-mod that introduces cheat modules
 
 </details>
 
@@ -545,3 +470,5 @@ Remember - this mod and the base PowerSuit mod are open source, and you're total
   - I may need some icons made in the future, though. If you would like to contribute models/icons for them I would greatly appreciate it.
 
 </details>
+
+Hey, you read all the way to the bottom. Thanks! I appreciate that you care about what all I have to say.
