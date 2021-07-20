@@ -22,6 +22,15 @@
 ![Singleplayer compatibility: full](https://i.imgur.com/S8roc0Y.png)
 ![Multiplayer compatibility: partial](https://i.imgur.com/GJh3Lcb.png)
 
+<details>
+<summary> Details </summary>
+
+- Both the Early Access and Experimental versions of the game are supported.
+- The mod should function just fine in Singleplayer. Please report any bugs you encounter via the methods described below.
+- The mod is designed with Multiplayer in mind, but you are more likely to encounter bugs there due to the extra layers of complication it adds. See the 'Multiplayer Compatibility Notes' section below, and please report any bugs you encounter.
+
+</details>
+
 ## [Patch Notes - click me!](https://github.com/budak7273/ArmorModules/tree/master/PatchNotes)
 
 <details>
@@ -30,7 +39,7 @@
 Please report any issues to me (Robb#6731) or Nog on the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu).
 
 - Clients may have to re-equip the suit upon login for some suit functions to work.
-- (Unconfirmed in Update 4) If a client logs out with radioactive items in their inventory or in a radioactive area, their 'ghost' player will die to radiation while they are offline.
+- (Unconfirmed in Update 4) If a client logs out with radioactive items in their inventory or in a radioactive area, their 'ghost' player could die to radiation while they are offline.
 
 </details>
 
@@ -50,12 +59,12 @@ Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub
 
 </details>
 
-This mod (with all [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx)) adds a whole bunch (**57+**) of armor modules for use in your **multiplayer-compatible**
+This mod (with all [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx) installed) adds a whole bunch (**57+**) of armor modules for use in your **multiplayer-compatible**
  [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2). It introduces 4 different suits in which modules can be installed, the first of which is accessible as soon as you get Blade Runners.
 
-Although you can use this mod in tandem with the [NogsPowerSuit](https://ficsit.app/mod/FJJALSZBNhZ37d) mod, they are not balanced for each other in the slightest, and the Codename NGF modules is basically a cheat module for developer testing. I would not recommend it.
-
 Please report leave suggestions and report issues either in the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu) or [as a Github issue](https://github.com/budak7273/ArmorModules/issues/new/choose).
+
+Although you can use this mod in tandem with the [NogsPowerSuit](https://ficsit.app/mod/FJJALSZBNhZ37d) mod, they are not balanced for each other in the slightest, and the Codename NGF module is basically a cheat module for developer testing. I would not recommend it.
 
 ## Feature Overview
 
@@ -191,7 +200,7 @@ Do note that each Module Base Component requires a Power Shard to craft - but th
 
 By the power of [MAM Enhancer](https://ficsit.app/mod/EPUmESEWaBCk4n), you can view what modules are going to do before you unlock them! Simply select a MAM node in the tree, and MAM Enhancer will display a description of the node on the right, as well as allow you to view tooltips of the items you need to submit, or click on them to open them in your Item Codex.
 
-If you want to see a module's description again, you can always come back to the MAM,search it in the Item Codex (press X) or Quick Search (press U). More methods are described below in the *More Details* section further down on the page.
+If you want to see a module's description again, you can always come back to the MAM, search it in the Item Codex (press X) or Quick Search (press U). More methods are described below in the *More Details* section further down on the page.
 
 ### Installing Modules
 
@@ -248,6 +257,7 @@ The suit HUD tells you a lot of information about your suit and your player at a
 
 A couple of extra details on the non-trivial portions:
 
+- The Shield, Power, and Fuel bars (from top to bottom) correspond to the percentage values to their left, and will display `---%` when the suit can't hold any.
 - The Fuse Indicator will be green when the suit is operating as normal, orange when Overdrawing, and red when Rebooting
 - The Intensity of Change indicators are arrows that show how much their respective stat is currently changing. The more significant the change, the more chevrons.
 - The Suit Mode Indicators inform you of the following:
@@ -265,7 +275,7 @@ A couple of extra details on the non-trivial portions:
 
 **Power** is electrical energy essential for the operation of most modules. Modules will either consume or generate power. A small amount of Power is passively produced by your suit, but you must install additional modules to generate or store more at a time.
 
-Some modules will generate power for free, others will require 
+Some modules will generate power for free, others will require certain special conditions to be met, and some will consume Suit Fuel (see below) to generate power.
 
 #### **Fuse and Overdraw**
 
