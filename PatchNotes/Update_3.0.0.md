@@ -54,7 +54,7 @@ Early Release 2
 ============================================
 
 Update 4 support, tons of new Modules and functionality, Suit UI overhaul, MAM integration and custom crafting station. Divided into sub-mods so you can pick and choose what you want to play with.
-<!-- The above line is what the update feed should show when webhooked to the Discord -->
+
 
 ### Changes Overview
 
