@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
-	"Version": 4,
-	"VersionName": "4.0.0",
-	"SemVersion": "4.0.0",
-	"FriendlyName": "EARLY RELEASE PowerSuit Modules",
+	"Version": 3,
+	"VersionName": "3.0.0",
+	"SemVersion": "3.0.0",
+	"FriendlyName": "PowerSuit Modules",
 	"Description": "A plethora of modules compatible with Nogs' PowerSuit Mod. \n\nCheck out the mod page: https://ficsit.app/mod/BezrE8aswqXLRX \n\nThis mod would be impossible without Nog's open source and easily extensible PowerSuit mod. Be sure to check it out, and consider writing a modules mod of your own. \n\nTurtle and rabbit icons from Freepik on flaticon.com",
 	"Category": "Modding",
 	"CreatedBy": "Robb#6731, Nog",
@@ -23,13 +23,19 @@
 		},
 		{
 			"Name": "PowerSuit",
-			"SemVersion": "^0.6.0",
+			"SemVersion": "^0.6.2",
 			"Enabled": true
 		},
 		{
 			"Name": "MAMTips",
-			"SemVersion": ">=0.0.1",
+			"SemVersion": "^0.1.0",
 			"Enabled": true
+		},
+		{
+			"Name": "NogsResearch",
+			"SemVersion": "^0.3.1",
+			"Enabled": false,
+			"bIsOptional": true
 		},
 		{
 			"Name": "ArmorModules__Modpack_All",
