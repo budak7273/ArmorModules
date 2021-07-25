@@ -1,3 +1,6 @@
+# Hey, person from the future! These install directions are no longer valid, as these versions are out of date. Install using Satisfactory Mod Manager instead!
+
+
 Here it is, the early release of PowerSuit Modules (and the updated version of PowerSuit to go along with it) at long last!
 
 ### Before continuing, please read the change logs I have attached for both PowerSuit and PowerSuit Modules, as they will help you get an idea of what changed and what to look for. If you find a bug, or something is confusing or misleading, please don't hesitate to let me know.
