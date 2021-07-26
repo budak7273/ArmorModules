@@ -41,6 +41,7 @@
 Please report any issues to me (Robb#6731) or Nog on the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu).
 
 - Clients may have to re-equip the suit upon login for some suit functions to work.
+- Settings that clients select in their own Mod Options (that differ from the host) may or may not work on a case by case basis. I have designed things with the client in mind, but have not done much testing with these yet.
 - The 'Spatial Tear Generator' module will almost probably kill multiplayer clients if it activates (base game, still working on a fix for that)
 - (Unconfirmed in Update 4) If a client logs out with radioactive items in their inventory or in a radioactive area, their 'ghost' player could die to radiation while they are offline.
 
@@ -53,14 +54,15 @@ Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub
 
 ### Major
 
-- People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know. As of Update 4, this may no longer be a problem though.
+- People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
   - Entering a vehicle can prevent the suit from working until you reload the save.
-- The handheld hoverpack controllers will not actually be in your hands if you use an FOV other than 90. We are not certain of a fix for this yet. You can hide them in the PowerSuit mod settings if this bothers you.
+
 - Modules do not always apply their usage costs correctly if you have the Toggle Sprint option on. We're working on this, but it has been a lower priority
 
 ### Minor
 
 - Modules which display a warning message in the chat upon equip, or those tagged as WIP, may not be fully functioning yet.
+- The handheld hoverpack controllers will not actually be in your hands if you use an FOV other than 90. We are not certain of a fix for this yet. You can hide them in the PowerSuit mod settings if this bothers you.
 
 </details>
 
