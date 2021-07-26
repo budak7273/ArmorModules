@@ -54,6 +54,8 @@ Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub
 ### Major
 
 - People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know. As of Update 4, this may no longer be a problem though.
+  - Entering a vehicle can prevent the suit from working until you reload the save.
+- The handheld hoverpack controllers will not actually be in your hands if you use an FOV other than 90. We are not certain of a fix for this yet. You can hide them in the PowerSuit mod settings if this bothers you.
 - Modules do not always apply their usage costs correctly if you have the Toggle Sprint option on. We're working on this, but it has been a lower priority
 
 ### Minor
