@@ -11,25 +11,27 @@ Thanks for the support and bug reports everyone! This update should address most
 
 ## New Stuff
 
-- New suit fuel UI shows how much of each fuel item you have left. Usage priority is left to right, last consumed item is boxed. The tiny orange progress bar shows how much of the last consumed item you have left before it consumes another.
+- **New suit fuel UI** shows how much of each fuel item you have left. Usage priority is left to right, last consumed item is boxed. The tiny orange progress bar shows how much of the last consumed item you have left before it consumes another.
 
 ![FuelUI](https://i.imgur.com/2fJG1dy.png)
-- New Mobile AWESOME Uplink module in Fresh from R&D sub-mod
+
+- New **Mobile AWESOME Uplink module** in Fresh from R&D sub-mod
   - Mobile AWESOME Shop/Resource Sink (for ticket printing and points viewing)
-- You can now collapse Mobile Workstation GUIs and continue to craft items while still moving around in the world! See their GUI for more info
-- Double-tap crouch to stop hover flight keybind is back
+- You can now collapse Mobile Workstation GUIs and **continue to craft items while still moving around in the world!** See their GUI for more info
+- **Double-tap crouch to stop hover flight** keybind is back
 - Remote Access module now has a config option to be turned on all the time
 - Night Vision module now as a config option to be turned on all the time
 
 ## Changed Stuff
 
-- Fixed behavior of Horizontal and Vertical thruster modules, which also included rebalancing their costs and awarded speeds.
+- Fixed behavior of **Horizontal and Vertical thruster modules**, which also included rebalancing their costs and awarded speeds.
 - Mid-Air Refuel module now increases fuel consumption only while flying, and consumes flat 25 MW of Power while flying as opposed to the unimplemented power consumption multiplier
 - Item Consumer modules now show how many of their consumed item (ex. Filters) remain in your inventory
+- **Full support for Toggle Sprint base game setting**
 - Factor in base game settings for volume as well as the mod slider values
 - Fixed various tooltips across various sub-mods
 - Update costs of Fresh from R&D modules, notably the Mobile Workshop modules
-- Full support for Toggle Sprint base game setting
+- Fuel Runners no longer makes noise when you start sprinting, because that was actually really annoying in retrospect
 - Flight Modules crafting category has been split into Flight Modules and Flight Enhancing Modules to make it more clear that you can only wear one jetpack at a time
 - There is now a config option that should keep modules from ever consuming fuel, if that's your cup of tea
 - Night Vision module starts out installed at full power instead of 0 power
@@ -55,3 +57,6 @@ Thanks for the support and bug reports everyone! This update should address most
 - Modules that require fuel to operate still don't turn off when you lack fuel.
   - This is more complicated than it may seem, because a module can change whether it is usable or not very often due to fuel levels, which can cause a tolerable but measureable amount of lag.
 - Slight flickers in the suit UI when changing suit movement states
+- I might have accidentally broken some module sounds, let me know if something seems missing
+
+Thanks for reading, and have fun!
