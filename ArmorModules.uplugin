@@ -32,12 +32,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "NogsResearch",
-			"SemVersion": "^0.3.1",
-			"Enabled": false,
-			"bIsOptional": true
-		},
-		{
 			"Name": "ArmorModules__Modpack_All",
 			"SemVersion": ">=0.0.1",
 			"Enabled": false,
