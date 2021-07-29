@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 3,
-	"VersionName": "3.1.0",
-	"SemVersion": "3.1.0",
+	"VersionName": "3.1.1",
+	"SemVersion": "3.1.1",
 	"FriendlyName": "PowerSuit Modules",
 	"Description": "A plethora of modules compatible with Nogs' PowerSuit Mod. \n\nCheck out the mod page: https://ficsit.app/mod/BezrE8aswqXLRX \n\nThis mod would be impossible without Nog's open source and easily extensible PowerSuit mod. Be sure to check it out, and consider writing a modules mod of your own. \n\nTurtle and rabbit icons from Freepik on flaticon.com",
 	"Category": "Modding",
