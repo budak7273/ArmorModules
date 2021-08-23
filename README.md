@@ -1,5 +1,6 @@
 # [Click here to install or see the mod page on Ficsit.app](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
+[![PowerSuit Logo](https://i.imgur.com/WOZ4kgk.png)](https://ficsit.app/mod/7J2LyFzTakqPQ5)
 [![PowerSuit Modules](https://i.imgur.com/FVZDh9d.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
 [![Modpack link](https://i.imgur.com/rJ5t9u1.png)](https://ficsit.app/mod/CEjJnBXkLEiszx)
