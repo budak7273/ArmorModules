@@ -1,6 +1,6 @@
 # [Click here to install or see the mod page on Ficsit.app](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
-[![PowerSuit Modules](https://i.imgur.com/almXu5F.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
+[![PowerSuit Modules](https://i.imgur.com/FVZDh9d.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
 [![Modpack link](https://i.imgur.com/rJ5t9u1.png)](https://ficsit.app/mod/CEjJnBXkLEiszx)
 
@@ -25,7 +25,7 @@
 ![Multiplayer compatibility: partial](https://i.imgur.com/GJh3Lcb.png)
 
 <details>
-<summary> Details </summary>
+<summary> Version Support Details </summary>
 
 - Both the Early Access and Experimental versions of the game are supported.
 - The mod should function just fine in Singleplayer. Please report any bugs you encounter via the methods described below.
@@ -70,8 +70,8 @@ Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub
 
 _This mod is a 'base mod.' You must install [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx) to get the full functionality._
 
-This mod (with all [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx) installed) adds a whole bunch of armor modules (**57+**) for use in your **multiplayer-compatible**
- [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2). It introduces 4 different suits in which modules can be installed, the first of which is accessible as soon as you get Blade Runners.
+This mod (with all [sub-mods](https://ficsit.app/mod/CEjJnBXkLEiszx) installed) adds a whole bunch of armor modules (**58+**) for use in your **multiplayer-compatible**
+ [PowerSuit](https://ficsit.app/mod/7J2LyFzTakqPQ5), reminiscent of Factorio's [equipment module system](https://wiki.factorio.com/Power_armor_MK2). The mod introduces 4 different suits in which modules can be installed, the first of which is accessible as soon as you get Blade Runners.
 
 Please leave suggestions and report issues either on the [Nog's Mods Discord](http://discord.gg/zqp6U7Y7Nu) or [as a Github issue](https://github.com/budak7273/ArmorModules/issues/new/choose).
 
@@ -83,9 +83,9 @@ Although you can use this mod in tandem with the [NogsPowerSuit](https://ficsit.
 
 - Customize the function of your PowerSuit to your liking.
 There is no 'perfect' armor setup - you get to decide what is important to you.
-- Work with R&D to develop 57+ modules to install across 7 new reseach trees! (_ADA voicelines not updated yet, sorry_)
+- Work with R&D to develop 58+ modules to install across 7 new reseach trees! (_ADA voicelines not updated yet, sorry_)
 - Combine the effects of the
-![Jetpack](https://i.imgur.com/tMw8e92.png) Jetpack /
+![Jetpack](https://i.imgur.com/tMw8e92.png) Jetpack,
 ![HoverPack](https://i.imgur.com/9ESxs4c.png) Hover Pack,
 ![GasMask](https://i.imgur.com/Pi65d74.png) Gas Mask,
 ![BladeRunners](https://i.imgur.com/BMOVzZp.png) Blade Runners,
@@ -118,10 +118,17 @@ Teleport to the HUB (and automatically avoid your death, keeping your inventory!
 
 ## Check out the mod in action!
 
-The mod has changed *drastically* since these videos were released, but you may still find them valuable to watch.
+Check out **Direwolf20** trying out the mod in his Let's Play: _(videos slightly out of date)_
+
+[![Direwolf20 1](https://i.imgur.com/ooJZyLM.png)](https://www.youtube.com/watch?v=Tg4mVtjk9L0)
+[![Direwolf20 2](https://i.imgur.com/T4yYrGU.png)](https://www.youtube.com/watch?v=vIxyhHo-Y70)
+[![Direwolf20 3](https://i.imgur.com/NzlhATq.png)](https://www.youtube.com/watch?v=w0IdiGbPCws)
+
 
 <details>
 <summary> Outdated Videos </summary>
+
+The mod has changed *drastically* since the below videos were released, but you may still find them valuable to watch:
 
 _Check out an old version of the mod on the Update 4 Launch Stream!_
 [![Update 4 Launch Stream - Modding Segment](https://i.imgur.com/uHOWRWV.png)](https://youtu.be/Gdz6SUv9Om4?t=11384)
@@ -184,8 +191,8 @@ Even older videos:
 
 PowerSuit Modules now consists of multiple smaller sub-mods as opposed to one monolithic mod. If you have only installed the base mod, you should probably get some others if you want your suits to do anything.
 
-- Pick and choose the sub-mods you want to play with, but I suggest using the [All Modules Modpack](https://ficsit.app/mod/CEjJnBXkLEiszx) for the best experience
-- More sub-mods will be released in the future, potentially with modules that offer content for your other favorite mods
+- You can pick and choose the sub-mods you want to play with, but I suggest using the [All Modules Modpack](https://ficsit.app/mod/CEjJnBXkLEiszx) for the best experience.
+- More sub-mods will be released in the future, potentially with modules that offer content for your other favorite.
 - **All sub-mods are linked from the top of the mod page (click the images!)**
 
 [![Modpack](https://i.imgur.com/fr5kNHn.png)](https://ficsit.app/mod/CEjJnBXkLEiszx) _Install the All Modules Modpack here!_
@@ -199,7 +206,7 @@ Each module is crafted from a
 and a handful of other components.
 New modules are unlocked in the **MAM** and crafted in the **Fabrication Station**.
 
-![Fabrication Station](https://i.imgur.com/0ysqT57.jpeg)
+![Fabrication Station](https://i.imgur.com/8wJjW8D.jpeg)
 
 It might look a little familiar to some of you. After all, R&D does not waste.
 
@@ -213,7 +220,7 @@ Do note that each Module Base Component requires a Power Shard to craft - but th
 
 By the power of [MAM Enhancer](https://ficsit.app/mod/EPUmESEWaBCk4n), you can view what modules are going to do before you unlock them! Simply select a MAM node in the tree, and MAM Enhancer will display a description of the node on the right, as well as allow you to view tooltips of the items you need to submit, or click on them to open them in your Item Codex.
 
-If you want to see a module's description again, you can always come back to the MAM, search it in the Item Codex (press X) or Quick Search (press U). You can also hover over just the right spot of the preview icon in the Fabrication Station, which is a bit of a pain to do, but possible. I will be improving this later.
+If you want to see a module's description again, you can always come back to the MAM, search it in the Item Codex (press X) or Quick Search (press U). You can also hover over just the top left corner of the preview icon in the Fabrication Station, which is a bit of a pain to do, but possible. I will be improving this user interface later.
 
 ### Installing Modules
 
@@ -367,18 +374,23 @@ Review the different types of flight below in the 'Flight Controls' section.
   - _Consumes exclusively Power_
   - Hover Flight with Friction
   - The PowerSuit equivalent of the vanilla Hover Pack.
-  - Does not currently connect to your base's electric grid. That feature is coming in future versions.
+  - Does not connect to your base's electric grid. That feature is coming in future versions.
+- ![MultiFlight](https://i.imgur.com/l5OdPsV.png) **Adaptive Flight Module**
+  - _Consumes exclusively Power_
+  - Frictionless Thrust Flight OR Hover Flight with Friction
+  - Allows you to swap between Thrust and Hover flight on the fly (ba dun tss).
+  - Use your 'PowerSuit: Toggle Gravity Flight' keybind (G by default) to toggle between flight modes
 
 ### **Flight Controls**
 
 There are two types of flight that modules can grant. Don't worry - you're already familiar with them from the base game.
 
-- ![Jetpack](https://i.imgur.com/tMw8e92.png) ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) **Thrust Flight** (also called Gravity Flight)
+- ![Jetpack](https://i.imgur.com/tMw8e92.png) ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) ![MultiFlight](https://i.imgur.com/l5OdPsV.png) **Thrust Flight** (also called Gravity Flight)
   - _Similar to the vanilla Jetpack_
   - Hold space to ascend. You will fall to the ground when not pressing space.
   - Press 'PowerSuit Accelerate' (Shift by default) for a boost.
   - You can speed up your fall by holding crouch.
-- ![Hoverpack](https://i.imgur.com/9ESxs4c.png) ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) **Hover Flight**
+- ![Hoverpack](https://i.imgur.com/9ESxs4c.png) ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) ![MultiFlight](https://i.imgur.com/l5OdPsV.png) **Hover Flight**
   - _Similar to the vanilla Hover Pack_
   - Hold space to ascend. You will not descend until you press your crouch key.
   - Press 'PowerSuit Accelerate' (Shift by default) for a boost.
@@ -389,10 +401,10 @@ To help understand the types of flight, think of the base-game Jetpack versus th
 
 There are two flight friction behaviors to consider as well:
 
-- ![Jetpack](https://i.imgur.com/tMw8e92.png) **Frictionless Flight**
+- ![Jetpack](https://i.imgur.com/tMw8e92.png) ![MultiFlight](https://i.imgur.com/l5OdPsV.png) **Frictionless Flight**
   - _Similar to the vanilla Jetpack_
   - When you stop pressing the movement keys, you will keep your horizontal momentum, continuing to move through the air. This is  great for if you've just shot yourself out of a Hypertube Cannon, but not so great for precise building.
-- ![Hoverpack](https://i.imgur.com/9ESxs4c.png) ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) **Friction Flight**
+- ![Hoverpack](https://i.imgur.com/9ESxs4c.png) ![ThrustBoots](https://i.imgur.com/LUbGHnG.png) ![HoverJetpack](https://i.imgur.com/x0nhmhN.png) ![MultiFlight](https://i.imgur.com/l5OdPsV.png) **Friction Flight**
   - _Similar to the vanilla Hover Pack_
   - When you stop pressing the movement keys, you will be gradually brought to a stop mid-air, losing your horizontal momentum.
 
@@ -402,7 +414,7 @@ Consider using other modules to change the flight behavior and speed of your sui
 
 - Modules exist to increase your speed while flying.
 - The ![MidAirRefuel](https://i.imgur.com/bdOlMoP.png) **Mid-Air Refueling** module enables refueling while still flying.
-- The ![ConfigDampen](https://i.imgur.com/E6XqR53.png) **Configurable Dampening** module enables modifying the intensity of flight friction, or removing it entirely, configurable on-the-go.
+- The ![ConfigDampen](https://i.imgur.com/E6XqR53.png) **Air Resistance Regulator** module enables modifying flight friction intensity, or removing it entirely, configurable on-the-go.
 
 ## Mod Configuration
 
@@ -416,7 +428,7 @@ I did my best to balance these modules recipes with respect to when you can obta
 
 If you disagree with my recipe balance decisions and interested in making your own recipes for these modules, I suggest you check out the [ContentLib Recipes](https://ficsit.app/mod/5ak7eHymSNw4YN) mod, which makes writing your own as simple as putting a JSON file in the right folder.
 
-Most modules make use of the 'Attachment Actor' system, a PowerSuit extension of the usual attachments used by the base game. This allows installed Modules to execute custom Blueprint (or C++) logic to interface with the suit and the world. This is great, because it means that modules can do a ton of fun stuff that they couldn't before. But it was also a *ton* of work to get everything brought over from SML2, as I had to rewrite a significant bit of logic that used to be built into the suit. Despite this added complexity, a lot of the heavy lifting to make this mod possible is still done in the PowerSuit mod itself. it'
+Most modules make use of the 'Attachment Actor' system, a PowerSuit extension of the usual attachments used by the base game. This allows installed Modules to execute custom Blueprint (or C++) logic to interface with the suit and the world. This is great, because it means that modules can do a ton of fun stuff that they couldn't before. But it was also a *ton* of work to get everything brought over from SML2, as I had to rewrite a significant bit of logic that used to be built into the suit. Despite this added complexity, a lot of the heavy lifting to make this mod possible is still done in the PowerSuit mod itself.
 
 If you're interested in seeing what's possible with the mod or making some modules of your own, I suggest you check out the source code, as both this mod and the base PowerSuit mod are open source. Feel free to contact Nog or I on Discord. I would be happy to assist you in developing your own Modules, and you are free to depend on this mod if you want to make use of some of the additional module utilities I have developed.
 
@@ -427,16 +439,17 @@ For developers: All of my MAM tree nodes are automatically generated and populat
 Please let me know if I forgot to add you to this list.
 
 - **Nog** for writing the PowerSuit mod, and working with me to debug it and the Modules mod, and tolerating my endless questions.
+- **Micheal** for contributing high quality sounds to the mod, and implementing many of them too! He's a professional audio engineer - check out his portfolio [here](Michael-Teelen.com).
 - **Deantendo#4265** for the very snazzy mod icon, which I have since ~~mutilated~~ adapted to make the icons for the sub-mods.
 - **Panakotta** for the examples of ADA Messages and the BP code to send them to players.
 - **RNGesus Prime**, **NotoriousRNG**, **Reika**, **K14M**, **ko5o01gg AKA Dakotka**, **StromE**, and **WillLMR** for testing and balance feedback.
-- **Random Gamer** and **TotalXclipse** for making mod spotlights.
+- **Direwolf20**, **Random Gamer** and **TotalXclipse** for making mod spotlights.
 - **TwoTwoEleven** for help debugging the display of the in-game mod icon back in SML2.
 
 ### Assorted Credits
 
-- The Coffee Stain Studios time machine for the Fabrication Station model.
-- Extendo Arm module icon from [GameIcons.net](https://game-icons.net/)
+- The Coffee Stain Studios time machine for the Fabrication Station base model.
+- Base for the Extendo Arm module icon (it was edited further) from [GameIcons.net](https://game-icons.net/)
 - Rabbit and Turtle icons for Shield Reconfigurators from [Freepik](flaticon.com)
 
 ## Updates and Patch Notes
@@ -452,7 +465,7 @@ Find them [here](https://github.com/budak7273/ArmorModules/tree/master/PatchNote
 <details>
 <summary>Click to Expand</summary>
 
-- My secret list of things on my Trello
+- My secret list of surprises on my Trello
 - Create ADA messages for the new MAM Tree milestones
   - My old ones for the HUB no longer fit because of how the categories are broken down now
 - Finish modules marked as WIP
@@ -479,9 +492,9 @@ Find them [here](https://github.com/budak7273/ArmorModules/tree/master/PatchNote
 Remember - this mod and the base PowerSuit mod are open source, and you're totally free to create your own modules with these as inspiration.
 
 - 3D models for any modules
-  - I don't plan to make custom models for the modules or crafting materials any time soon. They don't really have much of a reason to be moving around on conveyors or on the ground anyways.
-  - I may need some icons made in the future, though. If you would like to contribute models/icons for them I would greatly appreciate it.
+  - I don't plan to make custom models for the modules any time soon. They don't really have much of a reason to be moving around on conveyors or on the ground anyways.
+  - I may need some icons made in the future, though. If you would like to contribute models/icons for them, I would greatly appreciate it.
 
 </details>
 
-Hey, you read all the way to the bottom. Thanks! I appreciate that you care about what all I have to say.
+Hey, you read all the way to the bottom. Thanks! I appreciate that you care about what all I have to say. Have fun with the mod.
