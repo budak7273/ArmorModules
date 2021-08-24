@@ -55,15 +55,15 @@ Also check the Multiplayer Compatibility Notes section, and possibly the [GitHub
 
 ### Major
 
-- People have reportedly had issues entering and exiting vehicles. If you have any more info on this, please let us know.
-  - Entering a vehicle can prevent the suit from working until you reload the save.
-
-- Modules do not always apply their usage costs correctly if you have the Toggle Sprint option on. We're working on this, but it has been a lower priority
+- Modules that require fuel do not "turn off" when you run out of fuel, and will continue functioning on less fuel than they should
+  - This problem is not straightforward to solve because turning modules on/off can cause a lag as the suit recalculates its stats.
+  - This problem will be addressed in a future update
+- The "Spatial Tear Generator" can kill multiplayer clients on teleport
+  - This is a base game issue with clients moving too fast. Not sure how to fix this yet.
 
 ### Minor
 
-- Modules which display a warning message in the chat upon equip, or those tagged as WIP, may not be fully functioning yet.
-- The handheld hoverpack controllers will not actually be in your hands if you use an FOV other than 90. We are not certain of a fix for this yet. You can hide them in the PowerSuit mod settings if this bothers you.
+- Multiplayer clients can't see the color of suit that the host has equipped, even though the host can see clients and clients can see each other.
 
 </details>
 
@@ -119,11 +119,11 @@ Teleport to the HUB (and automatically avoid your death, keeping your inventory!
 
 ## Check out the mod in action!
 
-Check out **Direwolf20** trying out the mod in his Let's Play: _(videos slightly out of date)_
+Check out **direwolf20** trying out the mod in his Let's Play: _(videos slightly out of date)_
 
-[![Direwolf20 1](https://i.imgur.com/ooJZyLM.png)](https://www.youtube.com/watch?v=Tg4mVtjk9L0)
-[![Direwolf20 2](https://i.imgur.com/T4yYrGU.png)](https://www.youtube.com/watch?v=vIxyhHo-Y70)
-[![Direwolf20 3](https://i.imgur.com/NzlhATq.png)](https://www.youtube.com/watch?v=w0IdiGbPCws)
+[![direwolf20 1](https://i.imgur.com/ooJZyLM.png)](https://www.youtube.com/watch?v=Tg4mVtjk9L0)
+[![direwolf20 2](https://i.imgur.com/T4yYrGU.png)](https://www.youtube.com/watch?v=vIxyhHo-Y70)
+[![direwolf20 3](https://i.imgur.com/NzlhATq.png)](https://www.youtube.com/watch?v=w0IdiGbPCws)
 
 
 <details>
@@ -440,11 +440,11 @@ For developers: All of my MAM tree nodes are automatically generated and populat
 Please let me know if I forgot to add you to this list.
 
 - **Nog** for writing the PowerSuit mod, and working with me to debug it and the Modules mod, and tolerating my endless questions.
-- **Micheal** for contributing high quality sounds to the mod, and implementing many of them too! He's a professional audio engineer - check out his portfolio [here](Michael-Teelen.com).
+- **Micheal** for contributing high quality sounds to the mod, and implementing many of them too! He's a professional audio engineer - check out his portfolio [here](https://Michael-Teelen.com).
 - **Deantendo#4265** for the very snazzy mod icon, which I have since ~~mutilated~~ adapted to make the icons for the sub-mods.
 - **Panakotta** for the examples of ADA Messages and the BP code to send them to players.
 - **RNGesus Prime**, **NotoriousRNG**, **Reika**, **K14M**, **ko5o01gg AKA Dakotka**, **StromE**, and **WillLMR** for testing and balance feedback.
-- **Direwolf20**, **Random Gamer** and **TotalXclipse** for making mod spotlights.
+- **direwolf20**, **Random Gamer** and **TotalXclipse** for making mod spotlights.
 - **TwoTwoEleven** for help debugging the display of the in-game mod icon back in SML2.
 
 ### Assorted Credits
