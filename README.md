@@ -1,5 +1,7 @@
 # [Click here to install or see the mod page on Ficsit.app](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
+## Development temporarily taking place in a private repo (due to usage of assets we can't redistribute here) but you can contact me on Discord for the source code.
+
 [![PowerSuit Logo](https://i.imgur.com/WOZ4kgk.png)](https://ficsit.app/mod/7J2LyFzTakqPQ5)
 [![PowerSuit Modules](https://i.imgur.com/FVZDh9d.png)](https://ficsit.app/mod/BezrE8aswqXLRX/)
 
