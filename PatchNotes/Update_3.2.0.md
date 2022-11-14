@@ -4,11 +4,13 @@ Shiny new meshes, new sounds, crafting components can be made in machines, new a
 
 
 [![UpdateBanner](https://i.imgur.com/rU1PLZg.png)](https://ficsit.app/mod/BezrE8aswqXLRX)
+
 Be sure to check out the [version 3.0.0 patch notes](https://github.com/budak7273/ArmorModules/blob/master/PatchNotes/Update_3.0.0.md) if you haven't yet!
 
 ## New Stuff
 
 [![NewItems](https://i.imgur.com/MU02XOh.png)](https://i.imgur.com/JIejQiM.jpeg)
+
 [(Click to see full size image)](https://i.imgur.com/JIejQiM.jpeg)
 
 <video controls="" width="720" height="405">
@@ -26,7 +28,7 @@ Be sure to check out the [version 3.0.0 patch notes](https://github.com/budak727
   - New team member Michael has contributed a lot of cool module sounds, with more on their way Soon™
   - **Expect them to change,** and for more of them to be added in the future.
     - We are still figuring out how we want to theme the sounds.
-  - Check out his portfolio [here](Michael-Teelen.com)!
+  - Check out his portfolio [here](https://Michael-Teelen.com)!
   - The Integrated Gas Mask now has sounds for entering/leaving gas, as well as a breathing loop like the vanilla gas mask.
   - Changed and added Indicator Sounds for Shield Status and Shield Hits (Work in Progress)
   - The following modules now have install/uninstall sounds:

@@ -1,14 +1,14 @@
 {
 	"FileVersion": 3,
-	"Version": 3,
-	"VersionName": "3.1.2",
-	"SemVersion": "3.1.2",
+	"Version": 4,
+	"VersionName": "4.0.2",
+	"SemVersion": "4.0.2",
 	"FriendlyName": "PowerSuit Modules",
-	"Description": "A plethora of modules compatible with Nogs' PowerSuit Mod. \n\nCheck out the mod page: https://ficsit.app/mod/BezrE8aswqXLRX \n\nThis mod would be impossible without Nog's open source and easily extensible PowerSuit mod. Be sure to check it out, and consider writing a modules mod of your own. \n\nTurtle and rabbit icons from Freepik on flaticon.com",
+	"Description": "Expand your equipment options with a PowerSuit! Highly customizable and configurable.\n\nTurtle and rabbit icons from Freepik on flaticon.com",
 	"Category": "Modding",
 	"CreatedBy": "Robb#6731, Nog",
-	"CreatedByURL": "https://ficsit.app/mod/BezrE8aswqXLRX",
-	"DocsURL": "https://github.com/budak7273/ArmorModules/",
+	"CreatedByURL": "https://github.com/budak7273/ArmorModules/",
+	"DocsURL": "https://ficsit.app/mod/ArmorModules",
 	"MarketplaceURL": "",
 	"SupportURL": "http://discord.gg/zqp6U7Y7Nu",
 	"CanContainContent": true,
@@ -18,60 +18,18 @@
 	"Plugins": [
 		{
 			"Name": "SML",
-			"SemVersion": "^3.0.0",
+			"SemVersion": "^3.4.0",
 			"Enabled": true
 		},
 		{
 			"Name": "PowerSuit",
-			"SemVersion": "^0.6.3",
+			"SemVersion": "^1.1.0",
 			"Enabled": true
 		},
 		{
 			"Name": "MAMTips",
-			"SemVersion": "^0.2.0",
+			"SemVersion": "^1.0.1",
 			"Enabled": true
-		},
-		{
-			"Name": "ArmorModules__Modpack_All",
-			"SemVersion": ">=0.0.1",
-			"Enabled": false,
-			"bIsOptional": true
-		},
-		{
-			"Name": "ArmorModules_PowerGeneration",
-			"SemVersion": ">=0.0.1",
-			"Enabled": false,
-			"bIsOptional": true
-		},
-		{
-			"Name": "ArmorModules_Defense",
-			"SemVersion": ">=0.0.1",
-			"Enabled": false,
-			"bIsOptional": true
-		},
-		{
-			"Name": "ArmorModules_Flight",
-			"SemVersion": ">=0.0.1",
-			"Enabled": false,
-			"bIsOptional": true
-		},
-		{
-			"Name": "ArmorModules_Mobility",
-			"SemVersion": ">=0.0.1",
-			"Enabled": false,
-			"bIsOptional": true
-		},
-		{
-			"Name": "ArmorModules_SuitRegulation",
-			"SemVersion": ">=0.0.1",
-			"Enabled": false,
-			"bIsOptional": true
-		},
-		{
-			"Name": "ArmorModules_Special",
-			"SemVersion": ">=0.0.1",
-			"Enabled": false,
-			"bIsOptional": true
 		}
 	]
 }
