@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
 	"Version": 4,
-	"VersionName": "4.0.2",
-	"SemVersion": "4.0.2",
+	"VersionName": "4.2.0",
+	"SemVersion": "4.2.0",
 	"FriendlyName": "PowerSuit Modules",
 	"Description": "Expand your equipment options with a PowerSuit! Highly customizable and configurable.\n\nTurtle and rabbit icons from Freepik on flaticon.com",
 	"Category": "Modding",
@@ -18,17 +18,17 @@
 	"Plugins": [
 		{
 			"Name": "SML",
-			"SemVersion": "^3.4.0",
+			"SemVersion": "^3.4.1",
 			"Enabled": true
 		},
 		{
 			"Name": "PowerSuit",
-			"SemVersion": "^1.1.0",
+			"SemVersion": "^1.2.1",
 			"Enabled": true
 		},
 		{
 			"Name": "MAMTips",
-			"SemVersion": "^1.0.1",
+			"SemVersion": "^1.1.0",
 			"Enabled": true
 		}
 	]

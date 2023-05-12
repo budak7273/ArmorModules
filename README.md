@@ -69,12 +69,14 @@ Also check the 'Multiplayer Compatibility Notes' section, and the [GitHub Issues
 
 If you try to use these mods at the same time as PowerSuit, something will not work as expected.
 
-- [Level Up](https://ficsit.app/mod/KLevelUp). The suit and LevelUp stats applications conflict with each other. They will not _crash_ when used at the same time, but speccing into movement speed or resistances and the like will result in weird behavior if you try to use modules that do the same thing.
+- [Stack Overflow](https://ficsit.app/mod/StackOverload) can cause the Logistic Modules to behave unusually.
+- [Infinity Dynamic Inventory Slot](https://ficsit.app/mod/DynamicInventorySlot) will cause significant lag when using the Mobile Auto-Crafting functionality of the mobile workbench modules.
+- [Level Up](https://ficsit.app/mod/KLevelUp). The suit and LevelUp stats applications conflict with each other. The mods will not _crash_ when used at the same time, but speccing into movement speed or resistances and the like will result in weird behavior if you try to use modules that do the same thing.
 - [Auto Get Loot](https://ficsit.app/mod/AutoGetLoot). Seems to spawn something mid-air that you collide with, interrupting flight.
 
 ### Major
 
-- Flight sounds are not yet implemented
+- Flight sounds are not yet implemented (this is really complex, and a half baked solution will make it worse, sorry)
 
 ### Minor
 
@@ -103,7 +105,7 @@ You can either install the specific Module mods you want to use, or play the int
 
 - Customize the function of your PowerSuit to your liking.
   There is no 'perfect' setup - you get to decide what is important to you.
-- Work with R&D to develop 59+ modules to install across 7 new reseach trees
+- Work with R&D to develop 60+ modules to install across 7 new reseach trees
   as you progress through the tiers of Satisfactory!
 - Combine the effects of multiple equipment items into one convenient, cost-balanced, customizable, and multiplayer-compatible package!
 - Manage the Power and Fuel usage of your suit with a variety of power generation and storage options.
@@ -137,8 +139,8 @@ You can either install the specific Module mods you want to use, or play the int
 
 Check out **LK Aice**'s playlists of mod spotlights below, in English or German. Thanks!
 
-[![EnglishVideo](https://img.youtube.com/vi/tKJHJqCniqo/mqdefault.jpg)](https://www.youtube.com/watch?v=tKJHJqCniqo)
-[![GermanVideo](https://img.youtube.com/vi/9Lb9F3MTqBo/mqdefault.jpg)](https://www.youtube.com/watch?v=9Lb9F3MTqBo)
+[![EnglishVideo](https://img.youtube.com/vi/tKJHJqCniqo/mqdefault.jpg)](https://www.youtube.com/watch?v=tKJHJqCniqo&list=PLnnbB04IDq1ZKpwTgSu6wirTBsyXDC3q8)
+[![GermanVideo](https://img.youtube.com/vi/9Lb9F3MTqBo/mqdefault.jpg)](https://www.youtube.com/watch?v=9Lb9F3MTqBo&list=PLnnbB04IDq1ZPSC5l7qqLDBvsIDyyvLlC)
 
 Check out **direwolf20** trying out the mod in his Let's Play: _(videos slightly out of date)_
 
@@ -188,10 +190,10 @@ Even older videos:
   - You can craft them at the 'Fabrication Station,' a new crafting station that is unlocked by the T2 milestone 'PowerSuit Fabrication'
 - _None of the milestones are appearing in the H.U.B. !_
   - Only milestones for Suits appear in the H.U.B, as all Modules and crafting components are found in research trees in the MAM.
-- _Why is the Suit not letting me install module _____?_
+- _Why is the Suit not letting me install module `_____`?_
   - If the suit blocks you from installing a module, you likely have a conflicting module installed. Read the module's descriptions to find out why this might be the case. You can't install modules while the suit is rebooting, but you can remove them.
 - _Can I rebind what keys the suit uses?_
-  - Yes! With the power of the SML3 keybind system, it is now possible. You can find them on the base game Keybindings screen. If you want to add overlapping keybinds (which the game does not normally allow you to do) you edit your `GameUserSettings.ini` file, which can be found at `...\AppData\Local\FactoryGame\Saved\Config\WindowsNoEditor`
+  - Yes! With the power of the SML3 keybind system, it is now possible. You can find them on the base game Keybindings screen. If you want to add overlapping keybinds (which the game does not normally allow you to do) you edit your `GameUserSettings.ini` file, which can be found at `...\AppData\Local\FactoryGame\Saved\Config\WindowsNoEditor`. If the keybinds aren't showing up in the list for some reason, make sure that you don't have them listed in your `Input.ini` file, which is known to prevent them from appearing.
 - _Some of the mod's recipes use Somersloops, but I don't want to use them up from my world!_
   - Coffee Stain has said that these items will be story related and likely will not be given use until Update 1.0, which is quite a ways in the future. I will re-evaluate the mod recipes once Somersloops are given a real use in base game.
   - If you would like to conserve your save's Somersloops, you can purchase Synchronized Somerslink Regulators from the AWESOME shop once you have unlocked them.
@@ -219,11 +221,9 @@ Even older videos:
 ### **Installation Instructions** - Coming Prepared
 
 PowerSuit Modules consists of multiple sub-mods as opposed to one monolithic mod.
-If you have only installed the base mod,
-you should probably get some others if you want your suits to do anything.
 
-- You can pick and choose the sub-mods you want to play with,
-  but I suggest using the [All Modules Modpack](https://ficsit.app/mod/CEjJnBXkLEiszx) for the best experience.
+- Install this individual mod if you want to manually select which other sub-mods to install.
+  Otherwise, **install the [All Modules Modpack](https://ficsit.app/mod/CEjJnBXkLEiszx) to grab all of them in one click!**
 - More sub-mods will be released in the future,
   potentially with modules that offer content for your other favorite mods!
 - **All sub-mods are linked from the top of the mod page (click the images!)**
@@ -245,20 +245,23 @@ where you can work with R&D to develop the Biofuel Suit and the **Fabrication St
 Each module is crafted from a
 ![BaseModuleComponent](https://i.imgur.com/WJ1xfNw.png) **Module Base Component**
 and a handful of other components.
-New modules are unlocked in the **MAM** and crafted in the **Fabrication Station**.
+New modules are unlocked in the **MAM** (more info on that below) and crafted in the **Fabrication Station**.
 
 ![Fabrication Station](https://i.imgur.com/8wJjW8D.jpeg)
 
-It might look a little familiar to some of you. After all, R&D does not waste.
+It might look a little familiar to some of you long-time Pioneers. After all, R&D does not waste.
 
-You can craft Module Base Components with just Iron-tier components, but _it costly to do so_.
+You can craft Module Base Components with just Iron-tier components, but _it is costly to do so_.
 If you **wait until T3-4** when you have access to Steel-tier components,
 you can **unlock a cheaper recipe in the MAM.**
 
 Do note that each Module Base Component requires a Power Shard to craft,
-but there are some alternate recipes you can unlock later that don't need Power Shards. Power Shards are renewable via Lizard Doggos.
+but there are some alternate recipes you can unlock later that don't need Power Shards.
+Power Shards are renewable via Lizard Doggos, and other mods if you chose to install them.
 
 ### Module Basics
+
+**You can find out what modules are available, and what you'll need to craft them, by exploring the MAM.**
 
 **All modules have extensive descriptions of what they do in their item descriptions!**
 
@@ -269,9 +272,15 @@ and MAM Enhancer will display a description of the node on the right,
 as well as allow you to view tooltips of the items you need to submit,
 or click on them to open them in your Item Codex.
 
+Each MAM Node is priced so that its unlock cost closely matches the cost of crafting the module.
+
+Modules can be unlocked in roughly any order as long as you have the requisite items.
+
 If you want to see a module's description again, you can always come back to the MAM,
 search it in the Item Codex (O by default) or Quick Search (U by default).
-You can also hover over just the output item icon in the Fabrication Station.
+You can also hover over the output item icon once the recipe is selected in the Fabrication Station.
+
+![MAM Screenshot](https://i.imgur.com/vSDGLMS.png)
 
 ### Installing Modules
 
@@ -419,11 +428,18 @@ A couple of extra details on the non-trivial portions:
 
 [![PowerGeneration](https://i.imgur.com/qPR2fwd.png)](https://ficsit.app/mod/FJxNuUm6aAEmzV) [![SuitRegulation](https://i.imgur.com/KutlEGt.png)](https://ficsit.app/mod/2bNso1rZPJqzub) _The Power Generation and Suit Regulation sub mods contain modules that help manage your Suit Power and Fuel._
 
-**Power** is electrical energy essential for the operation of most modules. Modules will either consume or generate power. A small amount of Power is passively produced by your suit for free, but you must install additional modules to generate or store more at a time.
+**Power** is electrical energy essential for the operation of most modules.
+Modules will generally either consume or generate power.
+
+Your suit stores Power like a battery - the total it can store is determined by the Power Capacity stat.
+Your suit HUD, handheld controllers, and the Stats suit tab will show you how much Power Capacity you have.
+The Stats suit tab also displays exactly the current net rate of change of your suit's stored power - positive is a profit, negative is a loss.
+
+A small amount of Power is passively produced by your suit for free, but you must install additional modules to generate or store more at a time.
 
 Some modules will generate power for free, others will require certain special conditions to be met, and some will consume Suit Fuel (see below) to generate power.
 
-#### **Fuse and Overdraw**
+#### **Overdraw and Fuse**
 
 If your suit runs out of power, you will enter **Overdraw**. The HUD's Fuse Indicator light will turn orange, a warning sound will play, your handheld controllers will gain a red warning background, and their Overdraw progress bar will begin to increase.
 While Overdrawing, you can consume an unlimited amount of power, but if you are still out of power when the Overdraw progress bar reaches the maximum, your suit will have to **Reboot**.
@@ -432,7 +448,13 @@ While Overdrawing, you can consume an unlimited amount of power, but if you are 
 
 #### **Rebooting**
 
-When your suit begins to reboot, all of your installed Modules will cease to function, and you must wait for the suit to reboot again before you can use them. This is certainly not advantageous while flying, or while in a dangerous environment, so consider investing in modules that increase your Power Capacity or Power Generation.
+When your suit begins to reboot, most of your installed Modules will cease to function, and you must wait for the suit to recover before you can use them.
+This is certainly not advantageous while flying, or while in a dangerous environment, so consider investing in modules that increase your Power Capacity or Power Generation.
+
+The amount of time left in a reboot is displayed in your Suit HUD and handheld controllers via a progress bar. When the bar is full, the reboot is complete.
+
+When your suit is Rebooting, you can not install any new modules, you can only uninstall them.
+If you're stuck in a reboot loop, take out some of the power-hungry modules to analyze what you need to modify to avoid the reboot loop in the future.
 
 ![Rebooting](https://i.imgur.com/y3AaZBe.png)
 
@@ -441,6 +463,8 @@ When your suit begins to reboot, all of your installed Modules will cease to fun
 You Suit can also hold Suit Fuel. Although your Suit will attempt to hold a buffer of Suit Fuel at all times, it **does not consume any Suit Fuel on its own** - **specific Modules require it to operate**. Examples of this include the Integrated Jetpack, Fuel Runners, and Bio Burner modules.
 
 Note that Suit Fuel is not limited to only base-game [Packaged Fuel](https://satisfactory.fandom.com/wiki/Packaged_Fuel) - your Suit can refuel by consuming any of the items it supports, which can be viewing in the Suit Stats section. Some Modules can grant your suit access to additional fuel item options (for example, the Integrated Jetpack allows all suits to use Packaged Fuel), or even generate Suit Fuel for you without consuming any items.
+
+You can find a comparion of the different kinds of fuels suits can use (assuming access to all tech tiers) [here](https://docs.google.com/spreadsheets/d/1yn1Pswj76ZDBuDiWO8Alr5WgTfqHipKUIJsz8m7AbfI/edit).
 
 ![Allowed Fuels](https://i.imgur.com/ZMdYfiV.png)
 
@@ -462,6 +486,21 @@ Note that different suits have different Fuel Transfer Speeds and Fuel Efficienc
 **Fuel Transfer Speed** defines how quickly your suit's Fuel tank will refill from the items it consumes. Sometimes Modules or suits will affect this value by some fixed fuel quantity in MJ per second, and others will affect the percentage of your suit's fuel capacity that can be moved per second (scales well with larger fuel tanks).
 
 **Fuel Efficiency** is a special bonus that changes how much effective Suit Fuel you get out of the items your suit consumes. Higher Fuel Efficiency means each fuel item will give you more Suit Fuel than its listed value, leading to less fuel item consumption. Lower fuel efficiency can result in increased fuel item consumption.
+
+#### Fuel Recovery Period
+
+If you entirely drain your suit of Suit Fuel, and a module is still trying to consume fuel, the suit will enter a 5-second fuel recovery period to allow suit functions to refill the fuel tanks.
+
+During this period, all fuel consuming modules will cease to function, a (mod options configurable) sound will play at the start of the timeframe, and the suit UI will notify you of the fuel shortage through various indicators:
+
+- Handheld controllers have blinking out of fuel indicators
+- A notice is displayed above the suit item slots in the inventory screen
+- Suit HUD displays a blinking out of fuel icon. A gray progress bar indicates how much time remains in the recovery period.
+- Suit HUD's fuse indicator turns yellow
+
+Once fuel is obtained again, the fuel-starved modules will resume functioning again.
+
+If you don't obtain more fuel, the warnings will continue displaying until fuel is obtained.
 
 ### **Shield**
 
