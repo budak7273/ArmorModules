@@ -1,3 +1,5 @@
+<!-- # Test early releases for Update 8 on the [Discord](http://discord.gg/zqp6U7Y7Nu)! -->
+
 [![PowerSuit Logo](https://i.imgur.com/WOZ4kgk.png)](https://ficsit.app/mod/PowerSuit)
 [![PowerSuit Modules](https://i.imgur.com/FVZDh9d.png)](https://ficsit.app/mod/ArmorModules)
 
@@ -109,6 +111,7 @@ You can either install the specific Module mods you want to use, or play the int
   as you progress through the tiers of Satisfactory!
 - Combine the effects of multiple equipment items into one convenient, cost-balanced, customizable, and multiplayer-compatible package!
 - Manage the Power and Fuel usage of your suit with a variety of power generation and storage options.
+- Reward early exploration by allowing crafting some modules earlier in progression by scavenging Drop Pod crash site resources.
 - Get access to limited early game flight with the
   ![BioSuit](https://i.imgur.com/r9Oo8XV.png) Biofuel Suit and
   ![ThrustBoots](https://i.imgur.com/LUbGHnG.png)
