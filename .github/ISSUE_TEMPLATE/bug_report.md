@@ -29,7 +29,7 @@ A clear and concise description of what you expected to happen.
 
 ## Multiplayer?
 
-If you're playing in multiplayer, pleaste state if it affects host or clients, etc.
+If you're playing in multiplayer, please state if it affects host or clients, etc.
 
 ## Screenshots or Videos
 
